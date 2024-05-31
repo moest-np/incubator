@@ -49,16 +49,23 @@ with open(r"..//school_list_B.tsv", 'r',encoding='utf-8') as file2:
 
         sanitized_school_name = sanitize_query(school_name)
         try:
-                
+            match_found = False
+    
             for document in search_index.search(school_name):
                 doc_id = document['id']
                 school_name_redis = redis_client.get(doc_id).decode('utf-8')  # Assuming school name is stored as UTF-8 string
                 print(f"School Name: {school_name_redis}, Content: {document['content']}, ID: {doc_id}")
+                match_found = True
 
             for document in phonetic_index.search(school_name):
                 doc_id = document['id']
                 school_name_redis = redis_client.get(doc_id).decode('utf-8')  # Assuming school name is stored as UTF-8 string
                 print(f"School Name: {school_name_redis}, Content: {document['content']}, ID: {doc_id}")
-        except:
-            print("error matching", school_name)
-            print("resuming next", school_name)
+                match_found = True
+        
+            if match_found:
+                # Add the school ID from the TSV file into the Redis table as a new key-value pair.
+                redis_client.set(f"matched_{doc_id}", school_name)
+                    except Exception as e:
+        print(f"Error matching {school_name}: {e}")
+        print(f"Resuming next school name")
