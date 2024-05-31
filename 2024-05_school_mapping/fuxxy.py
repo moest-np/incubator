@@ -1,31 +1,18 @@
 import pandas as pd
 from fuzzywuzzy import fuzz
 import time
-import multiprocessing
 
-# Define the function for comparing names
-def compare_names(a_name, b_names):
-    matches = []
-    for b_name in b_names:
-        score = fuzz.partial_ratio(a_name, b_name)
-        if score >= 1:
-            match = {"school_a": a_name, "school_b": b_name, "confidence_score": score}
-            matches.append(match)
-    return matches
-
-# Define the function for processing comparisons
-def process_comparisons(a_names, b_names_list):
-    matches = []
-    for a_name in a_names:
-        matches.extend(compare_names(a_name, b_names_list))
-    return matches
 
 # Define file paths (replace with your actual paths)
-file_a_path = "E:\\incubator-main\\incubator-main\\2024-05_school_mapping\\data\\Book3.csv"
+file_a_path = "E:\\incubator-main\\incubator-main\\2024-05_school_mapping\\data\\Book3.csv"  
 file_b_path = "E:\\incubator-main\\incubator-main\\2024-05_school_mapping\\data\\school_list_B.tsv"
-output_file_path = "E:\\incubator-main\\incubator-main\\2024-05_school_mapping\\data\\school_matches.csv"
+output_file_path = "E:\\incubator-main\\incubator-main\\2024-05_school_mapping\\data\\school_matches.csv"  
 
-# Read data using pandas.read_csv
+# Define school name column names (replace with actual names)
+school_column_name_a = "velthuis2"   ## from excel break down the column into multiple chunks. only for TSV A. So that, the we can match names only. 
+school_column_name_b = "name"  
+
+# Read data using pandas.read_csv (assuming TSV format)
 try:
     df_a = pd.read_csv(file_a_path)
     df_b = pd.read_csv(file_b_path, sep="\t")
@@ -34,35 +21,50 @@ except FileNotFoundError:
     exit()
 
 # Handle case-sensitivity issues (optional)
-df_a["velthuis2"] = df_a["velthuis2"].str.lower()
-df_b["name"] = df_b["name"].str.lower()
+df_a[school_column_name_a] = df_a[school_column_name_a].str.lower()  
+df_b[school_column_name_b] = df_b[school_column_name_b].str.lower()  
 
-# Split df_b into chunks for multiprocessing
-chunk_size = len(df_b) // multiprocessing.cpu_count()
-b_chunks = [df_b[i:i+chunk_size] for i in range(0, len(df_b), chunk_size)]
-
-# Start timer
+# Create an empty list to store matches with confidence scores
+matches = []
 start_time = time.time()
 
-# Create a multiprocessing pool
-pool = multiprocessing.Pool()
+# Get total number of comparisons to estimate time
+total_comparisons = len(df_a) * len(df_b)
+processed_comparisons = 0
 
-# Process comparisons using multiprocessing
-matches = []
-for match in pool.starmap(process_comparisons, [(df_a["velthuis2"], chunk) for chunk in b_chunks]):
-    matches.extend(match)
+# Iterate through each school name in df_a
+for a_id, a_name in zip(df_a['school_id'], df_a[school_column_name_a]):
+    # if processed_comparisons >= 100:
+    #     break
+    for b_id, b_name in zip(df_b['school_id'], df_b[school_column_name_b]):
+        processed_comparisons += 1
+        
+        # Calculate partial ratio score
+        score = fuzz.partial_ratio(a_name, b_name)
 
-# Close the pool
-pool.close()
-pool.join()
+        # Set a minimum score threshold (adjust as needed)
+        if score >= 100:
+            match = {"school_a_id": a_id, "school_a": a_name, "school_b_id": b_id, "school_b": b_name, "confidence_score": score}
+            matches.append(match)
+            
+            if processed_comparisons % 100 == 1:  # Adjust the reporting frequency as needed
+                elapsed_time = time.time() - start_time
+                avg_time_per_comparison = elapsed_time / processed_comparisons
+                remaining_comparisons = total_comparisons - processed_comparisons
+                estimated_remaining_time = remaining_comparisons * avg_time_per_comparison
+                remaining_hours = int(estimated_remaining_time // 3600)
+                remaining_minutes = int((estimated_remaining_time % 3600) // 60)
+                remaining_seconds = int(estimated_remaining_time % 60)
 
-# Print elapsed time
-elapsed_time = time.time() - start_time
-print(f"Elapsed time: {elapsed_time:.2f} seconds")
+                print(f"Processed {processed_comparisons}/{total_comparisons} comparisons")
+                print(f"Estimated remaining time: {remaining_hours} hours, {remaining_minutes} minutes, {remaining_seconds} seconds")
 
-# Create DataFrame from matches
-df_matches = pd.DataFrame(matches)
+# Create a DataFrame from the matches list
+if matches:
+    df_matches = pd.DataFrame(matches)
 
-# Write DataFrame to CSV file
-df_matches.to_csv(output_file_path, index=False)
-print(f"Matches with confidence scores written to: {output_file_path}")
+    # Write the DataFrame to a CSV file
+    df_matches.to_csv(output_file_path, index=False)
+    print(f"Matches with confidence scores written to: {output_file_path}")
+else:
+    print("No matches found between the two files.")
