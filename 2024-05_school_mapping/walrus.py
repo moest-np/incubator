@@ -7,7 +7,8 @@ import redis
 # Initialize the database and create the search index.
 redis_client = redis.StrictRedis()
 
-# Flush the entire database to clear all keys.
+# Flush the entire database to clear all keys. 
+# There were multiple runs, so it confused the redis
 redis_client.flushdb()
 
 # Initialize the database.
