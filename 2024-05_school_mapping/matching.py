@@ -22,8 +22,11 @@ df2.head()
 
 df1['school'].head(100)
 df1.head(100)
-# Apply the cleaning function to remove commas, "॰", and Devanagari numbers
-df1['school'] = df1['school'].apply(lambda text: re.sub(r'[,\॰०१२३४५६७८९]', '', text).strip())
+# Remove ':', '-', and '।' from the 'school' column
+df1['school'] = df1['school'].apply(lambda text: text.replace(':', ' ').replace('-', ' ').replace('।', ' '))
+
+# Apply the cleaning function to remove commas, "॰", Devanagari numbers, and "ः"
+df1['school'] = df1['school'].apply(lambda text: re.sub(r'[,\॰०१२३४५६७८९ः]', '', text).strip())
 df1['school'] = df1['school'].apply(lambda text: re.sub(r'\s+', ' ', text).strip())
 
 
@@ -37,10 +40,61 @@ filtered_df
 
 df1 = df1[df1['school_id'] != 20852]
 
+# Lists of patterns to replace
+patterns_ma_vi = [
+    'माबी', 'उ म बि','मवि','म्ाा बी',
+    'उ०मा०वि',
+    'उच्च मा',
+    'उच्चमा',
+     'उमा वि',
+     'माध्यामिक वि'
+    'मा वी',
+    'मा बी',
+    'मावि',
+'माबि',
+'मा बि',
+'मावी',]
 
-# Create the replacement dictionary with word boundaries
-replacement_dict = {
-    'माध्यमिक': 'मा',
+patterns_pra_vi = [ 'प्राबि',
+ 'प्रावि',
+'प्रा बि',
+'प्रा ली',
+'प्र बि',
+ 'प्राबी',
+'प्रँ ीव्',
+'प््राा वि',
+'प्र्रा वि',
+'प्र बि',
+'प्रा बी',
+'प्रा वी',
+'प्रा ली',
+'प्र वि',
+'प्र बि',
+ 'प्रावी',
+'प््राा वि',
+'प््राा वि',
+'प्रा ब',
+ 'प्रवि',
+'प्रा लि',
+ 'प्ा बि',
+ 'प्रा ि',
+'प्रा। वी',
+'प्र वी',
+'प्रा स्कूल',
+'प्राइमरी स्कुलप्रोवि', 
+'प्राथमीक वि',
+ 'प््राावि',
+ 'जप्र्रावि',
+ 'प्रावऽि']
+patterns_ni_ma = ['नि म','नि मा।वि']
+patterns_aa_vi = ['आवि','निम्न','आबि']
+patterns_general = {
+      'त्रि बि': 'त्रि वि',
+    'नेराप्रवि': 'नेरा प्रा वि',
+    'प्रा बाग्लुङ': 'प्रा वि बाग्लुङ',
+    'निमा': 'नि मा', 
+      'भूमे प्रा िचितवन': 'भूमे प्रा वि चितवन',
+     'माध्यमिक': 'मा',
     'विद्यालय': 'वि',
     'विधालय': 'वि',
     'प्राथमिक': 'प्रा',
@@ -48,37 +102,43 @@ replacement_dict = {
     'बिधालय': 'वि',
     'बिद्यालय': 'वि',
     'विदोकानडाँडा': 'वि दोकानडाँडा',
-    'माबी': 'मा वि',
-    'उ०मा०वि': 'मा वि',
-    'आवि': 'आ वि',
-    'निम्न': 'आ वि',
-    'मावि': 'मा वि',
-    'प्राबि': 'प्रा वि',
-    'प्रावि': 'प्रा वि',
-    'प्रा बि': 'प्रा वि',
-    'निमा': ' नि मा',
-    'प्राबी': 'प्रा वि',
-    'प्रा बी': 'प्रा वि',
-    'प्रा वी': 'प्रा वि',
-    'आबि': 'आ वि',
-    'माबि': 'मा वि',
-    'मा बि': 'मा वि',
+    'दरवार हाइस्कुल': 'दरवार हाइस्कुल मा वि',
     r'\bबी\b': 'बि',
     r'\bबि\b': 'वि',
     'तनहु': 'तनहुँ',
+    'नि मा िपर्बत':'नि मा वि पर्बत',
+    'नि म बि':'नि मा वि',
+    'नि वा':'नि मा वि',
+    'त्रि वि': 'त्रिवि',
+    'मा ि' : 'मा वि ',
+    'नेराप्रा।वि': 'नेरा प्रा वि',
+    'वि पी': 'विपी',
     'तनहूँ': 'तनहुँ',
     'तनुहुँ': 'तनहुँ',
     'धनकुटा थाकले': 'थाकले धनकुटा',
     'नेराप्रा वि': 'नेरा प्रा वि',
     'निङ्गलाखसैनी बेतडि आ वि': 'निङ्गलाखसैनी आ वि बेतडि',
-    'सरस्वती आ वि मा वि अर्खौले': 'सरस्वती-आवि मा वि अर्खौले'
+    'सरस्वती आ वि मा वि अर्खौले': 'सरस्वती-आवि मा वि अर्खौले',
+    'ने रा वि': 'नेरावि',
+    'ना वि मा': "ना वि मा",
+    'वि मा वि' :'नावि मा वि'
 
 }
 
-# Apply the replacements using the dictionary
-df1['school'] = df1['school'].replace(replacement_dict, regex=True)
+# Function to apply replacements from lists
+def replace_patterns(df, patterns, replacement):
+    for pattern in patterns:
+        df['school'] = df['school'].replace({pattern: replacement}, regex=True)
+    return df
 
+# Apply general replacements
+df1['school'] = df1['school'].replace(patterns_general, regex=True)
 
+# Apply grouped replacements
+df1 = replace_patterns(df1, patterns_ma_vi, 'मा वि')
+df1 = replace_patterns(df1, patterns_pra_vi, 'प्रा वि')
+df1 = replace_patterns(df1, patterns_ni_ma, 'नि मा वि')
+df1 = replace_patterns(df1, patterns_aa_vi, 'आ वि')
 # Function to tokenize and split the school name into desired columns
 def split_school_name(row):
     tokens = indic_tokenize.trivial_tokenize(row)
@@ -127,28 +187,108 @@ df1[['Root_name', 'School_level']] = df1['Potential_School_Name'].apply(split_ro
 df1[['school', 'Potential_School_Name', 'Potential_Location', 'Potential_District_Name', 'Root_name', 'School_level']].head(100)
 df1.isnull().sum()
 df1[['Root_name', 'School_level']].isnull().sum()
-(df1[['Root_name', 'School_level']] == '').sum()
+(df1[['Root_name']] == '').sum()
 
-emptydf1[df1[['Root_name', 'School_level']] == '']
-
-
-
-null_df1 = df1[df1['district1'].isnull()]
-
-null_df1.to_csv('null_data_A.csv',index = False)
-
-
-df_null_A = pd.read_csv('./null_data_A.csv')
-df_null_A.shape
-df_null_A.columns
-df_null_A.dtypes
-df_null_A.isnull().sum()
-df_null_A.head(100)
-df_null_A.duplicated()
-
-df_null_A[df_null_A['School_level'].isnull()]
+# Check for empty strings
+emptydf1 = df1[['Root_name']] == ''
+rows_with_empty_strings = df1[emptydf1.any(axis=1)]
+rows_with_empty_strings.head(100)
+len(rows_with_empty_strings)
 
 
 
 
-df1.isnull().sum()
+df1[df1['Root_name'].isnull() | (df1['Root_name'] == '')]
+
+
+# Define the keywords to check
+keywords = ['मा वि', 'प्रा वि', 'नि मा वि', 'आ वि']
+
+# Function to update Root_name based on the school column
+def update_root_name(row):
+    if pd.isnull(row['Root_name']) or row['Root_name'] == '':
+        for keyword in keywords:
+            if keyword in row['school']:
+                return keyword
+    return row['Root_name']
+
+# Apply the function to update the Root_name column
+df1['Root_name'] = df1.apply(update_root_name, axis=1)
+
+
+df1['School_level'].unique()
+
+# Filter out rows where School_level is null or an empty string
+df1 = df1[~df1['School_level'].isnull() & (df1['School_level'] != '')]
+
+
+df1.dtypes
+df1.head()
+
+# Filter rows where district1 is not equal to Potential_District_Name
+unequal_districts = df1[df1['district1'] != df1['Potential_District_Name']]
+
+
+# Remove unnecessary spaces from the specified columns
+df1['district1'] = df1['district1'].str.strip()
+df1['Potential_District_Name'] = df1['Potential_District_Name'].str.strip()
+
+# Filter rows where district1 is not equal to Potential_District_Name
+unequal_districts = df1[df1['district1'] != df1['Potential_District_Name']]
+
+unequal_districts[['district1','Potential_District_Name']].head()
+
+
+len(df1['Potential_District_Name'].unique())
+
+df1['Potential_District_Name'].unique()
+
+
+
+
+
+# Remove unnecessary spaces from the specified columns
+df1['district1'] = df1['district1'].str.strip()
+df1['Potential_District_Name'] = df1['Potential_District_Name'].str.strip()
+
+# Function to calculate the percentage of matching characters
+def matching_percentage(row):
+    district1 = row['district1']
+    potential_district = row['Potential_District_Name']
+    
+    if pd.isna(district1) or pd.isna(potential_district) or len(district1) == 0 or len(potential_district) == 0:
+        return 0.0
+    
+    matches = sum(1 for a, b in zip(district1, potential_district) if a == b)
+    total_chars = max(len(district1), len(potential_district))
+    return (matches / total_chars) * 100
+
+# Apply the function and create a new column for the percentage
+df1['Match_Percentage'] = df1.apply(matching_percentage, axis=1)
+
+df1[['district1','Potential_District_Name','Match_Percentage']].head(100)
+# Find the range of percentages
+min_percentage = df1['Match_Percentage'].min()
+max_percentage = df1['Match_Percentage'].max()
+
+# Print the range of percentages
+print(f"Range of Match_Percentage: {min_percentage:.2f}% to {max_percentage:.2f}%")
+
+
+# Get unique values and sort them in ascending order
+unique_percentages = sorted(df1['Match_Percentage'].unique())
+unique_percentages
+
+
+# Get unique values and their counts
+unique_percentages_counts = df1['Match_Percentage'].value_counts().sort_index()
+
+# Print unique values and their counts
+print("Unique Match_Percentage values and their counts:")
+print(unique_percentages_counts)
+
+# Print rows where Match_Percentage is less than 50
+rows_less_than_50 = df1[df1['Match_Percentage'] < 50]
+
+print("\nRows where Match_Percentage is less than 50:")
+rows_less_than_50.head()
