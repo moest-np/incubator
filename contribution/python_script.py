@@ -29,7 +29,7 @@ for _, row_A in df_A.iterrows():
     for _, row_B in df_B.iterrows():
         district_score = get_similarity_score(row_A['district_english'], row_B['district'])
         location_score = get_similarity_score(row_A['velthuis'], row_B['name'])
-        if district_score >= 0.7 and location_score >= 0.01:
+        if district_score >= 0.9 and location_score >= 0.01:
             # Combine the matched rows into a single dictionary and add the similarity score
             combined_row = {**row_A, **row_B, 'district_similarity_score': district_score, 'location_similarity_score': location_score}
             combined_row['score_name_and_velthuis'] = get_similarity_score(row_A['velthuis'], row_B['name'])  # Add similarity score between velthuis and name
