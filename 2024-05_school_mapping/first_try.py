@@ -43,7 +43,7 @@ else:
 
 df_transliterated['Potential_District_Name_transliterated'].unique()
 len(df_transliterated['Potential_District_Name_transliterated'].unique())
-df_transliterated.to_csv('final_merged_school_data_B.csv',index=False)
+df_transliterated.to_csv('final_merged_school_data.csv',index=False)
 
 
 
@@ -67,7 +67,7 @@ import numpy as np
 
 # Load the dataframes
 df_jilla = pd.read_csv('jilla.csv')
-df_transliterated = pd.read_csv('./final_merged_school_data_B.csv')
+df_transliterated = pd.read_csv('./final_merged_school_data.csv')
 df_jilla.columns = ['District_Name']
 
 # Transliterate the district names from Devanagari to ITRANS
