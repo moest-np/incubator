@@ -24,5 +24,5 @@ function convertTSVtoCSV(inputFilePath, outputFilePath) {
 }
 
 const inputFilePath = "../data/jilla.tsv";
-const outputFilePath = "../data/jilla.csv";
+const outputFilePath = "../data/csv/jilla.csv";
 convertTSVtoCSV(inputFilePath, outputFilePath);
