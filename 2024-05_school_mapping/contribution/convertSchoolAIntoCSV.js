@@ -32,5 +32,5 @@ function convertTSVtoCSV(inputFilePath, outputFilePath) {
 }
 
 const inputFilePath = "../data/school_list_A.tsv";
-const outputFilePath = "school_list_A.csv";
+const outputFilePath = "../data/school_list_A.csv";
 convertTSVtoCSV(inputFilePath, outputFilePath);
