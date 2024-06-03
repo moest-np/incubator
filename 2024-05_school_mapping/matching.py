@@ -376,9 +376,9 @@ df2.tail(10)
 
 
 
-import pandas as pd
-from indicnlp.tokenize import indic_tokenize
-import re
+    import pandas as pd
+    from indicnlp.tokenize import indic_tokenize
+    import re
 pd.set_option('display.max_colwidth', None)
 pd.set_option('display.max_rows',None)
 import pandas as pd

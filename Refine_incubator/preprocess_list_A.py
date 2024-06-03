@@ -51,6 +51,7 @@ def load_and_preprocess_school_list(file_path):
         'उच्चमा', 'उमा वि', 'माध्यामिक वि', 'मा वी', 'मा बी', 'मावि', 
         'माबि', 'मा बि', 'मावी', 'उ मा वि'
     ]
+    
     patterns_pra_vi = [
         'प्राबि', 'प्रावि', 'प्रा बि', 'प्र बि', 'प्राबी', 'प्रँ ीव्', 
         'प््राा वि', 'प्र्रा वि', 'प्रा बी', 'प्रा वी', 'प्र वि', 'प्रावी', 
@@ -146,12 +147,11 @@ def improved_fuzzy_match_with_score(location, district_list):
     return best_match, best_score
 
 # Load the provided school list and district list for further processing
-file_path_school_list = '/mnt/data/school_list_AA.csv'
-file_path_district_list = '/mnt/data/jilla.csv'
+file_path_school_list = './school_list_AA.csv'
+file_path_district_list = './jilla.csv'
 
 # Load and preprocess the school list
 df_school_list = load_and_preprocess_school_list(file_path_school_list)
-
 # Load the district list
 df_district_list = load_jilla(file_path_district_list)
 
@@ -185,3 +185,23 @@ def create_location_1(row):
 # Apply the function to create the new column
 df_school_list['Location_1'] = df_school_list.apply(create_location_1, axis=1)
 
+
+# Calculate the required statistics for the 'Matched_district' column
+null_values = df_school_list['Matched_district'].isnull().sum()
+duplicate_values = df_school_list.duplicated(subset=['Matched_district']).sum()
+unique_values = df_school_list['Matched_district'].nunique()
+
+# Display the duplicate values in the 'Matched_district' column
+duplicate_entries = df_school_list[df_school_list.duplicated(subset=['Matched_district'], keep=False)]
+
+# Display rows with null values in 'Matched_district' column
+null_value_rows = df_school_list[df_school_list['Matched_district'].isnull()]
+
+# Delete rows with null values in 'Matched_district' column
+df_school_list = df_school_list.dropna(subset=['Matched_district'])
+
+# Save the cleaned data to a new CSV file
+output_cleaned_file_path = 'school_list_AA_2.csv.csv'
+df_school_list.to_csv(output_cleaned_file_path, index=False)
+
+ 
