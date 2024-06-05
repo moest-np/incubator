@@ -4141,3 +4141,7 @@ school_id,school_1,school_id_B,name,district_id,district_id,Matched_District,roo
 4237,रुद्राक्षेश्वर मावि मुगिटार रामेछाप,31170,brikheshwar basic school,33,33,ramechhap,brikheshwar,rudraksheshvara,मावि,avi,रुद्राक्षेश्वर,1.5,"District: complete, School level: no match, Root name: partial"
 4239,ढुङेगश्वरी प्रावि दोलखा,3937,bhubaneshwori pra v,32,32,dolakha,bhubaneshwori,dhu~negashvari,प्रावि,pravi,ढुङेगश्वरी,2.0,"District: complete, School level: complete, Root name: partial"
 4238,गलेश्वर मावि बेनी म्याग्दी,4190,bageshwori pra v,42,42,myagdi,bageshwori,galeshvara,मावि,pravi,गलेश्वर,1.5,"District: complete, School level: no match, Root name: partial"
+4240,पञ्चकन्या आवि धुलिखेल न पा काभ्रेपलाञ्चोक,34826,pancha kanya basic school,26,26,kavrepalanchok,pancha kanya,pa~nchakanya,आवि,avi,पञ्चकन्या,3.0,"District: complete, School level: complete, Root name: complete"
+4241,शारदा निमावि काभ्रेपलान्चोक,15367,sarada ni ma v,26,11,kavrepalanchok,sarada,sharada,निमावि,nimavi,शारदा,2.5,"District: no match, School level: complete, Root name: complete"
+4242,आहालडाँडा आवि मेलुङ दोलखा,320,aahaldanda  basic school,32,32,dolakha,aahaldanda,ahalada.nda,आवि,avi,आहालडाँडा,3.0,"District: complete, School level: complete, Root name: complete"
+4243,सरस्वती मावि काभ्रे,35699,saraswati basic school,26,26,kavrepalanchok,saraswati,sarasvati,मावि,avi,सरस्वती,2.5,"District: complete, School level: no match, Root name: complete"
