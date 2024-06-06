@@ -66,7 +66,65 @@ def get_fuzzy_match_score(row_a, row_b):
 
     return total_score, ', '.join(match_types)
 
-# Function to process and save batches
+# # Function to process and save batches
+# def process_and_save_batch(start_idx, end_idx, batch_num):
+#     matches = []
+#     for idx_a, row_a in df_Fuzzy_A.iloc[start_idx:end_idx].iterrows():
+#         best_score = 0
+#         best_match = None
+#         best_match_type = []
+
+#         for idx_b, row_b in df_Fuzzy_B.iterrows():
+#             match_score, match_type = get_fuzzy_match_score(row_a, row_b)
+#             if match_score > best_score:
+#                 best_score = match_score
+#                 best_match = row_b
+#                 best_match_type = match_type
+
+#         if best_match is not None:
+#             match = list(row_a) + list(best_match) + [best_score, best_match_type]
+#             matches.append(match)
+#         else:
+#             match = list(row_a) + [None] * len(df_Fuzzy_B.columns) + [0, 'No Match']
+#             matches.append(match)
+
+#     # Create a dataframe from the matches
+#     columns = list(df_Fuzzy_A.columns) + list(df_Fuzzy_B.columns) + ['Fuzzy_match_score', 'Match_Type']
+#     df_matches = pd.DataFrame(matches, columns=columns)
+
+#     # Filter the DataFrame to keep only the specified columns
+#     columns_to_keep = [
+#         'school_id', 'school_1', 'school_id_B','name','district_id','Matched_District','root_school_name', 'School_name_transliterated','School_level', 'school_levels', 'School_name',
+#         'Fuzzy_match_score', 'Match_Type'
+#     ]
+#     df_matches = df_matches[columns_to_keep]
+
+#     # Sort the matches by Fuzzy_match_score
+#     df_matches = df_matches.sort_values(by='Fuzzy_match_score', ascending=False)
+
+#     # Save the batch to a CSV file
+#     if batch_num == 0:
+#         df_matches.to_csv('Final_Fuzzy_Matches.csv', index=False)
+#     else:
+#         df_matches.to_csv('Final_Fuzzy_Matches.csv', mode='a', header=False, index=False)
+
+#     print(f"Batch {batch_num} processed and saved.")
+
+# # Process data in batches
+# batch_size = 2
+# num_batches = (len(df_Fuzzy_A) + batch_size - 1) // batch_size  # Calculate the number of batches
+
+# for batch_num in range(num_batches):
+#     start_idx = batch_num * batch_size
+#     end_idx = min((batch_num + 1) * batch_size, len(df_Fuzzy_A))
+#     process_and_save_batch(start_idx, end_idx, batch_num)
+
+
+
+
+# Assuming the existing DataFrame is already loaded as df_Fuzzy_A and df_Fuzzy_B
+# and you have a function get_fuzzy_match_score(row_a, row_b) defined elsewhere
+
 def process_and_save_batch(start_idx, end_idx, batch_num):
     matches = []
     for idx_a, row_a in df_Fuzzy_A.iloc[start_idx:end_idx].iterrows():
@@ -94,8 +152,8 @@ def process_and_save_batch(start_idx, end_idx, batch_num):
 
     # Filter the DataFrame to keep only the specified columns
     columns_to_keep = [
-        'school_id', 'school_1', 'school_id_B','name','district_id','Matched_District','root_school_name', 'School_name_transliterated','School_level', 'school_levels', 'School_name',
-        'Fuzzy_match_score', 'Match_Type'
+        'school_id', 'school_1', 'school_id_B', 'name', 'district_id', 'Matched_District', 'root_school_name', 'School_name_transliterated',
+        'School_level', 'school_levels', 'School_name', 'Fuzzy_match_score', 'Match_Type'
     ]
     df_matches = df_matches[columns_to_keep]
 
@@ -103,18 +161,18 @@ def process_and_save_batch(start_idx, end_idx, batch_num):
     df_matches = df_matches.sort_values(by='Fuzzy_match_score', ascending=False)
 
     # Save the batch to a CSV file
-    if batch_num == 0:
-        df_matches.to_csv('Final_Fuzzy_Matches.csv', index=False)
-    else:
-        df_matches.to_csv('Final_Fuzzy_Matches.csv', mode='a', header=False, index=False)
+    df_matches.to_csv('df_Fuzzy_Matches.csv', mode='a', header=False, index=False)
 
     print(f"Batch {batch_num} processed and saved.")
 
 # Process data in batches
 batch_size = 2
-num_batches = (len(df_Fuzzy_A) + batch_size - 1) // batch_size  # Calculate the number of batches
+start_from_index = 18449
+num_batches = (len(df_Fuzzy_A) - start_from_index + batch_size - 1) // batch_size  # Calculate the number of batches
 
 for batch_num in range(num_batches):
-    start_idx = batch_num * batch_size
-    end_idx = min((batch_num + 1) * batch_size, len(df_Fuzzy_A))
-    process_and_save_batch(start_idx, end_idx, batch_num)
+    start_idx = start_from_index + batch_num * batch_size
+    end_idx = min(start_from_index + (batch_num + 1) * batch_size, len(df_Fuzzy_A))
+    process_and_save_batch(start_idx, end_idx, batch_num + (start_from_index // batch_size))
+
+print("Processing completed.")
