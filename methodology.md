@@ -84,7 +84,7 @@ This project aims to enhance the accuracy of matching school records between two
    
    For the root school name comparison, we use the fuzzy matching technique to calculate a similarity score between the names. If the similarity score is 80 or above, it is considered a complete match and assigned a score of 2. Scores between 50 and 79 are considered a partial match with a score of 1, and scores below 50 are considered no match with a score of 0. The total match score is calculated by summing the individual scores from the district, school level, and root name matches. Along with the total score, a description of the match types (complete, partial, no match) for each comparison is generated. This comprehensive matching process ensures a more accurate and reliable alignment of school records across the datasets.
 
-## Sample Data
+## Sample Result Data
 
 | school_id | school_1                        | school_id_B | name                    | district_id | Matched_District | root_school_name | School_name_transliterated | School_level | school_levels | School_name | Fuzzy_match_score | Match_Type                                               |
 |-----------|---------------------------------|-------------|-------------------------|-------------|------------------|------------------|----------------------------|--------------|---------------|-------------|-------------------|----------------------------------------------------------|
