@@ -2,7 +2,9 @@
 
 This project aims to enhance the accuracy of matching school records between two datasets by implementing a comprehensive text processing and fuzzy matching process.
 
+
 ## Directory Structure
+```
 │
 ├── data/
 │   ├── raw/
@@ -38,7 +40,7 @@ This project aims to enhance the accuracy of matching school records between two
 ├── requirements.txt
 │
 └── README.md
-
+```
 ## Process Overview
 
 1. **Standardizing School Names**:
