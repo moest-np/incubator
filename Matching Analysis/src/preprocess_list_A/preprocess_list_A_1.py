@@ -1,7 +1,14 @@
 import pandas as pd
 import re
+import os
+
 pd.set_option('display.max_colwidth', None)
 pd.set_option('display.max_rows', None)
+
+# Function to ensure a directory exists
+def ensure_directory_exists(directory):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
 
 # Function to load and preprocess the school list
 def load_and_preprocess_school_list(file_path):
@@ -25,8 +32,6 @@ def load_and_preprocess_school_list(file_path):
                                           .replace('॰', ' ')
                                           .replace('ः', ' '))
     
-
-    
     df['school_1'] = df['school_1'].apply(lambda text: re.sub(r'[,:\-।\(\)॰०१२३४५६७८९]', ' ', text).strip())
     df['school_1'] = df['school_1'].apply(lambda text: re.sub(r'\s+', ' ', text).strip())
     df['school_1'] = df['school_1'].apply(lambda text: text.lower())
@@ -45,7 +50,6 @@ def load_and_preprocess_school_list(file_path):
         'निङ्गलाखसैनी बेतडि आ वि': 'निङ्गलाखसैनी आ वि बेतडि', 
         'सरस्वती आ वि मा वि अर्खौले': 'सरस्वती-आवि मा वि अर्खौले', 'ने रा वि': 'नेरावि', 
         'ना वि मा': "नि वि मा", 'वि मा वि' :'नि मा वि', 'विा': 'वि','कालीका मा':'कालीका मा वि'
-        
     }
     df['school_1'] = df['school_1'].replace(patterns_general, regex=True)
 
@@ -108,9 +112,16 @@ def load_jilla(file_path):
     df = pd.read_csv(file_path, header=None, names=['District_Nepal'])
     return df
 
-# Load the provided school list and district list
-file_path_school_list = './school_list_A.tsv'
-file_path_district_list = './jilla.csv'
+# Base directory
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Raw data directory
+raw_data_dir = os.path.normpath(os.path.join(base_dir, '../../data/raw'))
+processed_data_dir = os.path.normpath(os.path.join(base_dir, '../../data/processed'))
+
+# File paths
+file_path_school_list = os.path.join(raw_data_dir, 'school_list_A.tsv')
+file_path_district_list = os.path.join(raw_data_dir, 'jilla.csv')
 
 # Load and preprocess the school list
 df_school_list = load_and_preprocess_school_list(file_path_school_list)
@@ -124,10 +135,6 @@ district_list = df_district_list['District_Nepal'].tolist()
 # Extract the last word from Location and store it in Potential_district
 df_school_list['Potential_district'] = df_school_list['Location'].apply(lambda x: x.split()[-1] if len(x.split()) > 0 else '')
 df_school_list.head()
-
-# output_cleaned_file_path = './school_list_AA_1.csv'
-# df_school_list.to_csv(output_cleaned_file_path, index=False)
-
 
 # Create the Location_1 column by excluding the last word if there are more than one word
 def create_location_1(location):
@@ -144,17 +151,15 @@ df_school_list['Location_1'] = df_school_list['Location'].apply(create_location_
 if 'Matched_district' in df_school_list.columns:
     df_school_list = df_school_list.drop(columns=['Matched_district', 'Match_percent'])
 
-df_school_list.head()
+# Ensure the processed data directory exists
+ensure_directory_exists(processed_data_dir)
 
 # Save the cleaned data to a new CSV file
-output_cleaned_file_path = './Preprocessed_after_A_1.csv'
-output_cleaned_file_path = './school_list_AA_2.csv'
+output_cleaned_file_path = os.path.join(processed_data_dir, 'preprocessed_after_A_1.csv')
 df_school_list.to_csv(output_cleaned_file_path, index=False)
 
 # Print statistics and sample data
 print("Cleaned data sample:")
 df_school_list.head(10)
 df_school_list.columns
-
 df_school_list.isnull().sum()
-

@@ -1,13 +1,35 @@
 import pandas as pd
 from indicnlp.tokenize import indic_tokenize
 import re
-pd.set_option('display.max_colwidth', None)
-pd.set_option('display.max_rows',None)
-import pandas as pd
+import os
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+
+pd.set_option('display.max_colwidth', None)
+pd.set_option('display.max_rows', None)
+pd.set_option('display.max_columns', None)
+
+# Function to ensure a directory exists
+def ensure_directory_exists(directory):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
+# Base directory
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Raw and processed data directories
+raw_data_dir = os.path.normpath(os.path.join(base_dir, '../../data/raw'))
+processed_data_dir = os.path.normpath(os.path.join(base_dir, '../../data/processed'))
+
+# Ensure the processed data directory exists
+ensure_directory_exists(processed_data_dir)
+
+# File paths
+file_path_bb = os.path.join(raw_data_dir, 'school_list_B.tsv')
+output_file_path = os.path.join(processed_data_dir, 'preprocessed_after_B_1.csv')
+
 # Load Source B
-df2 = pd.read_csv('/Users/mahesh/Documents/GitHub/incubator/Refine_incubator/preprocess/school_list_B.tsv', sep='\t')
+df2 = pd.read_csv(file_path_bb, sep='\t')
 
 # Define the cleaning function
 def clean_text(text):
@@ -93,15 +115,10 @@ for col in text_columns:
 # Remove full stops from all text entries in the DataFrame
 df2 = df2.applymap(lambda text: re.sub(r'\.', '', text) if isinstance(text, str) else text)
 
+# Save the updated dataframe to a new CSV file
+df2.to_csv(output_file_path, index=False)
+print("Updated dataframe saved to:", output_file_path)
 
-df2.head()
-# # Drop the original columns
-# df2.drop(columns=text_columns, inplace=True)
-
+# Print the first 10 rows of the updated dataframe
+print("First 10 rows of the updated dataframe:")
 df2.head(10)
-
-
-
-df2['modified_name'].isnull().sum()
-df2.to_csv('preprocessed_after_B_1.csv',index=False)
-

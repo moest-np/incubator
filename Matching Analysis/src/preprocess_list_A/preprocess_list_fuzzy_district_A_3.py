@@ -1,17 +1,37 @@
-
 import pandas as pd
 from fuzzywuzzy import process
+import os
+
 pd.set_option('display.max_colwidth', None)
 pd.set_option('display.max_rows', None)
-# Load the transliterated CSV file with a tab delimiter
-file_path_aa_transliterated = '/Users/mahesh/Documents/GitHub/incubator/Refine_incubator/preprocess/preprocessed_list_after_A_2_transliterate.csv'
+
+# Function to ensure a directory exists
+def ensure_directory_exists(directory):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
+# Base directory
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Processed data directory
+processed_data_dir = os.path.normpath(os.path.join(base_dir, '../../data/processed'))
+
+# Raw data directory
+raw_data_dir = os.path.normpath(os.path.join(base_dir, '../../data/raw'))
+
+# Ensure the processed data directory exists
+ensure_directory_exists(processed_data_dir)
+
+# File paths
+file_path_aa_transliterated = os.path.join(processed_data_dir, 'preprocessed_after_A_2.csv')
+file_path_bb = os.path.join(raw_data_dir, 'school_list_B.tsv')
+output_file_path = os.path.join(processed_data_dir, 'preprocessed_after_A_3.csv')
+
+# Load the transliterated CSV file
 df_aa_transliterated = pd.read_csv(file_path_aa_transliterated)
 df_aa_transliterated = df_aa_transliterated.fillna('')
 
-
-df_aa_transliterated.head()
-# Load the newly provided CSV file with a tab delimiter
-file_path_bb = '/Users/mahesh/Documents/GitHub/incubator/Refine_incubator/preprocess/school_list_B.tsv'
+# Load the newly provided CSV file
 df_bb = pd.read_csv(file_path_bb, delimiter='\t')
 df_bb = df_bb.fillna('')
 
@@ -48,36 +68,22 @@ empty_loc_rows = df_aa_transliterated[df_aa_transliterated['Location_translitera
 print(f"Number of rows with empty 'Location_transliterated': {len(empty_loc_rows)}")
 empty_loc_rows.tail(10)
 
-# Print the modified DataFrame
-df_aa_transliterated.head()
-
-
 # Function to count empty entries in each column
 def count_empty_entries(column):
     return (column == '').sum()
 
 # Apply the function to each column
 empty_entries_count = df_aa_transliterated.apply(count_empty_entries)
-len(empty_entries_count)
-empty_entries_count
-
+print(f"Empty entries count: {len(empty_entries_count)}")
+print(empty_entries_count)
 
 # Print rows where 'School_level' is empty
 empty_loc_rows = df_aa_transliterated[df_aa_transliterated['Location_transliterated'] == '']
-len(empty_loc_rows)
+print(f"Number of rows with empty 'Location_transliterated': {len(empty_loc_rows)}")
 empty_loc_rows.tail(100)
 
-df_bb['district'].unique()
-
-
-# Remove rows where 'school_1_transliterated' is empty
+# Remove rows where 'Location_transliterated' is empty
 df_aa_transliterated = df_aa_transliterated[df_aa_transliterated['Location_transliterated'] != '']
-
-
-
-
-
-
 
 # Define the mapping for replacements
 transliteration_map = {
@@ -85,7 +91,7 @@ transliteration_map = {
     'sya~nja': 'Syangja',
     'kabhre': 'Kavrepalanchok',
     'rukuma': 'Rukum',
-    'saya~naja':'Syangja'
+    'saya~naja': 'Syangja'
 }
 
 # Replace values in the Potential_district_transliterated column
@@ -94,29 +100,12 @@ df_aa_transliterated['Potential_district_transliterated'] = df_aa_transliterated
 # Update the Matched_district column based on changes in Potential_district_transliterated
 df_aa_transliterated['Matched_district'] = df_aa_transliterated['Potential_district_transliterated']
 
-
-df_aa_transliterated.head()
-
-
-
-
-# Function to get the best fuzzy match and match percentage
-def get_best_match(name, choices):
-    if not name:
-        return (None, 0)
-    best_match = process.extractOne(name, choices, scorer=process.fuzz.token_sort_ratio)
-    return best_match if best_match else (None, 0)
-
 # Apply fuzzy matching to create new columns 'Matched_district' and 'Match_percent'
 matches = df_aa_transliterated['Matched_district'].apply(
     lambda x: get_best_match(x, unique_districts_bb) if pd.notnull(x) else ('', 0)
 )
 df_aa_transliterated['Matched_District'] = matches.apply(lambda x: x[0])
 df_aa_transliterated['Match_percent'] = matches.apply(lambda x: x[1])
-
-
-df_aa_transliterated['Matched_District'].nunique()
-df_aa_transliterated.head(10)
 
 # Print the range of the Match_percent column
 match_percent_range = df_aa_transliterated['Match_percent'].min(), df_aa_transliterated['Match_percent'].max()
@@ -126,15 +115,12 @@ print("Range of Match_percent:", match_percent_range)
 low_match_rows = df_aa_transliterated[df_aa_transliterated['Match_percent'] <  60]
 low_match_rows[['Potential_district_transliterated', 'Matched_District', 'Match_percent']].head()
 
-low_match_rows['Potential_district_transliterated'].unique()
-len(low_match_rows['Potential_district_transliterated'])
-low_match_rows.tail(100)
-
 # Get top 20 frequent values in 'Potential_district_transliterated' column
 top_20_frequent = low_match_rows['Potential_district_transliterated'].value_counts().head(20)
 
 # Print the top 20 frequent values
-top_20_frequent
+print("Top 20 frequent values in 'Potential_district_transliterated':")
+print(top_20_frequent)
 
 # Remove rows where Match_percent is less than 60
 df_aa_transliterated = df_aa_transliterated[df_aa_transliterated['Match_percent'] >= 60]
@@ -142,25 +128,25 @@ df_aa_transliterated = df_aa_transliterated[df_aa_transliterated['Match_percent'
 # Drop the Match_percent column
 df_aa_transliterated.drop(columns=['Match_percent'], inplace=True)
 
+# Reorder the columns
+df_aa_transliterated = df_aa_transliterated[[
+    'school_id', 'school', 'school_transliterated', 'school_1', 'school_1_transliterated', 'School_name', 
+    'School_name_transliterated', 'School_level', 'School_level_transliterated', 
+    'School_level_transliterated_categorized', 'Location', 'Location_transliterated', 
+    'Potential_district', 'Potential_district_transliterated', 'Location_1', 'Matched_district', 
+    'Matched_District', 'Location_1_transliterated'
+]]
 
-df_aa_transliterated.shape
-df_bb['district'].nunique()
-
-
-df_aa_transliterated.head()
-
-
-
-df_aa_transliterated['School_level_transliterated'].unique()
-
-
-df_aa_transliterated = df_aa_transliterated [['school_id','school','school_transliterated','school_1','school_1_transliterated','School_name','School_name_transliterated','School_level','School_level_transliterated','School_level_transliterated_categorized','Location','Location_transliterated','Potential_district','Potential_district_transliterated','Location_1','Matched_district','Matched_District','Location_1_transliterated',]]
-
-
-#Save the updated dataframe to a new CSV file with a tab delimiter
-output_file_path = '/Users/mahesh/Documents/GitHub/incubator/Refine_incubator/preprocess/Preprocessed_after_A_3.csv'
+# Save the updated dataframe to a new CSV file
 df_aa_transliterated.to_csv(output_file_path, index=False)
+print("Updated dataframe saved to:", output_file_path)
+
+# Print the first 10 rows of the updated dataframe
+print("First 10 rows of the updated dataframe:")
+print(df_aa_transliterated.head(10))
 df_aa_transliterated.head(10)
+
+
 
 
 
