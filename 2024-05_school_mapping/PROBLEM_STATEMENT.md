@@ -4,7 +4,7 @@ Discussion thread: https://github.com/moest-np/incubator/discussions/3
 
 
 ## Source A 
-~29k schools - data/school_list_A.tsv
+~29k Samudayik / Government schools schools - data/school_list_A.tsv
 * name and address in devanagari in single text field
 * Fields
   * school_id: numeric school id 
@@ -24,6 +24,7 @@ Discussion thread: https://github.com/moest-np/incubator/discussions/3
   * school_id: numeric school id 
   * name: name of school
   * location: school address	
+  * type: 2 = Samudayik / Government schools
   * address fields : ward local_level_id, local_level, district_id, district, province_id,province	
   * Previous names: old_name1, old_name2, old_name3
 
