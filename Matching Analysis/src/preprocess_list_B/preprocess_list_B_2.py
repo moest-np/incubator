@@ -128,3 +128,13 @@ print("Updated dataframe saved to:", output_file_path_b2)
 print("First 10 rows of the updated dataframe:")
 df.head(10)
 
+df[df['school_levels']==''].shape
+
+df[df['school_levels'] == ''].head()
+
+
+# Check for missing entries in school levels
+
+df.columns
+df[['name', 'school_levels', 'modified_name']][df['school_levels'].isna() | (df['school_levels'] == '')].head(100)
+df['school_levels'].unique()

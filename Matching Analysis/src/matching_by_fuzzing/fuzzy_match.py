@@ -103,3 +103,5 @@ print("First 10 rows of the updated dataframe for Fuzzy A:")
 print(df_Fuzzy_A.head(10))
 print("First 10 rows of the updated dataframe for Fuzzy B:")
 df_Fuzzy_B.head(10)
+df_Fuzzy_A.shape
+df_Fuzzy_B.columns
