@@ -163,3 +163,9 @@ print("Cleaned data sample:")
 df_school_list.head(10)
 df_school_list.columns
 df_school_list.isnull().sum()
+
+
+df_school_list[(df_school_list['school'].str.contains('montessori'))].shape
+
+
+madrasa

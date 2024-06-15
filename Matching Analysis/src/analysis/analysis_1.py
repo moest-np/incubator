@@ -13,6 +13,7 @@ file_path_intersection = os.path.join(results_dir, 'Intersection_Matches.csv')
 # Load the intersection matches dataframe
 intersection_df = pd.read_csv(file_path_intersection)
 
+intersection_df.head()
 # Check for duplicate rows
 print("Duplicate rows in intersection_df:")
 print(intersection_df[intersection_df.duplicated()].head(10))
@@ -62,10 +63,10 @@ print("Missing values in each column:")
 print(intersection_df.isna().sum())
 
 
-# Save the updated dataframe to a CSV file
-output_file_path_updated = os.path.join(results_dir, 'Updated_Intersection_Matches.csv')
-intersection_df.to_csv(output_file_path_updated, index=False)
-print(f"Updated intersection matches saved to: {output_file_path_updated}")
+# # Save the updated dataframe to a CSV file
+# output_file_path_updated = os.path.join(results_dir, 'Updated_Intersection_Matches.csv')
+# intersection_df.to_csv(output_file_path_updated, index=False)
+# print(f"Updated intersection matches saved to: {output_file_path_updated}")
 
 # Print specific columns for rows with missing 'school_levels'
 print("Rows with missing 'school_levels':")
@@ -99,10 +100,10 @@ intersection_df.duplicated().sum()
 
 
 
-# Save the updated dataframe to a CSV file
-output_file_path_updated = os.path.join(results_dir, 'Updated_Intersection_Matches.csv')
-intersection_df.to_csv(output_file_path_updated, index=False)
-print(f"Updated intersection matches saved to: {output_file_path_updated}")
+# # Save the updated dataframe to a CSV file
+# output_file_path_updated = os.path.join(results_dir, 'Updated_Intersection_Matches.csv')
+# intersection_df.to_csv(output_file_path_updated, index=False)
+# print(f"Updated intersection matches saved to: {output_file_path_updated}")
 
 
 intersection_df[['root_school_name','modified_name','name']][intersection_df['school_levels'].isna()].tail(100)

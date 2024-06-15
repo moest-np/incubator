@@ -7,6 +7,10 @@ import os
 pd.set_option('display.max_colwidth', None)
 pd.set_option('display.max_rows', None)
 
+
+
+
+
 # Function to ensure a directory exists
 def ensure_directory_exists(directory):
     if not os.path.exists(directory):
@@ -33,7 +37,10 @@ def contains_devanagari(text):
         return bool(devanagari_pattern.search(text))
     return False
 
+
+
 # Function to transliterate if Devanagari is detected
+
 def transliterate_if_devanagari(text):
     if contains_devanagari(text):
         return transliterate(text, sanscript.DEVANAGARI, sanscript.ITRANS)
@@ -55,8 +62,10 @@ print("Columns in the dataframe:", df.columns)
 df[text_columns].isnull().sum()
 df[text_columns] = df[text_columns].fillna('')
 
+
 # Convert Text Columns to Lowercase
 df[text_columns] = df[text_columns].apply(lambda x: x.str.lower(), axis='columns')
+
 
 # Define the function to join specific words
 def join_specific_words(text):
@@ -68,11 +77,15 @@ def join_specific_words(text):
     text = re.sub(r'\ba vi\b', 'avi', text)
     return text
 
+
 # Identify columns with the 'modified_' prefix
 modified_columns = [col for col in df.columns if col.startswith('modified_')]
 
+
 # Apply the join_specific_words function only to these columns
 df[modified_columns] = df[modified_columns].applymap(join_specific_words)
+
+
 
 # Define the function to extract school levels
 def extract_school_levels(text):
@@ -87,6 +100,8 @@ def extract_school_levels(text):
         levels.append('mavi')
     return ' '.join(levels)
 
+
+
 # Define the function to remove school levels from the text
 def remove_school_levels(text):
     text = re.sub(r'\bnimavi\b', '', text)
@@ -95,9 +110,13 @@ def remove_school_levels(text):
     text = re.sub(r'\bmavi\b', '', text)
     return text.strip()
 
+
+
 # Apply the functions to the 'modified_name' column
 df['school_levels'] = df['modified_name'].apply(extract_school_levels)
 df['root_school_name'] = df['modified_name'].apply(remove_school_levels)
+
+
 
 # Replace specific patterns in the root_school_name column
 df['root_school_name'] = df['root_school_name'].replace(
@@ -109,32 +128,50 @@ df['root_school_name'] = df['root_school_name'].replace(
     }, regex=True
 )
 
+
+
 # Get unique districts and their respective unique IDs
 unique_districts = df[['modified_district', 'district_id']].drop_duplicates()
-
 # Sort by district and district_id in ascending order
 unique_districts_sorted = unique_districts.sort_values(by=['district_id'])
 
 # Save the unique districts to a CSV file
 unique_districts_sorted.to_csv(district_id_output_path, index=False)
 
+
+
+df.shape
+df.columns
 # Check for null values
 df.isnull().sum()
+df[df['school_levels']!=''].shape
+df[df['school_levels'] != ''].head()
 
-# Save the updated dataframe to a new CSV file
-df.to_csv(output_file_path_b2, index=False)
+print("Duplicate rows in intersection_df:")
+df[df.duplicated()].head(10)
+print("Number of duplicate rows:", df.duplicated().sum())
 
-print("Updated dataframe saved to:", output_file_path_b2)
-print("First 10 rows of the updated dataframe:")
-df.head(10)
 
-df[df['school_levels']==''].shape
 
-df[df['school_levels'] == ''].head()
+
+
+
+
+
 
 
 # Check for missing entries in school levels
 
 df.columns
-df[['name', 'school_levels', 'modified_name']][df['school_levels'].isna() | (df['school_levels'] == '')].head(100)
+df[['name', 'school_levels', 'modified_name']][df['school_levels'].isna() | (df['school_levels'] == '')].head(10)
 df['school_levels'].unique()
+
+
+
+
+
+# Save the updated dataframe to a new CSV file
+df.to_csv(output_file_path_b2, index=False)
+print("Updated dataframe saved to:", output_file_path_b2)
+print("First 10 rows of the updated dataframe:")
+df.head(10)
