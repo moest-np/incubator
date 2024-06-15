@@ -136,8 +136,7 @@ def main():
         r'\bmadhyamik bidhyalaya\b',
         r'\bma bi\b',
         r'\bsec school\b',
-        r'\bsecodary school\b',
-        r'\bsecondry school\b'
+        r'\bsecodary school\b'
     ]
     # Patterns for 'प्रा वि'
     patterns_pra_vi = [
@@ -152,7 +151,12 @@ def main():
         r'\bप्रा विi\b',
         r'\badharbhut pra v\b',
         r'\bpraimary school\b',
-        r'\bpremary\b'
+        r'\bpremary\b',
+        r'\badharvut school\b',
+        r'\baadharbhut vidhayala\b',
+        r'\baadharbhut biddhyalaya\b',
+        r'\baadharbhut vidhayalay\b',
+        r'\baadharbhut bidayalaya\b'
     ]
 
     # Patterns for 'नि मा वि'
@@ -233,8 +237,7 @@ def main():
         r'\badharbhut biddyalaya\b',
         r'\badharbhut biddyalay\b',
         r'\b basic scchool\b',
-        r'\baadharbhut vidalaya\b',
-        r'\bbasi school\b'
+        r'\baadharbhut vidalaya\b'
     ]
 
     
@@ -325,7 +328,7 @@ df2.isnull().sum()
 df2[['name', 'modified_name', 'school_levels']][df2['school_levels'] == ''].head(300)
 # df2[['name', 'modified_name', 'school_levels']][(df2['modified_name'].str.contains('ma vi')) & (df2['school_levels'] == '') ].shape
 
-df2[['name', 'modified_name', 'school_levels']][(df2['modified_name'].str.contains(r'\bmadrassa\b')) & (df2['school_levels'] == '') ].shape
+df2[['name', 'modified_name', 'school_levels']][(df2['modified_name'].str.contains(r'\bprimari\b')) & (df2['school_levels'] == '') ].shape
 
 
 
