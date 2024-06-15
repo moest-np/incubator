@@ -325,7 +325,7 @@ df2.isnull().sum()
 (df2 == '').sum()
 
 # Print specific columns where 'school_levels' is empty
-df2[['name', 'modified_name', 'school_levels']][df2['school_levels'] == ''].head(300)
+df2[['name', 'modified_name', 'school_levels']][df2['school_levels'] == ''].shape
 # df2[['name', 'modified_name', 'school_levels']][(df2['modified_name'].str.contains('ma vi')) & (df2['school_levels'] == '') ].shape
 
 df2[['name', 'modified_name', 'school_levels']][(df2['modified_name'].str.contains(r'\bprimari\b')) & (df2['school_levels'] == '') ].shape
