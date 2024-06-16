@@ -18,6 +18,8 @@ There have been reports of irregularities in selection and execution of projects
 Our wishlist is an attrative and easy to use dashboard which
 - Aggregates at Fiscal year, Expense heading, District, Local level, School
 - Filter by Fiscal year, Expense heading, District, Local level, School 
-- Plot on a map with facility to click on district to drill to Local level 
+- Plot on a map with facility to click on district to drill to Local level, showing list of projects for selected level. 
+
+[Dashboard initial ideas](https://public.flourish.studio/story/2431486/)
 
 Rationale is that students, guardians and other relevant parties can easily find out how much funds have been disbursed to schools of their interest. This should hold authorities responsible to make sure the funds are spent in a result oriented manner and avoid duplication in the future.
