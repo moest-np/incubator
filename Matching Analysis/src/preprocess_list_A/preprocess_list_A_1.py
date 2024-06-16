@@ -167,5 +167,3 @@ df_school_list.isnull().sum()
 
 df_school_list[(df_school_list['school'].str.contains('montessori'))].shape
 
-
-madrasa
