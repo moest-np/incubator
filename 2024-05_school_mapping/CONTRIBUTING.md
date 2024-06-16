@@ -23,5 +23,6 @@ Submit a sample or full result set with **at least** these fields for matched sc
 - School name A
 - School ID B
 - School name B
+- School address fields from list B
 
 Contributor can choose to add other relevant fields like confidence scores.
