@@ -51,17 +51,17 @@ the schools in list A based on confidence of the matching: 0.77 cut-off for high
 **Intermediate files.** `work` directory has intermediate files to get the matcher running.
 
 ### Requirements
-- [`nmslib==2.1.1`](https://github.com/nmslib/nmslib)
+- [`nmslib-2.1.1`](https://github.com/nmslib/nmslib)
 - `ftfy`
 - `scikit-learn`
 - `pandas`
 - `tqdm`
 
 ### Match school
-`python scripts/school_matching.py --listA_HC work/processed_listA_dist_HC.tsv --listA_LC work/processed_listA_dist_LC.tsv --listB=work/processed_listB.tsv --output_xlsx=match_results`
+```python scripts/school_matching.py --listA_HC work/processed_listA_dist_HC.tsv --listA_LC work/processed_listA_dist_LC.tsv --listB=work/processed_listB.tsv --output_xlsx=match_results```
 
 ### Evaluate
-`python scripts/evaluate.py --eval_set eval/evaluation.final --output match_results.xlsx`
+```python scripts/evaluate.py --eval_set eval/evaluation.final --output match_results.xlsx```
 
 ### Evaluation
 Accuracy of methods on the eval sets
@@ -74,6 +74,7 @@ Accuracy of methods on the eval sets
 | [D](https://docs.google.com/spreadsheets/d/1cvlO0PE_lhPzLbqmDOJr9MRZd_04Tdcq/edit) | 51.85  | 85.21   | 81.94   |
 | E                                                                                  | 55.55  | 77.81   | 73.37   |
 | [F](https://docs.google.com/spreadsheets/d/1JX-HiNMiE9YM2x9k29ACZApwsNpb2Dqx/edit) | 16.66  | -*      | -*      |
+
 *: Big chunks of `synth` and `final` sets are created from F, so they score rather high: 97.53 and 88.64.
 
 |   | Description                                                 |
@@ -97,4 +98,4 @@ but the data might not be descriptive and clean enough to allow a perfect or nea
 
 Contributor: [Sharad Duwal](https://github.com/sharad461)
 
-Please feel free to reach out with questions or suggestions at my email.
+Please feel free to reach out with questions or suggestions at `<sharad[dot]duwal[at]gmail.com>`
