@@ -1,3 +1,5 @@
 school_id_A,school_id_B,root_school_name_A,root_school_name_B,school_level_A,school_level_B,district_A,district_B,Fuzzy_match_score,Match_Type
 1,12428,janapriya,jana priya,pravi,pravi,bhojpur,bhojpur,3.0,"District: complete, School level: complete, Root name: complete"
 3,11716,gograha,gograha,mavi,mavi,morang,morang,3.0,"District: complete, School level: complete, Root name: complete"
+9,11513,durgeshvari,durgeshwori,pravi,pravi,bhojpur,bhojpur,3.0,"District: complete, School level: complete, Root name: complete"
+10,42934,pavitra,pabitra,mavi,mavi,tanahun,tanahun,3.0,"District: complete, School level: complete, Root name: complete"
