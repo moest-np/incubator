@@ -160,7 +160,7 @@ df_school_list.to_csv(output_cleaned_file_path, index=False)
 
 # Print statistics and sample data
 print("Cleaned data sample:")
-df_school_list.head(10)
+df_school_list.tail(100)
 df_school_list.columns
 df_school_list.isnull().sum()
 

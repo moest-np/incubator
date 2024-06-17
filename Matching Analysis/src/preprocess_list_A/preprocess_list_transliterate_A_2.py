@@ -84,3 +84,6 @@ print(empty_entries_count)
 
 print("Unique values in 'School_level_transliterated_categorized':")
 print(df['School_level_transliterated_categorized'].unique())
+
+
+df.tail(100)
