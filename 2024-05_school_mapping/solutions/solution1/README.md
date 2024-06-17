@@ -74,6 +74,7 @@ Accuracy of methods on the eval sets
 | [D](https://docs.google.com/spreadsheets/d/1cvlO0PE_lhPzLbqmDOJr9MRZd_04Tdcq/edit) | 51.85  | 85.21   | 81.94   |
 | E                                                                                  | 55.55  | 77.81   | 73.37   |
 | [F](https://docs.google.com/spreadsheets/d/1JX-HiNMiE9YM2x9k29ACZApwsNpb2Dqx/edit) | 16.66  | -*      | -*      |
+
 *: Big chunks of `synth` and `final` sets are created from F, so they score rather high: 97.53 and 88.64.
 
 |   | Description                                                 |
