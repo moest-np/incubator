@@ -1,9 +1,14 @@
 import os
+import sys
 import pandas as pd
 import re
 from indic_transliteration import sanscript
 from indic_transliteration.sanscript import transliterate
-from pattern_replacement import patterns_mavi, patterns_nimavi, patterns_pravi, patterns_avi
+
+# Add the path to the directory containing pattern_replacement_A.py
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+
+from pattern_replacement import patterns_mavi, patterns_pravi, patterns_nimavi, patterns_avi
 
 pd.set_option('display.max_colwidth', None)
 pd.set_option('display.max_rows', None)
@@ -131,9 +136,9 @@ def main(apply_patterns=True):
     
     # Define the columns to save
     columns_to_save = [
-        'school_id', 'modified_name', 'modified_name_school_level', 'modified_name_root',
+        'school_id','district', 'modified_name', 'modified_name_school_level', 'modified_name_root',
         'modified_old_name1', 'modified_old_name1_school_level', 'modified_old_name1_root',
-        'modified_old_name2', 'modified_old_name2_school_level', 'modified_old_name2_root'
+        'modified_old_name2', 'modified_old_name2_school_level', 'modified_old_name2_root','district'
     ]
     
     # Ensure the processed data directory exists
@@ -165,6 +170,7 @@ df2[['modified_name', 'modified_old_name1', 'modified_old_name2', 'modified_old_
 
 # Print the first few rows to inspect
 df2.dtypes
+df2.columns
 df2.head()
 df2.shape
 df2.isnull().sum()
