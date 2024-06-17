@@ -14445,7 +14445,7 @@ school_id_B,root_school_name_B,school_level_B,root_school_old_name1_B,root_schoo
 31873,g s niketan,mavi,,,,,makwanpur,
 31874,g n english boarding school,,g n ebs,,,,ramechhap,
 31875,gadgade,avi,gadgade,gadgade,avi,avi,bhaktapur,
-31876,gadhi bhanjyang,avi,gadhi bhanjyang,,,pravi,lalitpur,
+31876,gadhi bhanjyang,avi,gadhi bhanjyang,,,pravi,lalitpur,2.0
 31877,gaduldevi,avi,shree gaduldevi,gaduldevi,pravi,pravi,kavrepalanchok,
 31878,gagal phedi harsa,avi,gagal phedi harsa,,,avi,kathmandu,
 31879,gairi gaun,mavi,gairi gaun,,,mavi,dhading,
@@ -17242,7 +17242,7 @@ school_id_B,root_school_name_B,school_level_B,root_school_old_name1_B,root_schoo
 34677,nikomaithan babike,,,,,,dolakha,
 34678,nikosaptamai,pravi,,,,,dolakha,
 34679,nil barahi,mavi,,,,,kathmandu,
-34680,nil barahi,pravi,,,,,bhaktapur,
+34680,nil barahi,pravi,,,,,bhaktapur,2.5
 34681,nil kantheshwor,avi,nil kantheshwor,,,pravi,ramechhap,
 34682,nila saraswati,avi,nil saraswati,,,avi,nuwakot,
 34683,nilakantheshwor,mavi,nilakantheshwor,,,mavi,dolakha,
@@ -20504,7 +20504,6 @@ school_id_B,root_school_name_B,school_level_B,root_school_old_name1_B,root_schoo
 4169,aruchaur future star ebs,,,,,,syangja,
 4170,arukharka,avi,,,,,syangja,
 4171,arun jyoti,avi,,,,,kaski,
-4172,arun,pravi,,,,,tanahun,
 4173,arunodaya,avi,arunodaya,,,avi,kaski,
 4174,arunodaya jyoti,pravi,,,,,kaski,
 4175,arunodaya,pravi,,,,,tanahun,
@@ -20762,7 +20761,7 @@ school_id_B,root_school_name_B,school_level_B,root_school_old_name1_B,root_schoo
 4430,baudechaur,mavi,baudechaur,,,mavi,baglung,
 4431,bayale,pravi,,,,,syangja,
 4432,bayali,avi,,,,,kaski,
-4433,bed byas,pravi,,,,,tanahun,
+4433,bed byas,pravi,,,,,tanahun,2.0
 4434,bed kalika,avi,,,,,tanahun,2.5
 4435,beginners' united academy,,,,,,syangja,
 4436,belbhanjyang  rakuwa,mavi,,,,,nawalpur,
@@ -21142,7 +21141,7 @@ school_id_B,root_school_name_B,school_level_B,root_school_old_name1_B,root_schoo
 4816,chandi,pravi,,,,,kaski,
 4817,chandi,pravi,,,,,kaski,
 4818,chandi,pravi,chandi,,,pravi,lamjung,
-4819,chandidevi rastriya,mavi,chandi devi rastriya u,,,mavi,tanahun,
+4819,chandidevi rastriya,mavi,chandi devi rastriya u,,,mavi,tanahun,2.0
 4821,chandika,avi,chandika,,,avi,tanahun,
 4822,chandika,avi,,,,,syangja,
 4823,chandika,avi,,,,,kaski,
@@ -21195,7 +21194,6 @@ school_id_B,root_school_name_B,school_level_B,root_school_old_name1_B,root_schoo
 4872,chetana,avi,,,,,tanahun,
 4873,chetana,pravi,,,,,myagdi,
 4874,chetanshil,pravi,,,,,nawalpur,
-4875,chhabdi barahi,avi,chapdhi barahi,,,pravi,tanahun,
 4876,chhabdi barahi ebs,,,,,,tanahun,
 4877,chhabdi,mavi,,,,,tanahun,
 4878,chhairo,avi,chairo,,,pravi,mustang,
@@ -22207,7 +22205,6 @@ school_id_B,root_school_name_B,school_level_B,root_school_old_name1_B,root_schoo
 41907,janasewa,pravi,,,,,baglung,
 41908,janasewa,pravi,janasewa,,,pravi,baglung,
 41909,janasewa,pravi,janasewa,,,pravi,baglung,
-41910,janasewika,pravi,janasewika,,,pravi,tanahun,
 41911,janashakti,avi,,,,,nawalpur,
 41912,janashakti,pravi,,,,,gorkha,
 41913,janashram,avi,,,,,myagdi,
@@ -22795,7 +22792,6 @@ school_id_B,root_school_name_B,school_level_B,root_school_old_name1_B,root_schoo
 42505,mahendra jyoti  vidhyalaya,mavi,,,,,gorkha,
 42506,mahendra jyoti,pravi,,,,,gorkha,
 42507,mahendra jyoti,pravi,,,,,lamjung,
-42508,mahendra jyoti,pravi,,,,,tanahun,
 42509,mahendra jyoti  kuwakot,pravi,,,,,nawalpur,
 42510,mahendra jyoti,pravi,mahendra jyoti,,,pravi,lamjung,
 42511,mahendra lila,mavi,,,,,gorkha,
@@ -23449,6 +23445,7 @@ school_id_B,root_school_name_B,school_level_B,root_school_old_name1_B,root_schoo
 43176,ram,avi,,,,,syangja,
 43177,ram,avi,,,,,kaski,
 43178,ram chandra,pravi,,,,,gorkha,2.5
+43178,ram chandra,pravi,,,,,gorkha,2.5
 43179,ram jiwan,pravi,ram jiwan,,,pravi,lamjung,
 43180,ram jyoti boarding school,,ram jyoti english boarding school,ram jyoti ebs,,,tanahun,
 43181,ram jyoti,avi,,,,,gorkha,
@@ -23504,7 +23501,6 @@ school_id_B,root_school_name_B,school_level_B,root_school_old_name1_B,root_schoo
 43232,rastriya buddhi bikash,pravi,,,,,mustang,
 43233,rastriya janajagriti,mavi,,,,,myagdi,
 43234,rastriya janakalyan,pravi,,,,,myagdi,
-43235,rastriya,mavi,,,,,tanahun,
 43236,rastriya,mavi,,,,,syangja,
 43237,rastriya,mavi,,,,,myagdi,
 43238,rastriya,mavi,,,,,myagdi,
