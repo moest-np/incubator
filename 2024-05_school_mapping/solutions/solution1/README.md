@@ -68,16 +68,17 @@ python scripts/evaluate.py --eval_set eval/evaluation.final --output match_resul
 ```
 
 ### Evaluation
-Accuracy of methods on the eval sets
+`Accuracy` and `(no. of matched eval samples)` of methods on the eval sets. If you use only one correct sample on eval, the accuracy is 100 (1).
+Number of eval samples should also be considered for comparative evaluation. `(n)` is bold if the eval covers the entire set.
 
-| Method                                                                             | `true` | `synth` | `final` |
-|------------------------------------------------------------------------------------|--------|---------|---------|
-| A                                                                                  | 36     | 74.02   | -       |
-| B                                                                                  | 48.07  | 78.64   | 73.65   |
-| C                                                                                  | 46.29  | 79.92   | 74.30   |
-| [D](https://docs.google.com/spreadsheets/d/1cvlO0PE_lhPzLbqmDOJr9MRZd_04Tdcq/edit) | 51.85  | 85.21   | 81.94   |
-| E                                                                                  | 55.55  | 77.81   | 73.37   |
-| [F](https://docs.google.com/spreadsheets/d/1JX-HiNMiE9YM2x9k29ACZApwsNpb2Dqx/edit) | 16.66  | -*      | -*      |
+| Method                                                                             | `true` (54)    | `synth`  (284)  | `final` (537)   |
+|------------------------------------------------------------------------------------|----------------|-----------------|-----------------|
+| A                                                                                  | 36 (52)        | 74.02 (281)     | -               |
+| B                                                                                  | 48.07 (52)     | 78.64 (281)     | 73.65 (531)     |
+| C                                                                                  | 46.29 **(54)** | 79.92 **(284)** | 74.30 **(537)** |
+| [D](https://docs.google.com/spreadsheets/d/1cvlO0PE_lhPzLbqmDOJr9MRZd_04Tdcq/edit) | 51.85 **(54)** | 85.21 **(284)** | 81.94 **(537)** |
+| E                                                                                  | 55.55 **(54)** | 77.81 **(284)** | 73.37 **(537)** |
+| [F](https://docs.google.com/spreadsheets/d/1JX-HiNMiE9YM2x9k29ACZApwsNpb2Dqx/edit) | 16.66          | -*              | -*              |
 
 *: Big chunks of `synth` and `final` sets are created from F, so they score rather high: 97.53 and 88.64.
 
