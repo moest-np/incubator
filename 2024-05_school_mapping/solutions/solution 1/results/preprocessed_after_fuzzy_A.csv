@@ -6,104 +6,45 @@ school_id_A,root_school_name_A,school_level_A,district_A,Fuzzy_match_score
 7,cha~nachaha~nga,pravi,bhojpur,2.0
 8,kheshvara,pravi,bhojpur,2.0
 14,jalpa,nimavi,bhojpur,2.5
-19,virendra adarsha,mavi,chitwan,
-20,chandeshvara,mavi,bhojpur,
-21,pa~nchakanya,mavi,bhojpur,
-22,chinta~na devi,avi,bhojpur,
-23,bhimeshvari,avi,bhojpur,
-24,sarasvati,pravi,bhojpur,
-25,janajyoti,pravi,tanahun,
-26,kyaminakota,mavi,tanahun,
-27,bhavani,pravi,tanahun,
-28,siddheshvara,avi,lalitpur,
-29,chandi,avi,bhojpur,
-30,jalapa,avi,bhojpur,
-31,shitaladevi,pravi,bhojpur,
-32,simha bahini,pravi,bhojpur,
-33,jagrriti,mavi,bhaktapur,
-34,nirmala,pravi,tanahun,
-35,annapurna,pravi,tanahun,
-36,simha jaleshvari,nimavi,bhojpur,
-37,sa~ngarumba,mavi,ilam,
-38,jivanajyoti,mavi,ilam,
-39,sitala devi,pravi,bhojpur,
-40,simhadevi,avi,ilam,
-41,vijaya,avi,ilam,
-42,kalika,mavi,bhojpur,
-43,,avi,siraha,
-44,jharagau,pravi,tanahun,
-45,jyoti,pravi,bhojpur,
-46,jyati,pravi,bhojpur,
-47,timma,pravi,bhojpur,
-48,pancha kanya,pravi,panchthar,
-49,pa~nchakanya,avi,bhojpur,
-50,vani,mavi,siraha,
-51,chimkeshvari,pravi,tanahun,
-52,chimkeshvari,nimavi,tanahun,
-53,rashtiya,nimavi,ilam,
-54,kiramteshvara,pravi,ilam,
-55,jalakanya,avi,ilam,
-56,adaraniya,nimavi,ilam,
-57,janakalyana,pravi,ilam,
-58,millachoka,nimavi,ilam,
-59,janakalyana,pravi,bhojpur,
-60,shikshakshamakanya,pravi,bhojpur,
-61,balamiteri,mavi,bhojpur,
-62,krrishna,pravi,morang,
-63,akala,avi,tanahun,
-64,shri,mavi,chitwan,
-65,khartancha,nimavi,bhojpur,
-66,dhapakharka,pravi,bhojpur,
-67,pa~nchakanya,pravi,bhojpur,
-68,amara jyoti,pravi,tanahun,
-69,jana kalyana,avi,ilam,
-70,vidyadhari,pravi,bhojpur,
-71,devithana,mavi,bhojpur,
-72,amarajyoti,pravi,tanahun,
-73,varabhanjya,nimavi,ilam,
-74,nala devi,pravi,tanahun,
-75,dharma,mavi,tanahun,
-76,miklacho,mavi,ilam,
-77,buddha,mavi,ilam,
-78,ratna devi,avi,ilam,
-79,gajuramukhi,avi,ilam,
-80,jalapa,pravi,bhojpur,
-81,simheshvari,avi,ilam,
-82,siddhi vinayaka,pravi,ilam,
-83,dobhana,pravi,ilam,
-84,devi,pravi,ilam,
-85,iraumtara,avi,ilam,
-86,vidya,pravi,ilam,
-87,maheshvara,pravi,ilam,
-88,vikri,pravi,ilam,
-89,bhagavati,mavi,ilam,
-90,deurali,pravi,ilam,
-91,adarsha,pravi,ilam,
-92,adarsha,mavi,ilam,
-93,nepalatara,mavi,ilam,
-94,drripadavi,pravi,ilam,
-95,pashupati kanya mandira,mavi,dolakha,
-96,nava jyoti,avi,ilam,
-97,bhagavati,mavi,ilam,
-98,bhagavati,mavi,ilam,
-99,himali,mavi,jhapa,
-100,mahendra ratna,mavi,jhapa,
-101,kalika,mavi,tanahun,
-102,siddhamahakali,mavi,tanahun,
-103,lakshmi narayana,pravi,bhojpur,
-104,rachana,pravi,bhojpur,
-105,jalpa,pravi,bhojpur,
-106,kataka,mavi,bhojpur,
-107,paravati,mavi,tanahun,
-108,jyoti,pravi,bhojpur,
-109,simhadevi,mavi,bhojpur,
-110,lakshmi,mavi,syangja,
-111,ananda,avi,bardiya,
-112,jayanepala,pravi,tanahun,
-113,rashtriya,avi,tanahun,
-114,shamkara,mavi,tanahun,
-115,janaka,mavi,nawalparasi,
-116,sarasvati,avi,tanahun,
+20,chandeshvara,mavi,bhojpur,2.5
+28,siddheshvara,avi,lalitpur,2.5
+31,shitaladevi,pravi,bhojpur,2.5
+32,simha bahini,pravi,bhojpur,2.5
+36,simha jaleshvari,nimavi,bhojpur,1.5
+39,sitala devi,pravi,bhojpur,2.5
+43,,avi,siraha,2.5
+44,jharagau,pravi,tanahun,2.5
+47,timma,pravi,bhojpur,2.5
+48,pancha kanya,pravi,panchthar,2.5
+50,vani,mavi,siraha,1.5
+52,chimkeshvari,nimavi,tanahun,2.5
+53,rashtiya,nimavi,ilam,2.5
+54,kiramteshvara,pravi,ilam,2.0
+56,adaraniya,nimavi,ilam,2.5
+58,millachoka,nimavi,ilam,1.5
+60,shikshakshamakanya,pravi,bhojpur,2.5
+61,balamiteri,mavi,bhojpur,2.0
+64,shri,mavi,chitwan,1.5
+65,khartancha,nimavi,bhojpur,2.5
+70,vidyadhari,pravi,bhojpur,2.0
+73,varabhanjya,nimavi,ilam,1.5
+81,simheshvari,avi,ilam,2.0
+83,dobhana,pravi,ilam,2.5
+85,iraumtara,avi,ilam,2.0
+86,vidya,pravi,ilam,2.5
+87,maheshvara,pravi,ilam,2.5
+88,vikri,pravi,ilam,2.0
+90,deurali,pravi,ilam,2.5
+91,adarsha,pravi,ilam,2.5
+94,drripadavi,pravi,ilam,2.5
+102,siddhamahakali,mavi,tanahun,2.5
+103,lakshmi narayana,pravi,bhojpur,2.5
+104,rachana,pravi,bhojpur,2.5
+108,jyoti,pravi,bhojpur,2.5
+109,simhadevi,mavi,bhojpur,2.5
+110,lakshmi,mavi,syangja,2.0
+111,ananda,avi,bardiya,2.5
+115,janaka,mavi,nawalparasi,2.5
 117,jivanajyaeti,avi,bhaktapur,
 118,durga sheshakanta adhikari,mavi,chitwan,
 119,mahendra jyoti,mavi,tanahun,
