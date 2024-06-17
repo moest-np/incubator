@@ -160,20 +160,12 @@ school_id_A,root_school_name_A,school_level_A,district_A,Fuzzy_match_score
 395,ravichandra,pravi,tanahun,2.5
 396,vedavyasa,pravi,tanahun,2.0
 400,shiva sarasvati,mavi,tanahun,2.0
-401,janapriya,avi,tanahun,
-402,rama,pravi,tanahun,
-403,vasanta,avi,tanahun,
-404,harpanakota,mavi,kaski,
-405,deurali,pravi,tanahun,
-406,mardasha,pravi,tanahun,
-407,balika,pravi,tanahun,
-408,kusmavati,pravi,tanahun,
-409,bala mandira,mavi,tanahun,
-410,sarvajyoti,nimavi,tanahun,
-411,buddha,pravi,tanahun,
-412,bajrayogani,mavi,tanahun,
-413,kalika,avi,tanahun,
-414,rameshvari,mavi,kaski,
+402,rama,pravi,tanahun,2.5
+406,mardasha,pravi,tanahun,2.5
+408,kusmavati,pravi,tanahun,2.5
+409,bala mandira,mavi,tanahun,2.5
+410,sarvajyoti,nimavi,tanahun,2.5
+412,bajrayogani,mavi,tanahun,2.0
 415,pa~nchakanya,avi,tanahun,
 416,gogana,mavi,kaski,
 417,tamu~na,pravi,tanahun,
