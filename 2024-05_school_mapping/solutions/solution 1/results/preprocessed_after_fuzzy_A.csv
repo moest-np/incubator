@@ -5,167 +5,406 @@ school_id_A,root_school_name_A,school_level_A,district_A,Fuzzy_match_score
 6,da~nasi~najare,pravi,bhojpur,2.0
 7,cha~nachaha~nga,pravi,bhojpur,2.0
 8,kheshvara,pravi,bhojpur,2.0
-14,jalpa,nimavi,bhojpur,2.5
-20,chandeshvara,mavi,bhojpur,2.5
-28,siddheshvara,avi,lalitpur,2.5
-31,shitaladevi,pravi,bhojpur,2.5
-32,simha bahini,pravi,bhojpur,2.5
-36,simha jaleshvari,nimavi,bhojpur,1.5
-39,sitala devi,pravi,bhojpur,2.5
-43,,avi,siraha,2.5
-44,jharagau,pravi,tanahun,2.5
-47,timma,pravi,bhojpur,2.5
-48,pancha kanya,pravi,panchthar,2.5
-50,vani,mavi,siraha,1.5
-52,chimkeshvari,nimavi,tanahun,2.5
-53,rashtiya,nimavi,ilam,2.5
-54,kiramteshvara,pravi,ilam,2.0
-56,adaraniya,nimavi,ilam,2.5
-58,millachoka,nimavi,ilam,1.5
-60,shikshakshamakanya,pravi,bhojpur,2.5
-61,balamiteri,mavi,bhojpur,2.0
-64,shri,mavi,chitwan,1.5
-65,khartancha,nimavi,bhojpur,2.5
-70,vidyadhari,pravi,bhojpur,2.0
-73,varabhanjya,nimavi,ilam,1.5
-81,simheshvari,avi,ilam,2.0
-83,dobhana,pravi,ilam,2.5
-85,iraumtara,avi,ilam,2.0
-86,vidya,pravi,ilam,2.5
-87,maheshvara,pravi,ilam,2.5
-88,vikri,pravi,ilam,2.0
-90,deurali,pravi,ilam,2.5
-91,adarsha,pravi,ilam,2.5
-94,drripadavi,pravi,ilam,2.5
-102,siddhamahakali,mavi,tanahun,2.5
-103,lakshmi narayana,pravi,bhojpur,2.5
-104,rachana,pravi,bhojpur,2.5
-108,jyoti,pravi,bhojpur,2.5
-109,simhadevi,mavi,bhojpur,2.5
-110,lakshmi,mavi,syangja,2.0
-111,ananda,avi,bardiya,2.5
-115,janaka,mavi,nawalparasi,2.5
-117,jivanajyaeti,avi,bhaktapur,2.5
-125,kusmavati,pravi,tanahun,2.5
-126,krrishna gandaki,pravi,tanahun,2.5
-127,shri,avi,chitwan,2.0
-130,mukundeshvari,pravi,tanahun,2.0
-131,janata,pravi,tanahun,2.5
-133,chandrajyoti,mavi,tanahun,2.5
-135,samgama,mavi,kaski,2.5
-136,pokhari,pravi,ilam,2.5
-137,adarsha,mavi,bhaktapur,2.5
-139,shri kalika devi,pravi,ilam,2.5
-140,subhadra,pravi,ilam,2.5
-141,navinapragati,pravi,ilam,2.5
-143,lakshmi devi,pravi,ilam,2.5
-145,kaligandaki,avi,tanahun,2.5
-146,mahadeva,avi,tanahun,2.5
-148,sumbeka,nimavi,ilam,2.5
-149,siddeshvari,pravi,ilam,2.5
-151,narayani namuna,mavi,bhaktapur,2.5
-157,varachuli,mavi,nawalparasi,2.5
-161,lakshmi vidya bhavana,avi,ilam,2.0
-163,gajuramukhi,avi,ilam,2.5
-164,j~nanodaya,pravi,ilam,2.5
-169,hamalaya,nimavi,ilam,2.5
-174,valakanya,nimavi,ilam,2.5
-175,yuvavarsha,pravi,ilam,2.0
-178,maheshvara,nimavi,ilam,2.5
-182,jalpa,pravi,ilam,2.5
-186,jalapa,nimavi,ilam,2.5
-189,valamandala,mavi,ilam,2.0
-192,thokaphela,pravi,ilam,2.0
-197,siddhadeumai,nimavi,ilam,2.5
-198,dambara devi,mavi,ilam,2.0
-200,narayanachaura,pravi,tanahun,2.0
-204,bhrrikuti,mavi,tanahun,2.5
-210,janata jayasavala,mavi,dhanusha,2.0
-211,,mavi,dhanusha,2.5
-214,anandajyoti,mavi,kaski,2.5
-215,lakshmi,nimavi,tanahun,1.5
-217,simhaadarsha,pravi,ilam,2.5
-219,jyoti,pravi,ilam,2.5
-220,mahendri,mavi,tanahun,2.5
-228,shantipura,mavi,ilam,2.0
-229,kailasha,pravi,ilam,2.5
-231,indradevi,nimavi,tanahun,2.5
-232,ra,pravi,chitwan,2.5
-233,kaligamga,mavi,baitadi,2.0
-234,arunodaya,avi,ilam,2.5
-235,balakesha,mavi,tanahun,2.5
-238,bhimasuna,avi,ilam,2.5
-240,guru~nagaum,pravi,ilam,2.0
-244,krrishnalaya,avi,tanahun,2.5
-248,,avi,dhanusha,2.5
-249,gorkha kalika,avi,gorkha,2.5
-254,chanrdodaya,pravi,tanahun,2.5
-257,sarasvati,nimavi,khotang,2.5
-258,jana vikasa,pravi,khotang,2.5
-259,sarasvati khota~na,,khotang,1.5
-264,shanti,pravi,tanahun,2.5
-265,krrishna,mavi,tanahun,2.5
-267,ghataveshi,avi,gorkha,2.0
-270,amara,nimavi,tanahun,2.5
-272,naya.n jyoti,pravi,tanahun,2.5
-274,pelu~na,pravi,khotang,2.0
-279,nava jyoti,pravi,doti,2.5
-281,jaladevi,avi,nawalparasi,2.5
-284,janata,avi,siraha,2.5
-285,,nimavi,khotang,2.0
-288,chandrodaya,pravi,tanahun,2.5
-290,sarasvati,nimavi,tanahun,2.5
-291,vishnu,nimavi,tanahun,2.5
-294,parvati,pravi,tanahun,2.5
-297,hanumana prasada sharada,mavi,siraha,2.0
-299,janata,pravi,siraha,2.5
-308,shahidarghama,nimavi,tanahun,1.5
-312,shri shantishrrrijana,pravi,tanahun,2.0
-314,ravichandra,pravi,myagdi,2.5
-315,mahendra,mavi,tanahun,2.5
-316,shri jayaganapati,pravi,tanahun,2.0
-322,kalika,mavi,tanahun,2.5
-327,samgama,pravi,tanahun,2.0
-331,udaya,mavi,tanahun,2.5
-334,vijaya,nimavi,dolakha,2.0
-335,vedakalika,pravi,tanahun,2.5
-336,krrishnagamga,nimavi,tanahun,2.5
-337,kamadhenu,avi,kathmandu,2.0
-338,bramha,avi,nawalparasi,2.5
-340,kamaghenu,nimavi,tanahun,2.5
-345,siddheshvari,mavi,tanahun,2.5
-346,sarasvati sadana,mavi,tanahun,2.5
-347,udaya,mavi,tanahun,2.5
-348,annapurna sitapokhari,avi,kaski,2.5
-349,masya~nadi samudayika,avi,tanahun,2.5
-350,narayani,nimavi,tanahun,2.5
-351,homarajalohani,mavi,tanahun,2.0
-358,purkota,pravi,tanahun,2.0
-361,vishvajvati,pravi,tanahun,2.0
-362,kyamina,mavi,tanahun,2.0
-363,gu~njanagara,mavi,chitwan,2.0
-365,mahadebata,pravi,tanahun,2.0
-366,buchakhani,nimavi,tanahun,2.5
-371,udaya,pravi,tanahun,2.5
-374,shiva,mavi,nawalparasi,2.5
-379,vidya niku~nja,mavi,tanahun,2.0
-381,dipaka,pravi,tanahun,2.0
-382,parvati,mavi,tanahun,2.5
-385,adarsha shiksha pra,mavi,tanahun,2.0
-388,kalyana devi,pravi,tanahun,2.5
-389,pragati,nimavi,nawalparasi,2.5
-390,janajyoti,mavi,nawalparasi,2.5
-391,gadibha~njya,pravi,tanahun,2.0
-392,a.ndi barahi,pravi,tanahun,2.5
-395,ravichandra,pravi,tanahun,2.5
-396,vedavyasa,pravi,tanahun,2.0
-400,shiva sarasvati,mavi,tanahun,2.0
-402,rama,pravi,tanahun,2.5
-406,mardasha,pravi,tanahun,2.5
-408,kusmavati,pravi,tanahun,2.5
-409,bala mandira,mavi,tanahun,2.5
-410,sarvajyoti,nimavi,tanahun,2.5
-412,bajrayogani,mavi,tanahun,2.0
+9,durgeshvari,pravi,bhojpur,
+10,pavitra,mavi,tanahun,
+11,mitrata,mavi,tanahun,
+12,mitrata,mavi,tanahun,
+13,saleva,mavi,bhojpur,
+14,jalpa,nimavi,bhojpur,
+15,balakanya,pravi,bhojpur,
+16,jalpa,mavi,bhojpur,
+17,jagadishvari,pravi,bhojpur,
+18,pa~nchakanya,mavi,chitwan,
+19,virendra adarsha,mavi,chitwan,
+20,chandeshvara,mavi,bhojpur,
+21,pa~nchakanya,mavi,bhojpur,
+22,chinta~na devi,avi,bhojpur,
+23,bhimeshvari,avi,bhojpur,
+24,sarasvati,pravi,bhojpur,
+25,janajyoti,pravi,tanahun,
+26,kyaminakota,mavi,tanahun,
+27,bhavani,pravi,tanahun,
+28,siddheshvara,avi,lalitpur,
+29,chandi,avi,bhojpur,
+30,jalapa,avi,bhojpur,
+31,shitaladevi,pravi,bhojpur,
+32,simha bahini,pravi,bhojpur,
+33,jagrriti,mavi,bhaktapur,
+34,nirmala,pravi,tanahun,
+35,annapurna,pravi,tanahun,
+36,simha jaleshvari,nimavi,bhojpur,
+37,sa~ngarumba,mavi,ilam,
+38,jivanajyoti,mavi,ilam,
+39,sitala devi,pravi,bhojpur,
+40,simhadevi,avi,ilam,
+41,vijaya,avi,ilam,
+42,kalika,mavi,bhojpur,
+43,,avi,siraha,
+44,jharagau,pravi,tanahun,
+45,jyoti,pravi,bhojpur,
+46,jyati,pravi,bhojpur,
+47,timma,pravi,bhojpur,
+48,pancha kanya,pravi,panchthar,
+49,pa~nchakanya,avi,bhojpur,
+50,vani,mavi,siraha,
+51,chimkeshvari,pravi,tanahun,
+52,chimkeshvari,nimavi,tanahun,
+53,rashtiya,nimavi,ilam,
+54,kiramteshvara,pravi,ilam,
+55,jalakanya,avi,ilam,
+56,adaraniya,nimavi,ilam,
+57,janakalyana,pravi,ilam,
+58,millachoka,nimavi,ilam,
+59,janakalyana,pravi,bhojpur,
+60,shikshakshamakanya,pravi,bhojpur,
+61,balamiteri,mavi,bhojpur,
+62,krrishna,pravi,morang,
+63,akala,avi,tanahun,
+64,shri,mavi,chitwan,
+65,khartancha,nimavi,bhojpur,
+66,dhapakharka,pravi,bhojpur,
+67,pa~nchakanya,pravi,bhojpur,
+68,amara jyoti,pravi,tanahun,
+69,jana kalyana,avi,ilam,
+70,vidyadhari,pravi,bhojpur,
+71,devithana,mavi,bhojpur,
+72,amarajyoti,pravi,tanahun,
+73,varabhanjya,nimavi,ilam,
+74,nala devi,pravi,tanahun,
+75,dharma,mavi,tanahun,
+76,miklacho,mavi,ilam,
+77,buddha,mavi,ilam,
+78,ratna devi,avi,ilam,
+79,gajuramukhi,avi,ilam,
+80,jalapa,pravi,bhojpur,
+81,simheshvari,avi,ilam,
+82,siddhi vinayaka,pravi,ilam,
+83,dobhana,pravi,ilam,
+84,devi,pravi,ilam,
+85,iraumtara,avi,ilam,
+86,vidya,pravi,ilam,
+87,maheshvara,pravi,ilam,
+88,vikri,pravi,ilam,
+89,bhagavati,mavi,ilam,
+90,deurali,pravi,ilam,
+91,adarsha,pravi,ilam,
+92,adarsha,mavi,ilam,
+93,nepalatara,mavi,ilam,
+94,drripadavi,pravi,ilam,
+95,pashupati kanya mandira,mavi,dolakha,
+96,nava jyoti,avi,ilam,
+97,bhagavati,mavi,ilam,
+98,bhagavati,mavi,ilam,
+99,himali,mavi,jhapa,
+100,mahendra ratna,mavi,jhapa,
+101,kalika,mavi,tanahun,
+102,siddhamahakali,mavi,tanahun,
+103,lakshmi narayana,pravi,bhojpur,
+104,rachana,pravi,bhojpur,
+105,jalpa,pravi,bhojpur,
+106,kataka,mavi,bhojpur,
+107,paravati,mavi,tanahun,
+108,jyoti,pravi,bhojpur,
+109,simhadevi,mavi,bhojpur,
+110,lakshmi,mavi,syangja,
+111,ananda,avi,bardiya,
+112,jayanepala,pravi,tanahun,
+113,rashtriya,avi,tanahun,
+114,shamkara,mavi,tanahun,
+115,janaka,mavi,nawalparasi,
+116,sarasvati,avi,tanahun,
+117,jivanajyaeti,avi,bhaktapur,
+118,durga sheshakanta adhikari,mavi,chitwan,
+119,mahendra jyoti,mavi,tanahun,
+120,krrishna,mavi,tanahun,
+121,gudi phachya~na,avi,tanahun,
+122,mahendri,mavi,tanahun,
+123,barahi,pravi,tanahun,
+124,dipaka,mavi,tanahun,
+125,kusmavati,pravi,tanahun,
+126,krrishna gandaki,pravi,tanahun,
+127,shri,avi,chitwan,
+129,araniko,mavi,tanahun,
+130,mukundeshvari,pravi,tanahun,
+131,janata,pravi,tanahun,
+132,navadurga,mavi,palpa,
+133,chandrajyoti,mavi,tanahun,
+134,chandra jyoti,mavi,tanahun,
+135,samgama,mavi,kaski,
+136,pokhari,pravi,ilam,
+137,adarsha,mavi,bhaktapur,
+138,balamandala,mavi,ilam,
+139,shri kalika devi,pravi,ilam,
+140,subhadra,pravi,ilam,
+141,navinapragati,pravi,ilam,
+142,janashakti,pravi,tanahun,
+143,lakshmi devi,pravi,ilam,
+144,mahendrodaya,avi,ilam,
+145,kaligandaki,avi,tanahun,
+146,mahadeva,avi,tanahun,
+148,sumbeka,nimavi,ilam,
+149,siddeshvari,pravi,ilam,
+150,adarsha,avi,ilam,
+151,narayani namuna,mavi,bhaktapur,
+152,jana shishu kalyana,avi,tanahun,
+153,janaprabhata,mavi,kathmandu,
+154,puvamai,pravi,ilam,
+155,nanda,mavi,ilam,
+156,buddha ardasha,mavi,jhapa,
+157,varachuli,mavi,nawalparasi,
+158,mahadeva,pravi,ilam,
+159,nara,pravi,ilam,
+160,hattitara,avi,ilam,
+161,lakshmi vidya bhavana,avi,ilam,
+162,nepala jyoti,avi,ilam,
+163,gajuramukhi,avi,ilam,
+164,j~nanodaya,pravi,ilam,
+165,sarasvati,pravi,ilam,
+166,janata,pravi,ilam,
+167,siddhartha,avi,ilam,
+168,rashtriya,avi,ilam,
+169,hamalaya,nimavi,ilam,
+170,purnasmaraka,mavi,ilam,
+171,janakalyana,pravi,ilam,
+172,sarasvati,mavi,ilam,
+173,rashtapremi,mavi,ilam,
+174,valakanya,nimavi,ilam,
+175,yuvavarsha,pravi,ilam,
+176,tribhuvana,pravi,ilam,
+177,amara jyoti,avi,ilam,
+178,maheshvara,nimavi,ilam,
+179,deumai,avi,ilam,
+180,suryodaya,avi,ilam,
+181,bala kalyana,avi,ilam,
+182,jalpa,pravi,ilam,
+183,narayana,avi,ilam,
+184,sarasvati,pravi,ilam,
+185,bhagavati,avi,ilam,
+186,jalapa,nimavi,ilam,
+187,kamala devi,avi,ilam,
+188,phalate,mavi,ilam,
+189,valamandala,mavi,ilam,
+190,valmiki simhadevi,avi,ilam,
+191,janata,mavi,ilam,
+192,thokaphela,pravi,ilam,
+193,narayana jana,mavi,kathmandu,
+194,vinapani,mavi,ilam,
+195,ba.njhogau.n,mavi,ilam,
+196,siddha devi,pravi,ilam,
+197,siddhadeumai,nimavi,ilam,
+198,dambara devi,mavi,ilam,
+199,mahendra,mavi,tanahun,
+200,narayanachaura,pravi,tanahun,
+201,salleri,pravi,ilam,
+202,janata,pravi,ilam,
+203,simhadevi,mavi,ilam,
+204,bhrrikuti,mavi,tanahun,
+205,janasahayogi,mavi,tanahun,
+206,dullabha,mavi,gorkha,
+207,jivana jyoti,mavi,gorkha,
+208,hiramani,avi,tanahun,
+209,chisopani,mavi,ilam,
+210,janata jayasavala,mavi,dhanusha,
+211,,mavi,dhanusha,
+212,buddhashanti,mavi,chitwan,
+213,bashahasthana,mavi,tanahun,
+214,anandajyoti,mavi,kaski,
+215,lakshmi,nimavi,tanahun,
+216,gorakha,avi,gorkha,
+217,simhaadarsha,pravi,ilam,
+218,pya~nga,mavi,ilam,
+219,jyoti,pravi,ilam,
+220,mahendri,mavi,tanahun,
+221,annapurna,mavi,gorkha,
+222,amarakalyana,mavi,ilam,
+223,kapiya,mavi,chitwan,
+224,ratnarajya,mavi,kathmandu,
+226,birendra,mavi,nuwakot,
+227,amrrita,avi,tanahun,
+228,shantipura,mavi,ilam,
+229,kailasha,pravi,ilam,
+230,chanidaka,pravi,tanahun,
+231,indradevi,nimavi,tanahun,
+232,ra,pravi,chitwan,
+233,kaligamga,mavi,baitadi,
+234,arunodaya,avi,ilam,
+235,balakesha,mavi,tanahun,
+236,narayana,pravi,tanahun,
+237,amara,pravi,tanahun,
+238,bhimasuna,avi,ilam,
+239,shivamai,mavi,ilam,
+240,guru~nagaum,pravi,ilam,
+241,kankai,mavi,ilam,
+242,laligura.nsa,pravi,khotang,
+243,kamala,pravi,tanahun,
+244,krrishnalaya,avi,tanahun,
+245,prabodha,mavi,ilam,
+246,janajyoti,avi,khotang,
+247,kamadhenu,mavi,kathmandu,
+248,,avi,dhanusha,
+249,gorkha kalika,avi,gorkha,
+250,kalika,avi,kalikot,
+251,parvati,avi,khotang,
+253,adarsha shiksha,mavi,tanahun,
+254,chanrdodaya,pravi,tanahun,
+255,prrithvi,mavi,khotang,
+256,mahendrodaya,mavi,khotang,
+257,sarasvati,nimavi,khotang,
+258,jana vikasa,pravi,khotang,
+259,sarasvati khota~na,,khotang,
+260,bauddha,avi,khotang,
+261,deurali,mavi,khotang,
+262,janata,mavi,siraha,
+263,sarasvati,pravi,tanahun,
+264,shanti,pravi,tanahun,
+265,krrishna,mavi,tanahun,
+266,jana kalyana,pravi,salyan,
+267,ghataveshi,avi,gorkha,
+268,shikhara jyoti,pravi,gorkha,
+269,chandika,avi,gorkha,
+270,amara,nimavi,tanahun,
+271,shamkara,pravi,tanahun,
+272,naya.n jyoti,pravi,tanahun,
+273,jaladevi,mavi,tanahun,
+274,pelu~na,pravi,khotang,
+275,janata,mavi,khotang,
+276,mahendra jyoti,mavi,tanahun,
+277,chandi niketana,pravi,khotang,
+278,sasu niketana,pravi,khotang,
+279,nava jyoti,pravi,doti,
+280,mahendra,mavi,tanahun,
+281,jaladevi,avi,nawalparasi,
+282,ratna jyoti,avi,tanahun,
+283,vijaya,pravi,khotang,
+284,janata,avi,siraha,
+285,,nimavi,khotang,
+286,rashtiya,pravi,saptari,
+287,pashupati,pravi,tanahun,
+288,chandrodaya,pravi,tanahun,
+289,pa~nchakoshi,mavi,parbat,
+290,sarasvati,nimavi,tanahun,
+291,vishnu,nimavi,tanahun,
+292,radha damodara j~nana jyoti samskrrita,mavi,syangja,
+293,akala,avi,tanahun,
+294,parvati,pravi,tanahun,
+295,kalika,pravi,khotang,
+296,jaya sarasvati,pravi,khotang,
+297,hanumana prasada sharada,mavi,siraha,
+298,gamga jamuna,pravi,khotang,
+299,janata,pravi,siraha,
+300,shri janata,avi,dhanusha,
+301,bhagavati dinanatha,mavi,khotang,
+302,adarsha,avi,morang,
+303,mahendrodaya,mavi,khotang,
+304,jaladevi,pravi,tanahun,
+305,satyavati,pravi,tanahun,
+308,shahidarghama,nimavi,tanahun,
+309,krrishna,pravi,tanahun,
+310,sitapaila,mavi,kathmandu,
+311,sahajivana,pravi,tanahun,
+312,shri shantishrrrijana,pravi,tanahun,
+313,padama,avi,tanahun,
+314,ravichandra,pravi,myagdi,
+315,mahendra,mavi,tanahun,
+316,shri jayaganapati,pravi,tanahun,
+317,mina,mavi,tanahun,
+318,kalika,mavi,kaski,
+319,nava prabhata,mavi,kaski,
+320,hamsavahini,mavi,tanahun,
+321,shanti vidyagrriha,mavi,kathmandu,
+322,kalika,mavi,tanahun,
+323,samjhana,pravi,tanahun,
+324,radha,mavi,tanahun,
+325,janata,avi,tanahun,
+326,janajyoti,avi,tanahun,
+327,samgama,pravi,tanahun,
+328,tilicho,avi,manang,
+329,paruha~na sharana,pravi,khotang,
+330,shri janata,pravi,khotang,
+331,udaya,mavi,tanahun,
+332,pa~nchakanya,mavi,makwanpur,
+333,jalapadevi,pravi,makwanpur,
+334,vijaya,nimavi,dolakha,
+335,vedakalika,pravi,tanahun,
+336,krrishnagamga,nimavi,tanahun,
+337,kamadhenu,avi,kathmandu,
+338,bramha,avi,nawalparasi,
+339,naga,pravi,tanahun,
+340,kamaghenu,nimavi,tanahun,
+341,jayadurga,mavi,tanahun,
+342,sharada,pravi,tanahun,
+343,himalaya,mavi,tanahun,
+344,jana jagrriti gamga,mavi,tanahun,
+345,siddheshvari,mavi,tanahun,
+346,sarasvati sadana,mavi,tanahun,
+347,udaya,mavi,tanahun,
+348,annapurna sitapokhari,avi,kaski,
+349,masya~nadi samudayika,avi,tanahun,
+350,narayani,nimavi,tanahun,
+351,homarajalohani,mavi,tanahun,
+352,naya jyoti,pravi,tanahun,
+353,adarsha sarasvati,mavi,tanahun,
+354,vindhyavasini,mavi,kaski,
+355,bhimanagara,mavi,chitwan,
+356,bachauli,mavi,chitwan,
+357,bha.ngeri,avi,tanahun,
+358,purkota,pravi,tanahun,
+359,amara jyoti,avi,tanahun,
+360,himalaya,mavi,gorkha,
+361,vishvajvati,pravi,tanahun,
+362,kyamina,mavi,tanahun,
+363,gu~njanagara,mavi,chitwan,
+364,sharada,mavi,bhaktapur,
+365,mahadebata,pravi,tanahun,
+366,buchakhani,nimavi,tanahun,
+367,shukra,avi,tanahun,
+368,siddha,avi,tanahun,
+369,kalika,pravi,tanahun,
+370,dharma,avi,tanahun,
+371,udaya,pravi,tanahun,
+372,bhairava,avi,tanahun,
+373,janajagrriti,pravi,tanahun,
+374,shiva,mavi,nawalparasi,
+375,satyavati,mavi,tanahun,
+376,bhavani rashtriya,mavi,kailali,
+377,galkota,mavi,syangja,
+378,barahi,pravi,tanahun,
+379,vidya niku~nja,mavi,tanahun,
+380,sarasvati,mavi,tanahun,
+381,dipaka,pravi,tanahun,
+382,parvati,mavi,tanahun,
+383,nirmala,mavi,tanahun,
+384,chandi devi,avi,tanahun,
+385,adarsha shiksha pra,mavi,tanahun,
+386,shahida gamga,mavi,tanahun,
+387,bhashkara,pravi,tanahun,
+388,kalyana devi,pravi,tanahun,
+389,pragati,nimavi,nawalparasi,
+390,janajyoti,mavi,nawalparasi,
+391,gadibha~njya,pravi,tanahun,
+392,a.ndi barahi,pravi,tanahun,
+393,chabdi varahi,avi,tanahun,
+394,janasevika,pravi,tanahun,
+395,ravichandra,pravi,tanahun,
+396,vedavyasa,pravi,tanahun,
+397,mahendrajyoti,pravi,tanahun,
+398,rashtriya,mavi,tanahun,
+399,aruna,pravi,tanahun,
+400,shiva sarasvati,mavi,tanahun,
+401,janapriya,avi,tanahun,
+402,rama,pravi,tanahun,
+403,vasanta,avi,tanahun,
+404,harpanakota,mavi,kaski,
+405,deurali,pravi,tanahun,
+406,mardasha,pravi,tanahun,
+407,balika,pravi,tanahun,
+408,kusmavati,pravi,tanahun,
+409,bala mandira,mavi,tanahun,
+410,sarvajyoti,nimavi,tanahun,
+411,buddha,pravi,tanahun,
+412,bajrayogani,mavi,tanahun,
+413,kalika,avi,tanahun,
+414,rameshvari,mavi,kaski,
 415,pa~nchakanya,avi,tanahun,
 416,gogana,mavi,kaski,
 417,tamu~na,pravi,tanahun,

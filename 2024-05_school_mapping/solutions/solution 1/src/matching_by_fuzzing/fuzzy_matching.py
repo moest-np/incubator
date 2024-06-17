@@ -169,14 +169,8 @@ def process_and_save_batch(start_idx, end_idx, batch_num, df_A, df_B, matched_id
 
     # Filter the DataFrame to keep only the specified columns
     columns_to_keep = [
-        'school_id_A', 'root_school_name_A', 'school_level_A', 'district_A',
-        'school_id_B', 'root_school_name_B', 'school_level_B', 'district_B',
-        'root_school_old_name1_B', 'root_school_old_name2_B', 'school_level_old_name2_B', 'school_level_old_name1_B',
-        'Fuzzy_match_score', 'Match_Type'
-    ]
-    
-    columns_to_keep = [
-        'school_id_A','school_id_B', 'root_school_name_A','root_school_name_B', 'school_level_A', 'school_level_B', 'district_A', 'district_B',
+        'school_id_A','school_id_B', 'root_school_name_A','root_school_name_B', 'school_level_A',  'school_level_B',  'district_A',
+        'district_B',
         'Fuzzy_match_score', 'Match_Type'
     ]
     df_matches = df_matches[columns_to_keep]
