@@ -209,12 +209,8 @@ df_school_list.isnull().sum()
 df_selected_columns[['Potential_district', 'potential_district_transliterate', 'matched_district', 'school_1_transliterate', 'fuzzy_score', 'school_1']][df_selected_columns['fuzzy_score'].astype(str).apply(lambda x: int(x.rstrip('%'))) < 60].head(100)
 df_selected_columns[['Potential_district', 'potential_district_transliterate', 'matched_district', 'school_1_transliterate', 'fuzzy_score', 'school_1']][df_selected_columns['fuzzy_score'].dropna().astype(str).apply(lambda x: int(x.rstrip('%'))) < 60].head(100)
 df_selected_columns[df_selected_columns['fuzzy_score'].isna()].tail(300)
-
-
-
   # Print the row where school_id is 2641
 df_selected_columns[df_selected_columns['school_id'] == 2641]
-
 
 df_school_list[(df_school_list['Potential_district_transliterated']=='')].head()
 df_selected_columns[df_selected_columns['school_1_transliterate'].str.contains('navalapura samudayika vi navalapura okhaladhumga')]
