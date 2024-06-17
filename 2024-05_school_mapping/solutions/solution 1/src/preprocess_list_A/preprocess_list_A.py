@@ -155,7 +155,7 @@ def fuzzy_match_individual_words(df, district_df):
 
 if __name__ == "__main__":
     base_dir = os.getcwd()
-    raw_data_dir = os.path.normpath(os.path.join(base_dir, '../../data/raw'))
+    raw_data_dir = os.path.normpath(os.path.join(base_dir, '..', '..', 'data', 'raw'))
     file_path_school_list = os.path.join(raw_data_dir, 'school_list_A.tsv')
     file_path_district_list = os.path.join(raw_data_dir, 'jilla.tsv')
     
@@ -187,7 +187,8 @@ if __name__ == "__main__":
             df_final = df_selected_columns[['school_id', 'school_1', 'school_name_transliterate', 'school_level_transliterate', 'matched_district']]
             
             # Save the final data to preprocessed_after_A.csv in the processed folder
-            processed_data_dir = os.path.normpath(os.path.join(base_dir, '../../data/processed'))
+            processed_data_dir = os.path.normpath(os.path.join(base_dir, '..', '..', 'data','processed'))
+
             os.makedirs(processed_data_dir, exist_ok=True)
             output_file_path = os.path.join(processed_data_dir, 'preprocessed_after_A.csv')
             df_final.to_csv(output_file_path, index=False)

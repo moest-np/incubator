@@ -7,10 +7,12 @@ pd.set_option('display.max_colwidth', None)
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 
+# Ensure the processed data directory and output directory exist
 def ensure_directory_exists(directory):
-    """Ensure a directory exists, creating it if necessary."""
+    """Ensure a directory exists, but do not create it if missing."""
     if not os.path.exists(directory):
-        os.makedirs(directory)
+        raise FileNotFoundError(f"Directory does not exist: {directory}")
+
 
 def load_dataframe(file_path):
     """Load a dataframe from a CSV file."""
@@ -202,9 +204,9 @@ if __name__ == "__main__":
     # Base directory
     base_dir = os.path.dirname(os.path.abspath(__file__))
 
-    # Processed data directory
-    processed_data_dir = os.path.normpath(os.path.join(base_dir, '../../data/processed'))
-    output_dir = '/Users/mahesh/Documents/GitHub/incubator/Matching Analysis/results'
+   # Correct relative paths to match the intended directory structure
+    processed_data_dir = os.path.normpath(os.path.join(base_dir, '..', '..', 'data', 'processed'))
+    output_dir = os.path.normpath(os.path.join(base_dir, '..', '..', 'results'))
 
     # Ensure the processed data directory and output directory exist
     ensure_directory_exists(processed_data_dir)
@@ -238,3 +240,6 @@ if __name__ == "__main__":
         df_all_matches = process_and_save_batch(start_idx, end_idx, batch_num, df_A, df_B, matched_ids_B, output_dir, df_all_matches)
 
     print("Processing completed.")
+
+
+

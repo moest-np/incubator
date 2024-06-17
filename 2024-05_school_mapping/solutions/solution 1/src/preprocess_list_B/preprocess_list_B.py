@@ -75,7 +75,8 @@ def apply_replacements(df, patterns):
     return df
 
 def load_and_preprocess_data(base_dir, apply_patterns=False):
-    raw_data_dir = os.path.normpath(os.path.join(base_dir, '../../data/raw'))
+    
+    raw_data_dir = os.path.normpath(os.path.join(base_dir, '..', '..', 'data', 'raw'))
     file_path_bb = os.path.join(raw_data_dir, 'school_list_B.tsv')
 
     # Load Source B
@@ -141,8 +142,8 @@ def main(apply_patterns=True):
         'modified_old_name2', 'modified_old_name2_school_level', 'modified_old_name2_root','district'
     ]
     
-    # Ensure the processed data directory exists
-    processed_data_dir = os.path.normpath(os.path.join(base_dir, '../../data/processed'))
+
+    processed_data_dir = os.path.normpath(os.path.join(base_dir, '..', '..', 'data', 'processed'))
     ensure_directory_exists(processed_data_dir)
     
     # Save the processed data to CSV
