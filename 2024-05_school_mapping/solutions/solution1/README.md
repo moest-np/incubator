@@ -58,10 +58,14 @@ the schools in list A based on confidence of the matching: 0.77 cut-off for high
 - `tqdm`
 
 ### Match school
-```python scripts/school_matching.py --listA_HC work/processed_listA_dist_HC.tsv --listA_LC work/processed_listA_dist_LC.tsv --listB=work/processed_listB.tsv --output_xlsx=match_results```
+```
+python scripts/school_matching.py --listA_HC work/processed_listA_dist_HC.tsv --listA_LC work/processed_listA_dist_LC.tsv --listB=work/processed_listB.tsv --output_xlsx=match_results
+```
 
 ### Evaluate
-```python scripts/evaluate.py --eval_set eval/evaluation.final --output match_results.xlsx```
+```
+python scripts/evaluate.py --eval_set eval/evaluation.final --output match_results.xlsx
+```
 
 ### Evaluation
 Accuracy of methods on the eval sets
