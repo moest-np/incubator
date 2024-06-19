@@ -2,6 +2,8 @@ import pandas as pd
 import os
 from fuzzywuzzy import fuzz
 
+pip freeze > requirements.txt
+
 # Set display options
 pd.set_option('display.max_colwidth', None)
 pd.set_option('display.max_rows', None)

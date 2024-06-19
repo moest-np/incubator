@@ -1134,7 +1134,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 1146,धनगढी नमूना प्राविधिक मावि धनगढी कैलाली,dhanagadhi namuna,pravi,Kailali
 1147,रा प्रावि श्रीपूर सुनसरी,ra,pravi,Sunsari
 1148,शारदा प्रावि सुनसरी,sharada,pravi,Sunsari
-1149,पंचामत प्रावि जलथल,pamchamata,pravi,Panchthar
+1149,पंचामत प्रावि जलथल,pamchamata,pravi,Achham
 1150,श्री प्रावि सुनसरी,shri,pravi,Sunsari
 1151,राष्ट्रिय शारदा आवि कुम्याही सुनसरी,rashtriya sharada,avi,Sunsari
 1152,सिंहदेवि निमावि झापा,simhadevi,nimavi,Jhapa
@@ -2955,7 +2955,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 2991,शान्ति शिक्षा मन्दिर मावि काठमाडौं,shanti shiksha mandira,mavi,Kathmandu
 2992,गणेश प्रावि वसामाडी कुवापानी मकवानपुर,ganesha,pravi,Makwanpur
 2993,भैरव आवि मकवानपुर,bhairava,avi,Makwanpur
-2994,मनिकापुर प्रावि दाङ,manikapura,pravi,Makwanpur
+2994,मनिकापुर प्रावि दाङ,manikapura,pravi,Dang
 2995,पञ्चकन्या प्रावि हेटौडा गैरीगाउँ मकवानपुर,pa~nchakanya,pravi,Makwanpur
 2996,अनुप दिपनी मावि कोल्हवी बारा,anupa dipani,mavi,Bara
 2997,भविश्य उज्वल प्रावि स्याङजा,bhavishya ujvala,pravi,Syangja
@@ -3247,7 +3247,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 3288,आदर्श बाल मावि सुन्दरबजार लमजुङ,adarsha bala,mavi,Bara
 3289,जाल्पादेवी प्रावि कल्लेरी धादिङ,jalpadevi,pravi,Dhading
 3290,लालीगुरास प्रावि अर्घाखाँची,laligurasa,pravi,Arghakhanchi
-3291,शारदा मावि ढिकुुरा,sharada,mavi,Siraha
+3291,शारदा मावि ढिकुुरा,sharada,mavi,Dhankuta
 3292,धुँवाकोट प्रावि मकवानपुर,dhu.nvakota,pravi,Makwanpur
 3293,स मावि कञ्चनपुर सप्तरी,sa,mavi,Saptari
 3294,ने रा प्रावि गुल्मी,ne ra,pravi,Gulmi
@@ -4138,7 +4138,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 4201,महादेव प्रावि पाचथर,mahadeva,pravi,Panchthar
 4202,क्यासिङ प्रावि सिन्धुपाल्चोक,kyasi~na,pravi,Sindhupalchok
 4203,कमलादेवी प्र मावि रामेछाप,kamaladevi pra,mavi,Ramechhap
-4204,रुद्रकाली प्रावि नामदी,rudrakali,pravi,Myagdi
+4204,रुद्रकाली प्रावि नामदी,rudrakali,pravi,Baitadi
 4205,कालीका देवि प्रावि अछाम,kalika devi,pravi,Achham
 4206,नन्दा मावि बाहुनगाँउ बान्नीगढी जयगढ गा पा अछाम,nanda,mavi,Achham
 4207,पातीङ निमावि सिन्धुपाल्चोक,pati~na,nimavi,Sindhupalchok
@@ -4832,7 +4832,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 4906,भगवती प्रावि ओखलढुगा,bhagavati,pravi,Okhaldhunga
 4907,कनरा प्रावि कैलाली,kanara,pravi,Kailali
 4908,असिग्राम प्रावि सेलागाउँ डडेल्धुरा,asigrama,pravi,Dadeldhura
-4909,सिद्धनाथ मावि मलास,siddhanatha,mavi,Dhankuta
+4909,सिद्धनाथ मावि मलास,siddhanatha,mavi,Dhanusha
 4910,नेपाल राष्ट्रिय मावि सपही बारा,nepala rashtriya,mavi,Bara
 4911,चैड्याल प्रावि कैलाली,chaidyala,pravi,Kailali
 4912,केदारेश्वर प्रावि कैलाली,kedareshvara,pravi,Kailali
@@ -5772,7 +5772,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 5868,बाल सुबोधिनी संस्कृत मावि मेदिवुङ ताप्लेजुङ,bala subodhini samskrrita,mavi,Taplejung
 5869,जनता मावि रामपुर रामेछाप,janata,mavi,Ramechhap
 5870,जनसेवा मावि पर्बत,janaseva,mavi,Parbat
-5871,शारदा प्राविमकवानपुर,sharada,pravi,Siraha
+5871,शारदा प्राविमकवानपुर,sharada,pravi,Makwanpur
 5872,योगिनी मावि सीतापुर बाँके,yogini,mavi,Banke
 5873,सरस्वती आवि कुम्मायक पाँचथर,sarasvati,avi,Panchthar
 5874,जनक प्रावि पाचथर,janaka,pravi,Panchthar
@@ -7138,7 +7138,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 7249,वाल वोध प्रावि रुकुम,vala vodha,pravi,Palpa
 7250,प्रावि गारछाला रुकुम,,pravi,Darchula
 7251,शम्भुनाथ प्रावि डडेेल्धुरा,shambhunatha,pravi,Dadeldhura
-7252,आर्दश मनिलेक प्रावि लटसेर,ardasha manileka,pravi,Parsa
+7252,आर्दश मनिलेक प्रावि लटसेर,ardasha manileka,pravi,Dailekh
 7253,प्रगती आवि बैतडी,pragati,avi,Baitadi
 7254,मालिकार्जुन मावि मड दार्चुला,malikarjuna,mavi,Darchula
 7255,भानुभक्त प्रावि गर्खाकोट जाजरकोट,bhanubhakta,pravi,Jajarkot
@@ -7266,7 +7266,6 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 7378,जनज्योति मावि पर्वत,janajyoti,mavi,Parbat
 7379,मनोरचना आवि ओखलढुंगा,manorachana,avi,Okhaldhunga
 7380,शिव प्रावि अस्काछाप ओखरबोट म्याग्दी,shiva,pravi,Myagdi
-7381,सिद्धार्थ निमावि पाखापाती,siddhartha,nimavi,Siraha
 7382,मंगलजनविजय मावि काभ्रेपलाञ्चोक,mamgalajanavijaya,mavi,Kavrepalanchok
 7383,लिमिठाना मावि लिमिठाना पर्वत,limithana,mavi,Parbat
 7384,चलन्टार आवि काठमाडौं,chalantara,avi,Kathmandu
@@ -7557,7 +7556,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 7675,थोक्पन आवि सिदिन पाँचथर,thokpana,avi,Panchthar
 7676,फुलबारी प्रावि पाचथर,phulabari,pravi,Panchthar
 7677,दुर्गा आवि पातल डडेल्धुरा,durga,avi,Dadeldhura
-7678,आर्दश प्रावि भिरकोट,ardasha,pravi,Parsa
+7678,आर्दश प्रावि भिरकोट,ardasha,pravi,Bhaktapur
 7679,सुनकेसर गिल्लेश्वरी आवि डडेल्धुरा,sunakesara gilleshvari,avi,Dadeldhura
 7680,विधानन्द प्रावि प्युठान,vidhananda,pravi,Pyuthan
 7681,गङेश्वरी प्रावि प्युठान,ga~neshvari,pravi,Pyuthan
@@ -8363,7 +8362,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 8489,सुवा प्रावि म्याग्दी,suva,pravi,Myagdi
 8490,जनकल्याण मावि गुर्जा म्याग्दी,janakalyana,mavi,Myagdi
 8491,ज्योति निमावि पाखापाती,jyoti,nimavi,Doti
-8492,आर्दश मावि पाखापाती,ardasha,mavi,Parsa
+8492,आर्दश मावि पाखापाती,ardasha,mavi,Rasuwa
 8493,मन्मा प्रावि कुम्ली डोल्पा,manma,pravi,Dolpa
 8494,हेम मावि धवलागिरी म्याग्दी,hema,mavi,Myagdi
 8495,जनता आवि सन्हैठा सोहर्वा सिरहा,janata,avi,Siraha
@@ -8589,7 +8588,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 8723,लक्ष्मणघाट मावि वाणगंगा कपिलवस्तु,lakshmanaghata,mavi,Kapilbastu
 8724,प्रावि जरी लेटा रुकुम,,pravi,Rukum Purba
 8725,नेपाल राष्टि्य प्रावि रातामाटा रोल्पा,nepala rashtiya,pravi,Rolpa
-8726,स्याला गढी प्रावि रुकुम,syala gadhi,pravi,Salyan
+8726,स्याला गढी प्रावि रुकुम,syala gadhi,pravi,Sarlahi
 8727,हिमालय आवि रुकुम,himalaya,avi,Humla
 8728,भुवनेश्वरी मावि जगदीशपुर कपिलवस्तु,bhuvaneshvari,mavi,Kapilbastu
 8729,तिलौरी निमावि रुपन्देही,tilauri,nimavi,Rupandehi
@@ -10367,7 +10366,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 10526,रा पा निमावि कास्की,ra pa,nimavi,Kaski
 10527,चाङला हिमाल मावि हुम्ला,cha~nala himala,mavi,Humla
 10528,रामदेव प्रावि हुम्ला,ramadeva,pravi,Humla
-10529,चन्द्र मावि वि उराम पवर्त,chandra,mavi,Parsa
+10529,चन्द्र मावि वि उराम पवर्त,chandra,mavi,Parbat
 10530,शिलान्ती मावि पर्बत,shilanti,mavi,Parbat
 10531,कृष्ण्ा प्रावि पर्बत,krrishna,pravi,Parbat
 10532,सूर्य वाराही प्रावि मकवानपुर,surya varahi,pravi,Sarlahi
@@ -10798,7 +10797,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 10971,भगवती प्रावि पर्बत,bhagavati,pravi,Parbat
 10972,ज्ञानेन्द्र प्रावि मोदी गा पा पर्वत,j~nanendra,pravi,Parbat
 10973,ढाकमर प्रावि मुस्ताङ,dhakamara,pravi,Mustang
-10974,समार प्रावि छुसाङ,samara,pravi,Sarlahi
+10974,समार प्रावि छुसाङ,samara,pravi,Saptari
 10975,अरलिको प्रावि मुस्ताङ,araliko,pravi,Mustang
 10976,आर्दश आवि विराटनगर मोरङ,ardasha,avi,Morang
 10977,जनपंच आवि उदयपुरगढी गा पा उदयपुर,janapamcha,avi,Udayapur
@@ -10822,7 +10821,6 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 10995,हिमालय आवि पोखरा कास्की,himalaya,avi,Kaski
 10996,गणेश प्रावि मगरवेसी सिन्धुली,ganesha,pravi,Sindhuli
 10997,जनकल्याण निमावि नयाँगाउँ महादेवडाँडा सिन्धुली,janakalyana,nimavi,Sindhuli
-10998,प्रावि मडाहा रानीवास प्रावि,,pravi,Dolakha
 11000,जनज्योती निमावि पोक्लावाा तेह्रथुम,janajyoti,nimavi,Tehrathum
 11001,जनशान्ति मावि कागबेनी मुस्ताङ,janashanti,mavi,Mustang
 11002,हिमालय प्रावि लाहाछेवर गुम्देल रामेछाप,himalaya,pravi,Ramechhap
@@ -11015,7 +11013,6 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 11194,सरस्वती आवि फलेवास पर्बत,sarasvati,avi,Parbat
 11195,मातृ भूमि मावि स्याङजा,matrri bhumi,mavi,Syangja
 11196,त्रिभुवन मावि पैयुँपाटा बाग्लुङ,tribhuvana,mavi,Baglung
-11197,शहिद स्मृति सामुदायिक मावि,shahida smrriti samudayika,mavi,Siraha
 11198,बानिडाँडा आवि पर्वत,banida.nda,avi,Parbat
 11199,मान्सा माई इन्द्रादेव चौरसिया आवि पर्सा,mansa mai indradeva chaurasiya,avi,Parsa
 11200,सुन्दरमल रामकुमार कन्या मावि वीरगंज पर्सा,sundaramala ramakumara kanya,mavi,Parsa
@@ -11132,7 +11129,6 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 11313,म्हाँने मन्दिर प्रावि हर्षाही बसनिया सिन्धुली,mha.nne mandira,pravi,Sindhuli
 11314,जनश्रम प्रावि कुश्मा भूम दुर्लुङ पर्वत,janashrama,pravi,Humla
 11315,सेर्पा गाउँ प्रावि रसुवा,serpa gau.n,pravi,Rasuwa
-11316,धुममालिका प्रावि,dhumamalika,pravi,Humla
 11317,हिल्सा नौधारा आवि खार्पुनाथ हुम्ला,hilsa naudhara,avi,Humla
 11318,अमरसिङ प्रावि हुम्ला,amarasi~na,pravi,Humla
 11319,लारच्याङ प्रावि रसुवा,larachya~na,pravi,Rasuwa
@@ -11380,7 +11376,6 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 11562,वाल्मीकि मावि मोतिबस्ती व सु पश्चिम नवलपरासी,valmiki,mavi,Nawalparasi
 11563,लक्ष्मी देवकोटा प्रावि महालक्ष्मी धनकुटा,lakshmi devakota,pravi,Dhankuta
 11564,सितादेवी मावि फाक्सिव धनकुटा,sitadevi,mavi,Dhankuta
-11565,पंचायत प्रावि तेलिया,pamchayata,pravi,Panchthar
 11566,विनदी मण्डली डाँडा प्रावि स्याङ्जा,vinadi mandali da.nda,pravi,Syangja
 11567,महेन्द्र आदर्श मावि सल्यान,mahendra adarsha,mavi,Salyan
 11568,सिद्ध पृथ्वी जनता मावि दाङ,siddha prrithvi janata,mavi,Siraha
@@ -11458,7 +11453,6 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 11641,शान्तिनिवास मावि दियाले धनकुटा,shantinivasa,mavi,Dhankuta
 11642,सरस्वती प्रावि धनकुटा दार्मेडाडा,sarasvati,pravi,Dhankuta
 11643,भारती मावि धनकुटा,bharati,mavi,Dhankuta
-11644,वालिङ प्रावि गोपालपुर,vali~na,pravi,Palpa
 11645,विहार आवि पाटिचौर काभ्रेपलाञ्चोक,vihara,avi,Kavrepalanchok
 11646,भवानी मावि सल्यान,bhavani,mavi,Salyan
 11647,सगरमाथा आधारभुत मावि खोकू,sagaramatha adharabhuta,mavi,Dhankuta
@@ -11546,7 +11540,6 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 11731,तावें प्रावि रामेछाप,tavem,pravi,Ramechhap
 11732,नमूना आवि लिखु तामाकोशी गा पा रामेछाप,namuna,avi,Ramechhap
 11733,सञ्जीवनी आवि डडुवा रामेछाप,sa~njivani,avi,Ramechhap
-11734,शहिद स्मृति निमावि सिपु,shahida smrriti,nimavi,Siraha
 11735,अग्लेश्वर मावि रामेछाप,agleshvara,mavi,Ramechhap
 11736,ज्योति प्रावि कान्दादेवी,jyoti,pravi,Doti
 11737,कालिदेबी प्रावि दोरम्बा रामेछाप,kalidebi,pravi,Ramechhap
@@ -12004,7 +11997,6 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 12209,भगवती निमावि सोमादी पाल्पा,bhagavati,nimavi,Palpa
 12210,आदर्श आवि पाल्पा,adarsha,avi,Palpa
 12211,श्री बालहित प्रावि सालवास पाल्पा,shri balahita,pravi,Palpa
-12212,सिद्धार्थ प्रावि गेझा,siddhartha,pravi,Siraha
 12213,श्री संयुक्त प्रावि पाल्पा,shri samyukta,pravi,Palpa
 12214,श्री बालज्योति प्रावि बडहरे पाल्पा,shri balajyoti,pravi,Palpa
 12215,जनप्रभात प्रावि बतासे खोटाङ,janaprabhata,pravi,Khotang
@@ -12155,7 +12147,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 12363,जाल्पा प्रावि बझाङ,jalpa,pravi,Jhapa
 12364,सृजना प्रावि चौपाता बझाङ,srrijana,pravi,Bajhang
 12365,जनसहयोग प्रावि बझाङ,janasahayoga,pravi,Bajhang
-12366,दशरथ प्रावि रुकुम,dasharatha,pravi,Siraha
+12366,दशरथ प्रावि रुकुम,dasharatha,pravi,Rukum Purba
 12367,लामातोला मावि बझाङ,lamatola,mavi,Bajhang
 12368,नारायण्ा निमावि बझाङ,narayana,nimavi,Bajhang
 12369,सिद्धि मावि पाल्पा,siddhi,mavi,Palpa
@@ -12187,7 +12179,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 12395,बालहित मावि रुकुम,balahita,mavi,Sarlahi
 12396,श्री भगवती मावि सर्देव पाल्पा,shri bhagavati,mavi,Palpa
 12397,भगवती मावि सोमादी पाल्पा,bhagavati,mavi,Palpa
-12398,सरस्वती आवि स्याला आठबिसकोट न पा रुकुम पश्चिम,sarasvati,avi,Salyan
+12398,सरस्वती आवि स्याला आठबिसकोट न पा रुकुम पश्चिम,sarasvati,avi,Sarlahi
 12399,नामरुनदेवी प्रावि नुवाकोट,namarunadevi,pravi,Nuwakot
 12400,बाल मन्दिर प्रावि दरवार एरिया तानसेन पाल्पा,bala mandira,pravi,Palpa
 12401,जनकल्याण प्रावि गेर्खु नुवाकोट,janakalyana,pravi,Nuwakot
@@ -12199,7 +12191,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 12407,नवदुर्गा प्रावि पाल्पा,navadurga,pravi,Palpa
 12408,मदरसा निमावि दर्छा पाल्पा,madarasa,nimavi,Palpa
 12409,दुर्गा भवानी निमावि पाल्पा,durga bhavani,nimavi,Palpa
-12410,शीतल मावि चौरजहारी रुकुम,shitala,mavi,Siraha
+12410,शीतल मावि चौरजहारी रुकुम,shitala,mavi,Salyan
 12411,जनता प्रावि रुकुम,janata,pravi,Rukum Purba
 12412,चन्द्र मावि चापपानी पाल्पा,chandra,mavi,Palpa
 12413,राप्ती ज्ञानोदय मावि रुकुम,rapti j~nanodaya,mavi,Saptari
@@ -12417,7 +12409,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 12625,गोकुल गंगा मावि रामेछाप,gokula gamga,mavi,Ramechhap
 12626,दूधेश्वरी प्रावि रामेछाप,dudheshvari,pravi,Ramechhap
 12627,वालवोध प्रावि रुकुम,valavodha,pravi,Rukum Purba
-12628,प्रावि हुकाम रुकुम,,pravi,Humla
+12628,प्रावि हुकाम रुकुम,,pravi,Rukum Purba
 12629,जनपृय निमावि रुकुम,janaprriya,nimavi,Rukum Purba
 12630,शारदा मावि गेलु रामेछाप,sharada,mavi,Ramechhap
 12631,सरस्वती आवि रङ्गेली न पा मोरङ,sarasvati,avi,Morang
@@ -13176,7 +13168,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 13391,जनकल्याण मावि शान्तिनगर दाङ,janakalyana,mavi,Dang
 13392,प्रावि खोटाङ,,pravi,Khotang
 13393,त्रिकन्या प्रावि खोटाङ,trikanya,pravi,Khotang
-13394,आर्दश मावि घेत्मा रुकुम,ardasha,mavi,Parsa
+13394,आर्दश मावि घेत्मा रुकुम,ardasha,mavi,Rasuwa
 13395,दुर्गाभवानी प्रावि तनहुँ,durgabhavani,pravi,Tanahun
 13396,जनप्रिय मावि रुकुम पश्चिम,janapriya,mavi,Rukum Paschim
 13397,जनप्रिय मावि रुकुम,janapriya,mavi,Bardiya
@@ -14365,13 +14357,13 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 14588,प्रावि तल्लोमलई दाङ,,pravi,Dang
 14589,श्री प्रावि कल्याणपुर का व सिरहा,shri,pravi,Siraha
 14590,श्री गो स ना ज मावि सिरहा,shri go sa na ja,mavi,Siraha
-14591,निमावि खिल्लतपुर दाङ,,nimavi,Bhaktapur
+14591,निमावि खिल्लतपुर दाङ,,nimavi,Dang
 14592,प्रावि पेदीखोल दाङ,,pravi,Dang
 14593,त्रिभुवन जनता मावि दाङ,tribhuvana janata,mavi,Dang
 14594,ललित कला केन्द्र निमावि,lalita kala kendra,nimavi,Kailali
 14595,कालीसेती देवी आवि ललितपुर,kaliseti devi,avi,Lalitpur
 14596,रामजानकी राष्ट्रिय प्रावि डलवा सप्तरी,ramajanaki rashtriya,pravi,Saptari
-14597,प्रावि मण्िाकपुर दाङ,,pravi,Makwanpur
+14597,प्रावि मण्िाकपुर दाङ,,pravi,Dang
 14598,मावि धर्ना दाङ,,mavi,Dhankuta
 14599,जनजागृति प्रावि मन्ठाही सिरहा,janajagrriti,pravi,Siraha
 14600,मावि सन्हैठा सिरहा,,mavi,Siraha
@@ -14449,7 +14441,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 14674,जानकि प्रावि सक्रोल सर्लाही,janaki,pravi,Sarlahi
 14675,कालिका आवि वढीपोखरा दाङ,kalika,avi,Kalikot
 14676,जनता प्रावि नयाँबजार सुन्दरपुर सर्लाही,janata,pravi,Sarlahi
-14677,विरेन्द्र मावि खिल्लतपुर दाङ,virendra,mavi,Bhaktapur
+14677,विरेन्द्र मावि खिल्लतपुर दाङ,virendra,mavi,Dang
 14678,शिव प्रावि सिमरातीपोखरी दाङ,shiva,pravi,Dang
 14679,रामेश्वरी निमावि बाजुरा,rameshvari,nimavi,Bajura
 14680,श्री स मावि सिराहा,shri sa,mavi,Siraha
@@ -14733,7 +14725,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 14962,भानुभक्त निमावि जाजरकोट,bhanubhakta,nimavi,Jajarkot
 14963,शंकर मावि पिपरी दाङ,shamkara,mavi,Dang
 14964,मावि हर्तोक दाङ,,mavi,Dang
-14965,मावि पचहिया गढवा दाङ,,mavi,Panchthar
+14965,मावि पचहिया गढवा दाङ,,mavi,Dang
 14966,शंकर निमावि रुपन्देही,shamkara,nimavi,Rupandehi
 14967,भविस्यनिर्माण्ा प्रावि रुपन्देही,bhavisyanirmana,pravi,Rupandehi
 14968,पशुपति आवि रोहिणी गा पा रुपन्देही,pashupati,avi,Rupandehi
@@ -15401,7 +15393,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 15642,भूवनेश्वरी मावि हर्तोला,bhuvaneshvari,mavi,Rolpa
 15643,ज प्रावि बर्छाबा सिरहा,ja,pravi,Siraha
 15644,रुविमाण्ाी मावि रुकुम,ruvimanai,mavi,Rukum Purba
-15645,शहिद शुक्र मावि रुकुम,shahida shukra,mavi,Siraha
+15645,शहिद शुक्र मावि रुकुम,shahida shukra,mavi,Rukum Purba
 15646,अरुण भवानीश्वरी प्रावि प्यूठान,aruna bhavanishvari,pravi,Pyuthan
 15647,मालिका आवि डोटी,malika,avi,Doti
 15648,निमावि जंगलगाउँ पूर्तिमकाँडा रुकुम,,nimavi,Rukum Purba
@@ -15735,7 +15727,6 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 15982,मालारानी आवि ताराखोला बाग्लुङ,malarani,avi,Baglung
 15983,प्रावि घुम्लीवाङ रुकुम,,pravi,Humla
 15984,धुम्ते प्रावि बाग्लुङ,dhumte,pravi,Baglung
-15985,प्रावि खल्ला,,pravi,Kailali
 15986,आदर्श रा प्रावि मधुपट्टी,adarsha ra,pravi,Parsa
 15987,आदर्श मावि बाँके ज्यामिरकोट आठविसकोट न पा रुकुम पश्चिम,adarsha,mavi,Banke
 15988,मञ्जु श्री मावि गाेरखा,ma~nju shri,mavi,Gorkha
@@ -19688,7 +19679,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 19992,बाल शिक्षा तनहुँ,bala shiksha tanahu.n,,Tanahun
 19993,बालकल्याण प्रावि सानोनम्जा रोल्पा,balakalyana,pravi,Rolpa
 19994,जनसेवा प्रावि रोल्पा,janaseva,pravi,Rolpa
-19995,प्रावि दुवाचौर रुकुम पूर्व,,pravi,Darchula
+19995,प्रावि दुवाचौर रुकुम पूर्व,,pravi,Rukum Purba
 19996,एकता निमावि झुला ठाँटी रुकुम,ekata,nimavi,Humla
 19997,शिक्षेलय निमावि बझाङ,shikshelaya,nimavi,Bajhang
 19998,गोरक्ष निमावि चौघेर दाङ,goraksha,nimavi,Gorkha
@@ -20003,7 +19994,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 20316,प्रावि रामाला बैतडी,,pravi,Baitadi
 20317,श्री सूर्यज्योति प्रावि पाल्पा,shri suryajyoti,pravi,Palpa
 20318,पेटवनिया सामुदायिक प्रावि देवदह पेटवनिया रुपन्देही,petavaniya samudayika,pravi,Rupandehi
-20319,निमावि घारीखोला रुकुम,,nimavi,Gorkha
+20319,निमावि घारीखोला रुकुम,,nimavi,Rukum Purba
 20320,जनता मावि विजगौरी सम्मरीमाई गा पा रुपन्देही,janata,mavi,Rupandehi
 20321,भुमिराज आवि बैतडी,bhumiraja,avi,Baitadi
 20322,ने रा ्रिा बि प्युठान,ne ra ria bi pyuthana,,Pyuthan
@@ -20014,7 +20005,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 20327,दशरथ चन्द्र मावि बर्दिया,dasharatha chandra,mavi,Bardiya
 20328,दुर्गा निमावि डोटी,durga,nimavi,Doti
 20329,भृकुटी मावि खिमडी कैलाली,bhrrikuti,mavi,Kailali
-20330,सिर्जनशील आवि वाहुनडाँडा दाङ,sirjanashila,avi,Siraha
+20330,सिर्जनशील आवि वाहुनडाँडा दाङ,sirjanashila,avi,Dang
 20331,बालकल्याण प्रावि हानवाङ रोल्पा,balakalyana,pravi,Rolpa
 20332,वानेश्वर आवि गाडखोला दार्चुला,vaneshvara,avi,Darchula
 20334,पिपलचौर निमावि अछाम,pipalachaura,nimavi,Achham
@@ -20230,7 +20221,6 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 20547,भेरी मावि तरङगा सुर्खेत,bheri,mavi,Surkhet
 20548,सत्य लक्ष्मी प्रावि रुपन्देही,satya lakshmi,pravi,Rupandehi
 20549,ज्ञानोदय निमावि रुपन्देही,j~nanodaya,nimavi,Rupandehi
-20550,दशरथ निमावि,dasharatha,nimavi,Siraha
 20551,राष्टि्रय निमावि दुधराक्ष रुपन्देही,rashtiraya,nimavi,Rupandehi
 20552,बहिरा बाल वि प्रावि रुपन्देही,bahira bala vi,pravi,Rupandehi
 20553,जनहित मावि मैनहवा रुपन्देहि,janahita,mavi,Rupandehi
@@ -21901,7 +21891,6 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 22240,प्रावि बुम्च मुगु,,pravi,Mugu
 22241,महेन्द्र प्रावि बझाङ,mahendra,pravi,Bajhang
 22242,प्रावि थामू बैतडी,,pravi,Baitadi
-22243,मावि चक्र जनता शहीद मावि,,mavi,Siraha
 22244,गोल्मेश्वर मावि तामाकोशी दोलखा,golmeshvara,mavi,Dolakha
 22245,नेपाल राष्ट्रिय मावि बर्वा छोटैली पर्सा,nepala rashtriya,mavi,Parsa
 22246,सुण्डी मावि रुपन्देही,sundi,mavi,Rupandehi
@@ -23071,7 +23060,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 23423,बालकुमारी कन्या मावि नारायणगढ चितवन,balakumari kanya,mavi,Chitwan
 23424,चन्द्रेश्वर मावि लिम्बा पाँचथर,chandreshvara,mavi,Panchthar
 23425,राम संस्कृत मावि वि तेह्रथुम,rama samskrrita,mavi,Tehrathum
-23426,मावि पचहिया देउखुरी दाङ,,mavi,Panchthar
+23426,मावि पचहिया देउखुरी दाङ,,mavi,Dang
 23427,जनता आवि बबरपुर दाङ,janata,avi,Dang
 23428,शारदा मावि दोलखा,sharada,mavi,Dolakha
 23429,श्री निमावि बेलहरी गुरुवा गाउँ बाँके,shri,nimavi,Banke
@@ -24014,7 +24003,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 24371,विद्यानन्द मावि प्यूठान,vidyananda,mavi,Pyuthan
 24372,वाल संस्कृत मावि स्वर्गद्धारी प्युठान,vala samskrrita,mavi,Pyuthan
 24373,अम्वेश्वरी प्रावि रुम कोचिवाङ प्यूठान,amveshvari,pravi,Pyuthan
-24374,गणेश ने रा प्रावि कोल्वाङ पकला,ganesha ne ra,pravi,Palpa
+24374,गणेश ने रा प्रावि कोल्वाङ पकला,ganesha ne ra,pravi,Dhanusha
 24375,कमेरपानी आवि वादिकोट प्यूठान,kamerapani,avi,Pyuthan
 24376,महेन्द्र मावि बागलुङ,mahendra,mavi,Baglung
 24377,बाल शिक्षा आवि मान्द्रे शक्तिचौर प्यूठान,bala shiksha,avi,Pyuthan
@@ -24057,7 +24046,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 24415,जिवन सुधार प्रावि प्यूठान,jivana sudhara,pravi,Pyuthan
 24416,मावि वैरिया भिमपुर मोरङ,,mavi,Morang
 24417,दीपेन्द्र प्रावि डाँडाखर्क बादीकोट,dipendra,pravi,Bardiya
-24418,भुवनेश्वरी निमावि अर्झाम पकला,bhuvaneshvari,nimavi,Palpa
+24418,भुवनेश्वरी निमावि अर्झाम पकला,bhuvaneshvari,nimavi,Jhapa
 24419,कृष्ण ने रा निमावि नयाँगाउँ प्यूठान,krrishna ne ra,nimavi,Pyuthan
 24420,भुवनेश्वरी ने रा प्रावि प्यूठान,bhuvaneshvari ne ra,pravi,Pyuthan
 24421,बराह निमावि झिम्प खवाङ,baraha,nimavi,Bara
@@ -25024,7 +25013,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 25393,जनजागृति निमावि दैलेख,janajagrriti,nimavi,Dailekh
 25394,काली आवि मोरङ,kali,avi,Morang
 25395,श्री जनबोध मावि बम्घा बलेटक्सार गुल्मी,shri janabodha,mavi,Gulmi
-25396,शहिद शुक्र मावि रुकुम पूर्व,shahida shukra,mavi,Siraha
+25396,शहिद शुक्र मावि रुकुम पूर्व,shahida shukra,mavi,Rukum Purba
 25397,हिमालय आवि इलाम,himalaya,avi,Ilam
 25398,शंकरभवन मावि जाजरकोट,shamkarabhavana,mavi,Jajarkot
 25399,श्री मावि सिर्थौली सिन्धुली,shri,mavi,Sindhuli
@@ -25239,7 +25228,7 @@ school_id,school_1,school_name_transliterate,school_level_transliterate,matched_
 25610,श्री मावि लफ्याङ खोटाङ,shri,mavi,Khotang
 25611,सरस्वती मावि लेखगाउँ सुर्खेत,sarasvati,mavi,Surkhet
 25612,वीरेन्द्र मावि रुकुम पश्चिम,virendra,mavi,Rukum Paschim
-25613,सिद्धाथ जनता मावि मग्मा रुकुम,siddhatha janata,mavi,Siraha
+25613,सिद्धाथ जनता मावि मग्मा रुकुम,siddhatha janata,mavi,Rukum Purba
 25614,भैरव मावि वीरेन्द्रनगर सुर्खेत,bhairava,mavi,Surkhet
 25615,वालवालिका प्रावि सिन्धुपाल्चोक,valavalika,pravi,Sindhupalchok
 25616,ढोटार आवि सिन्धुपाल्चोक,dhotara,avi,Sindhupalchok
