@@ -180,16 +180,16 @@ if __name__ == "__main__":
     base_dir = os.path.dirname(os.path.abspath(__file__))
 
     # Correct relative paths to match the intended directory structure
-    processed_data_dir = os.path.normpath(os.path.join(base_dir, '..', '..', 'results', 'first attempt'))
-    output_dir = os.path.normpath(os.path.join(base_dir, '..', '..', 'results', 'second attempt'))
+    processed_data_dir = os.path.normpath(os.path.join(base_dir, '..', '..', 'results', 'second attempt'))
+    output_dir = os.path.normpath(os.path.join(base_dir, '..', '..', 'results', 'third attempt'))
 
     # Ensure the processed data directory and output directory exist
     ensure_directory_exists(processed_data_dir)
     ensure_directory_exists(output_dir)
 
     # File paths
-    file_path_a = os.path.join(processed_data_dir, 'preprocessed_after_fuzzy_A.csv')
-    file_path_b = os.path.join(processed_data_dir, 'preprocessed_after_fuzzy_B.csv')
+    file_path_a = os.path.join(processed_data_dir, 'preprocessed_after_fuzzy_A_comparing_oldname1_level.csv')
+    file_path_b = os.path.join(processed_data_dir, 'preprocessed_after_fuzzy_B_comparing_oldname1_level.csv')
 
     # Load the dataframes
     df_A = load_dataframe(file_path_a)
