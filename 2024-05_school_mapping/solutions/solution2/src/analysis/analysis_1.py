@@ -204,7 +204,7 @@ if __name__ == "__main__":
     start_from_index = 0
     num_batches = (len(df_A) - start_from_index + batch_size - 1) // batch_size  # Calculate the number of batches
 
-    df_all_matches = pd.DataFrame()
+    df_all_matches = pd.==-=DataFrame()
     matched_ids_B = set()
     suffix = 'comparing_oldname1_level'
     for batch_num in range(num_batches):
