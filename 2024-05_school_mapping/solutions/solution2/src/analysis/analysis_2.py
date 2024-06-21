@@ -199,12 +199,16 @@ if __name__ == "__main__":
     df_A = normalize_and_clean(df_A)
     df_B = normalize_and_clean(df_B)
 
+    # Drop rows where the root name of either column is NaN or empty
+    df_A = df_A[df_A['root_school_name_A'].notna() & df_A['root_school_name_A'].str.strip() != '']
+    df_B = df_B[df_B['root_school_old_name2_B'].notna() & df_B['root_school_old_name2_B'].str.strip() != '']
+
     # Example usage for batch processing
     batch_size = 2
-    start_from_index = 0
+    start_from_index = 10789
     num_batches = (len(df_A) - start_from_index + batch_size - 1) // batch_size  # Calculate the number of batches
 
-    df_all_matches = pd.==-=DataFrame()
+    df_all_matches = pd.DataFrame()
     matched_ids_B = set()
     suffix = 'comparing_oldname2_level'
     for batch_num in range(num_batches):

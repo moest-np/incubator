@@ -54,7 +54,7 @@ def get_fuzzy_match_score(row_a, row_b):
 
     # School level match with old name 1 school level
     school_level_a = row_a['school_level_A']
-    school_level_b = row_b['school_level_old_name2_B']
+    school_level_b = row_b['school_level_old_name3_B']
 
     if pd.isna(school_level_a) or school_level_a == '' or pd.isna(school_level_b) or school_level_b == '':
         school_level_match_type = 'no match'
@@ -71,7 +71,7 @@ def get_fuzzy_match_score(row_a, row_b):
 
     # Root name match
     root_name_a = str(row_a['root_school_name_A']) if pd.notna(row_a['root_school_name_A']) else ''
-    root_name_b = str(row_b['root_school_old_name2_B']) if pd.notna(row_b['root_school_old_name2_B']) else ''
+    root_name_b = str(row_b['root_school_old_name3_B']) if pd.notna(row_b['root_school_old_name3_B']) else ''
     root_name_score = fuzz.ratio(root_name_a, root_name_b)
     if root_name_score >= 85:
         root_name_score = 2  # Complete match
@@ -146,7 +146,7 @@ def process_and_save_batch(start_idx, end_idx, batch_num, df_A, df_B, matched_id
 
     # Filter the DataFrame to keep only the specified columns
     columns_to_keep = [
-        'school_id_A','school_id_B', 'root_school_name_A','root_school_old_name2_B', 'school_level_A',  'school_level_old_name2_B',  'district_A',
+        'school_id_A','school_id_B', 'root_school_name_A','root_school_old_name3_B', 'school_level_A',  'school_level_old_name3_B',  'district_A',
         'district_B',
         'Fuzzy_match_score', 'Match_Type'
     ]
@@ -180,16 +180,16 @@ if __name__ == "__main__":
     base_dir = os.path.dirname(os.path.abspath(__file__))
 
     # Correct relative paths to match the intended directory structure
-    processed_data_dir = os.path.normpath(os.path.join(base_dir, '..', '..', 'results', 'second attempt'))
-    output_dir = os.path.normpath(os.path.join(base_dir, '..', '..', 'results', 'third attempt'))
+    processed_data_dir = os.path.normpath(os.path.join(base_dir, '..', '..', 'results', 'third attempt'))
+    output_dir = os.path.normpath(os.path.join(base_dir, '..', '..', 'results', 'fourth attempt'))
 
     # Ensure the processed data directory and output directory exist
     ensure_directory_exists(processed_data_dir)
     ensure_directory_exists(output_dir)
 
     # File paths
-    file_path_a = os.path.join(processed_data_dir, 'preprocessed_after_fuzzy_A_comparing_oldname1_level.csv')
-    file_path_b = os.path.join(processed_data_dir, 'preprocessed_after_fuzzy_B_comparing_oldname1_level.csv')
+    file_path_a = os.path.join(processed_data_dir, 'preprocessed_after_fuzzy_A_comparing_oldname2_level.csv')
+    file_path_b = os.path.join(processed_data_dir, 'preprocessed_after_fuzzy_B_comparing_oldname2_level.csv')
 
     # Load the dataframes
     df_A = load_dataframe(file_path_a)
@@ -199,14 +199,18 @@ if __name__ == "__main__":
     df_A = normalize_and_clean(df_A)
     df_B = normalize_and_clean(df_B)
 
+    # Drop rows where the root name of either column is NaN or empty
+    df_A = df_A[df_A['root_school_name_A'].notna() | df_A['root_school_name_A'].str.strip() != '']
+    df_B = df_B[df_B['root_school_old_name3_B'].notna() | df_B['root_school_old_name3_B'].str.strip() != '']
+
     # Example usage for batch processing
     batch_size = 2
     start_from_index = 0
     num_batches = (len(df_A) - start_from_index + batch_size - 1) // batch_size  # Calculate the number of batches
 
-    df_all_matches = pd.==-=DataFrame()
+    df_all_matches = pd.DataFrame()
     matched_ids_B = set()
-    suffix = 'comparing_oldname2_level'
+    suffix = 'comparing_oldname3_level'
     for batch_num in range(num_batches):
         start_idx = start_from_index + batch_num * batch_size
         end_idx = min(start_from_index + (batch_num + 1) * batch_size, len(df_A))
