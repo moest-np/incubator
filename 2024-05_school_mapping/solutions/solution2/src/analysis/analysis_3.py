@@ -200,8 +200,8 @@ if __name__ == "__main__":
     df_B = normalize_and_clean(df_B)
 
     # Drop rows where the root name of either column is NaN or empty
-    df_A = df_A[df_A['root_school_name_A'].notna() | df_A['root_school_name_A'].str.strip() != '']
-    df_B = df_B[df_B['root_school_old_name3_B'].notna() | df_B['root_school_old_name3_B'].str.strip() != '']
+    df_A = df_A[df_A['root_school_name_A'].notna() & df_A['root_school_name_A'].str.strip() != '']
+    df_B = df_B[df_B['root_school_old_name3_B'].notna() & df_B['root_school_old_name3_B'].str.strip() != '']
 
     # Example usage for batch processing
     batch_size = 2

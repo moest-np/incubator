@@ -16525,1427 +16525,1389 @@ school_id_A,root_school_name_A,school_level_A,district_A,Fuzzy_match_score
 27532,mahendra bhrrikuti,mavi,lalitpur,1.5
 27533,sva.nra,pravi,makwanpur,2.0
 27534,buddha,mavi,lalitpur,2.0
-27536,shishu kalyana,avi,mahottari,
-27539,adarsha,mavi,sankhuwasabha,
-27545,maisthana bala vidya mandira indu lakhe,nimavi,parsa,
-27547,nilagiri,mavi,panchthar,
-27548,rapti j~nanodaya,mavi,saptari,
-27549,rashtriya,pravi,dhanusha,
-27551,bala lakshmi,avi,morang,
-27552,na ga sa tatha samskrrita,mavi,nawalparasi,
-27553,bachchaladevi,mavi,dhading,
-27554,maisthana vidyapitha,mavi,parsa,
-27555,rashtiya,pravi,dhanusha,
-27556,,pravi,parsa,
-27557,sva.nra,avi,gulmi,
-27558,,pravi,sarlahi,
-27559,shri,mavi,dhanusha,
-27560,janata,mavi,rautahat,
-27562,tripura sadharana tatha,pravi,dolpa,
-27565,sharada,mavi,arghakhanchi,
-27566,uttaragamga,avi,rukum purba,
-27568,harihara samskrrita tatha sadharana,mavi,rautahat,
-27569,shri pashupati,mavi,siraha,
-27570,,mavi,mahottari,
-27571,sarveshvara,avi,kathmandu,
-27572,janata rashtriya,pravi,saptari,
-27573,janakalyana,avi,makwanpur,
-27575,janata,mavi,banke,
-27577,mahendrodaya,mavi,bhojpur,
-27578,chattisa devi,mavi,nawalparasi,
-27580,chandika,mavi,makwanpur,
-27581,munari rashtriya,avi,mahottari,
-27582,virendra,mavi,morang,
-27583,kuleshvara,avi,ramechhap,
-27584,shivamai,mavi,ilam,
-27585,,mavi,udayapur,
-27587,jvalamukhi,avi,mustang,
-27589,mahendra jyoti,avi,ramechhap,
-27591,chandeshvari,pravi,sindhuli,
-27592,,avi,sindhuli,
-27593,mahakali,avi,sindhuli,
-27594,,mavi,sindhuli,
-27595,,avi,sindhuli,
-27596,siddheshvara,pravi,sindhuli,
-27597,vindeshvari,avi,sindhuli,
-27598,ne ra,pravi,surkhet,
-27599,janaprakasha,pravi,surkhet,
-27602,navajyoti bahira,mavi,sindhuli,
-27603,,pravi,sindhuli,
-27605,,avi,sindhuli,
-27606,sharada,avi,bhaktapur,
-27607,nepala rashtiya,avi,surkhet,
-27608,rashtriya,avi,saptari,
-27610,,pravi,sindhuli,
-27611,,avi,sindhuli,
-27613,sarasvati,avi,parbat,
-27615,,avi,kalikot,
-27616,bhakta vidyashrama,mavi,bhaktapur,
-27617,j~nanabhumi,avi,mustang,
-27618,vaidyanatha veda vidyashrama,nimavi,achham,
-27619,nepala,mavi,nawalparasi,
-27620,janajagrriti,mavi,sindhuli,
-27622,dharmara,pravi,dhading,
-27623,pa~nchakanya,avi,ramechhap,
-27624,gautama buddha,avi,morang,
-27625,pashupati,avi,ramechhap,
-27631,,avi,morang,
-27632,vijaya,mavi,jajarkot,
-27634,jagannatha,mavi,surkhet,
-27635,rosha bha~njya~na,pravi,khotang,
-27637,,nimavi,sindhuli,
-27638,lakshmi,mavi,bajhang,
-27639,,avi,sindhuli,
-27640,,pravi,sindhuli,
-27641,netrakali,avi,sindhuli,
-27642,varuneshvara,mavi,sindhuli,
-27645,suryodaya,mavi,dailekh,
-27646,j~nanajyoti,avi,mustang,
-27647,shivapuragadhi,mavi,nawalparasi,
-27648,bala shiksha niketana,mavi,nawalparasi,
-27649,rashtriya,avi,dhanusha,
-27650,,avi,jumla,
-27651,mamgaleshvari,avi,nuwakot,
-27653,,pravi,parsa,
-27654,vidyavikasa,mavi,rukum paschim,
-27656,deuradevi,avi,achham,
-27657,,pravi,rautahat,
-27658,dharmeshvara,avi,chitwan,
-27659,,avi,chitwan,
-27660,siddhakamana rashtriya,avi,chitwan,
-27661,kalika,mavi,nawalparasi,
-27662,rashtriya,avi,chitwan,
-27667,va.nsakharka,avi,dhading,
-27668,ba.nsakharka,mavi,dhading,
-27670,shivashakti,avi,jajarkot,
-27671,bhumeshvari,avi,lalitpur,
-27672,ta~nave,pravi,mustang,
-27673,ramaroshana yashoda,mavi,achham,
-27674,ddharapaleshvara,mavi,kavrepalanchok,
-27675,divyadipa,mavi,mustang,
-27676,nepala rashtriya,pravi,surkhet,
-27677,dipajyoti,pravi,surkhet,
-27678,bhavani,avi,surkhet,
-27679,vasanta,mavi,nawalparasi,
-27680,,avi,udayapur,
-27681,ne ra,pravi,surkhet,
-27683,nepala rashtiya,mavi,surkhet,
-27684,janajivana,mavi,okhaldhunga,
-27685,ne ra,mavi,surkhet,
-27688,ghodalu~nge,pravi,kailali,
-27691,bhadagau.n sinuvari,mavi,sunsari,
-27692,rashtriya,avi,chitwan,
-27693,maneda.nda,mavi,bhojpur,
-27694,nepala rashtriya janata,pravi,mahottari,
-27695,ramacharana shaha pannavala,nimavi,parsa,
-27696,,avi,chitwan,
-27697,rashtiya,avi,myagdi,
-27698,rashtriya,avi,myagdi,
-27699,,mavi,chitwan,
-27700,nepala rashtriya,avi,surkhet,
-27703,j~nanabhumi,pravi,gorkha,
-27704,bala vikasa,mavi,bajhang,
-27705,vavira,pravi,baglung,
-27713,,avi,siraha,
-27714,sunakhani,pravi,dhading,
-27715,gaira,avi,dhading,
-27717,gogane,avi,ramechhap,
-27718,chandra surya,avi,ramechhap,
-27721,machchindra,mavi,tehrathum,
-27722,janaka,mavi,udayapur,
-27723,vaijanatha,avi,kanchanpur,
-27726,,avi,ramechhap,
-27728,shahida baburama smrriti,avi,ramechhap,
-27729,pamchadevala,avi,dailekh,
-27730,janakalyana,mavi,bajura,
-27732,,avi,siraha,
-27734,,pravi,sarlahi,
-27735,,avi,sindhuli,
-27736,brrisheshvara,avi,dhading,
-27738,bhainda.nda,nimavi,baglung,
-27742,janata,mavi,sunsari,
-27744,kalika,avi,kalikot,
-27746,dasharatha,mavi,dailekh,
-27747,rama,pravi,rupandehi,
-27748,lakshmi,avi,jhapa,
-27751,du~nari,avi,darchula,
-27752,bhrrikuti,mavi,kailali,
-27753,rashtiya,avi,chitwan,
-27756,kedareshvara,avi,kailali,
-27757,indrodaya,pravi,kailali,
-27759,latinatha galinatha,avi,baitadi,
-27760,bhavani,mavi,bajura,
-27761,rupakota,avi,jumla,
-27763,siddhartha kula,avi,dolpa,
-27764,vijaya,avi,achham,
-27767,bhagavati,mavi,bhojpur,
-27768,vagavachchala,avi,dhading,
-27772,,avi,dailekh,
-27774,janavikasa,pravi,sindhuli,
-27775,,pravi,sindhuli,
-27776,janajagrriti,mavi,sindhuli,
-27778,,avi,chitwan,
-27779,pra~nabo samajakalyana,pravi,sindhuli,
-27780,janakalyana,nimavi,sindhuli,
-27781,janata,avi,sarlahi,
-27782,shakti,avi,chitwan,
-27783,janapriya,avi,nawalparasi,
-27784,tribhuvana,mavi,bardiya,
-27785,,pravi,sindhuli,
-27786,,nimavi,sindhuli,
-27789,bharataeli,mavi,doti,
-27790,nepala rashtriya,avi,surkhet,
-27792,janaki,mavi,rupandehi,
-27794,nepala rashtiya,mavi,bara,
-27798,buddha,pravi,lamjung,
-27799,mukota himala,avi,dolpa,
-27801,adarsha,avi,dailekh,
-27805,mahendrodaya,avi,bhojpur,
-27807,sirjana,avi,siraha,
-27808,j~nanajyoti,pravi,gorkha,
-27810,bhimachandra,avi,chitwan,
-27811,,pravi,dhankuta,
-27812,ne ra,nimavi,bara,
-27814,lakshmi,avi,sunsari,
-27815,malika,pravi,lalitpur,
-27816,gupteshvara,pravi,bhojpur,
-27819,mandali,avi,dolpa,
-27821,sahida sijana chintana,avi,ramechhap,
-27822,naya.n nepala,pravi,gorkha,
-27823,,avi,rukum paschim,
-27824,kailasha pati,pravi,bajhang,
-27826,pa~nchavati,avi,sindhuli,
-27827,ujyalo,pravi,sindhuli,
-27828,raja shri,avi,udayapur,
-27829,janata,mavi,siraha,
-27830,nepala rashtriya,avi,mugu,
-27831,shri,mavi,sindhuli,
-27833,ba.nsapura,pravi,kavrepalanchok,
-27836,prrithvi,mavi,nawalparasi,
-27837,mahendra pratapa,mavi,sindhupalchok,
-27838,adarsha,avi,dhanusha,
-27839,,pravi,dhankuta,
-27840,kalikadevi,mavi,nuwakot,
-27841,adarsha,mavi,dhading,
-27842,krrishna,avi,sunsari,
-27845,dibya,avi,sunsari,
-27848,,pravi,kalikot,
-27850,chitrama rashtiya,avi,chitwan,
-27851,ajada,avi,kavrepalanchok,
-27854,kumbheshvara,mavi,nuwakot,
-27855,shri,nimavi,dhanusha,
-27857,samudayika,avi,saptari,
-27858,haribamsha rashtriya,pravi,saptari,
-27859,dhravatara,pravi,achham,
-27860,rumjatara,mavi,okhaldhunga,
-27861,aishvarya,avi,bajhang,
-27862,indrapuri,avi,tanahun,
-27863,rashtiya,pravi,dhanusha,
-27864,,avi,rukum purba,
-27865,ganesha,mavi,nawalparasi,
-27866,rashtiya,pravi,dhanusha,
-27867,sarasvati,mavi,kailali,
-27868,janata,mavi,nawalparasi,
-27869,mahendra,avi,bajura,
-27870,ratna,mavi,palpa,
-27873,sarasvati,pravi,rupandehi,
-27876,chandeshvari,avi,lamjung,
-27877,dinabhadri,avi,siraha,
-27879,bhagavati himalaya,mavi,gorkha,
-27880,prabuddha,avi,sankhuwasabha,
-27881,balajyoti,mavi,ramechhap,
-27887,valapamcha,mavi,dhankuta,
-27888,shobhita,pravi,dhankuta,
-27889,radhakrrishna,avi,morang,
-27890,dipendra,mavi,nawalparasi,
-27891,mahendra,avi,dhankuta,
-27892,chilaune,mavi,sindhupalchok,
-27897,kameshvari,mavi,achham,
-27899,sarasvati,pravi,bhojpur,
-27901,jaladhara,avi,kaski,
-27904,janakalyana,avi,banke,
-27906,thumka,pravi,gorkha,
-27907,janaradhika,pravi,bhojpur,
-27910,latinatha,mavi,darchula,
-27912,lala chandra,avi,siraha,
-27913,chatreshvara,mavi,doti,
-27915,bhanudaya,pravi,ilam,
-27917,la.ngarche,mavi,sindhupalchok,
-27919,mashteshvara,avi,doti,
-27920,,avi,jumla,
-27923,dhusha,avi,dhanusha,
-27924,bhume,mavi,kavrepalanchok,
-27927,bhume,avi,myagdi,
-27929,mukrapa devi,mavi,dhading,
-27930,,avi,sindhupalchok,
-27932,shamkhyeshvara,avi,dolakha,
-27934,mashta madu,pravi,dailekh,
-27937,jalakanya,pravi,gorkha,
-27938,,pravi,rautahat,
-27942,mayura nepala rashtriya,avi,bardiya,
-27945,janahita ra,pravi,saptari,
-27947,bhanu,mavi,kailali,
-27949,shiksha vodhani,avi,nawalparasi,
-27950,nepala rashtriya sharada,avi,nawalparasi,
-27953,,avi,siraha,
-27954,balaki,nimavi,gorkha,
-27956,mahadevasthana,avi,dhading,
-27958,shrinagara,mavi,sarlahi,
-27962,,avi,siraha,
-27965,virendra,mavi,mahottari,
-27966,mahendra janata,mavi,nawalparasi,
-27967,,mavi,dang,
-27969,dhaulagiri,avi,dolpa,
-27972,shri nepala rashtriya janajyoti,pravi,surkhet,
-27974,golmadevi,avi,ramechhap,
-27975,navayuvaka,pravi,sarlahi,
-27976,deurali,avi,dolpa,
-27979,sundara,avi,myagdi,
-27982,nepala rashtriya,avi,bara,
-27984,bhima,mavi,myagdi,
-27985,hari,mavi,arghakhanchi,
-27986,pa~nchayata,avi,sunsari,
-27987,nepala rashtriya,mavi,parsa,
-27991,,avi,lalitpur,
-27992,janata,pravi,siraha,
-27994,mukti,pravi,bhojpur,
-27996,janajyoti,mavi,rukum purba,
-28003,j~nana jyoti,pravi,nawalparasi,
-28004,bhagavati,mavi,kailali,
-28006,nepala rashtriya,mavi,surkhet,
-28007,pashupati,mavi,bardiya,
-28008,daneshvara,mavi,baitadi,
-28009,divyashvari,avi,dolakha,
-28011,kapileshvara,avi,sindhuli,
-28012,,pravi,sindhuli,
-28014,shri janavikasa,pravi,lalitpur,
-28016,li~nava,pravi,dolakha,
-28018,vishveshvara prasada,avi,bajura,
-28019,yuvashakti,pravi,bajhang,
-28020,nirjala,avi,tanahun,
-28022,phalaha pablika skula,mavi,sunsari,
-28024,nava durga,nimavi,gorkha,
-28025,sajha,avi,rolpa,
-28026,bhadrashila,pravi,gorkha,
-28027,ne ra,pravi,surkhet,
-28029,chetana,avi,myagdi,
-28030,lakshmi,avi,myagdi,
-28031,syalikheta,avi,myagdi,
-28032,navajyoti,pravi,myagdi,
-28034,chandika lala amara,pravi,tanahun,
-28035,saunaka,avi,doti,
-28036,bhimeshvara,nimavi,dolakha,
-28038,deurali,mavi,pyuthan,
-28040,prabhata,avi,kavrepalanchok,
-28043,ajadi,mavi,dolakha,
-28045,janaseva,avi,myagdi,
-28047,dipaka,mavi,myagdi,
-28051,dholthana,avi,myagdi,
-28052,navalapura,avi,okhaldhunga,
-28053,bhimasena,avi,okhaldhunga,
-28055,,pravi,rautahat,
-28056,champadevi,mavi,okhaldhunga,
-28062,chandidevi,pravi,dolakha,
-28064,gamga,avi,taplejung,
-28065,da.nda,avi,taplejung,
-28067,durgadevi,pravi,makwanpur,
-28068,,avi,siraha,
-28072,janata krrishna,mavi,arghakhanchi,
-28074,esaoesa harmana mainara,mavi,bhaktapur,
-28075,balabodha,avi,salyan,
-28077,dhruvatara,pravi,salyan,
-28079,j~nanodaya,avi,sankhuwasabha,
-28082,bageshvari,avi,gorkha,
-28085,sumitra,avi,okhaldhunga,
-28087,vishvakarma,mavi,baglung,
-28089,rotari shrrrijana,pravi,makwanpur,
-28091,sarasvati,pravi,nawalparasi,
-28093,dipendra,avi,nawalparasi,
-28094,indravati,pravi,dolakha,
-28097,janata,pravi,nawalparasi,
-28098,navajyoti,avi,rukum purba,
-28099,shramika,avi,siraha,
-28102,devi,avi,okhaldhunga,
-28104,,avi,saptari,
-28106,sanomani siddha,avi,nawalparasi,
-28112,shri pattale,avi,solukhumbu,
-28114,janajyoti,avi,jhapa,
-28116,vikata,avi,rukum paschim,
-28117,siddhamandali,mavi,rukum purba,
-28120,nava jyoti,mavi,salyan,
-28121,kalika,avi,kavrepalanchok,
-28122,devi,mavi,bhaktapur,
-28124,janasarvadana,avi,dolakha,
-28127,,mavi,kanchanpur,
-28128,,avi,dang,
-28129,ratna,pravi,dang,
-28130,anupa,avi,kapilbastu,
-28131,sunali,pravi,sunsari,
-28132,,avi,nuwakot,
-28133,lakshmi,avi,dang,
-28134,,avi,sunsari,
-28135,chandrodaya,pravi,nawalparasi,
-28136,sutlu~na,avi,ilam,
-28138,vipi,mavi,bara,
-28139,mamgala devi,pravi,nawalparasi,
-28140,rashtra sevaka,avi,kapilbastu,
-28141,shri rama sarana,pravi,kapilbastu,
-28142,,avi,rukum purba,
-28144,janata,pravi,tanahun,
-28145,bala kalyana,avi,palpa,
-28147,vijaya,pravi,bardiya,
-28148,pancha jana,pravi,kapilbastu,
-28149,yadava,mavi,nawalparasi,
-28150,lakshmi nepala rashtriya,pravi,surkhet,
-28151,ne ra,pravi,banke,
-28152,,mavi,sindhuli,
-28157,janaseva,mavi,rukum purba,
-28158,devali~ngeshvara,mavi,dolakha,
-28160,bhairama,mavi,nuwakot,
-28162,gaidabaja,mavi,dailekh,
-28165,suryajyoti,avi,nawalparasi,
-28166,nepala rashtiya,avi,dailekh,
-28169,samaja kalyana,nimavi,kavrepalanchok,
-28170,surya kirana,avi,nawalparasi,
-28171,rashtiya,avi,mahottari,
-28173,janahita,nimavi,rupandehi,
-28174,baghabhairava,mavi,makwanpur,
-28175,bhirakota,mavi,gorkha,
-28176,balavikasha,pravi,bajhang,
-28179,yuvavarsha,mavi,ilam,
-28183,vatasachuli,avi,nawalparasi,
-28184,shanti,pravi,nawalparasi,
-28185,hupsekota janakalyana,avi,nawalparasi,
-28187,maranadamdam,pravi,gulmi,
-28188,ganeshamana,pravi,nawalparasi,
-28189,jivanajyoti,pravi,nawalparasi,
-28190,bhanu,avi,nawalparasi,
-28191,shiksha vodhani samudayi,pravi,nawalparasi,
-28193,rashtiya,pravi,dhanusha,
-28194,yuvavarsha,avi,doti,
-28196,janaujvala,avi,nawalparasi,
-28197,rama janaki tinadhara pathashala lakshmipura sukhachaina sarlahi,,sarlahi,
-28199,rashtriya,pravi,mahottari,
-28200,jayamamgala,pravi,tanahun,
-28201,ma.n bhavani,avi,morang,
-28202,janajyoti,pravi,rolpa,
-28203,sundaridevi,avi,makwanpur,
-28204,janamukhi,avi,arghakhanchi,
-28205,tapobhumi,nimavi,jajarkot,
-28206,tapobhumi,mavi,jajarkot,
-28207,dhanusha,avi,dhanusha,
-28208,vindhavasini,pravi,lamjung,
-28209,,pravi,sarlahi,
-28210,panna devi,nimavi,bara,
-28211,virendra,avi,dailekh,
-28212,kushma,avi,arghakhanchi,
-28214,simha bhairaba,avi,makwanpur,
-28215,mahalakshmi,avi,makwanpur,
-28216,balakalyana,avi,nawalparasi,
-28217,shanti niku~nja revati gaumata gautama,pravi,nawalparasi,
-28219,prabhata,avi,salyan,
-28220,pa~nchami,pravi,dhankuta,
-28221,,mavi,nawalparasi,
-28222,buddha,avi,humla,
-28225,durga,mavi,ilam,
-28226,nepala rashtriya,mavi,bara,
-28228,durga janajyoti,pravi,bardiya,
-28229,gaurishamkara mahadeva,avi,makwanpur,
-28230,harihara mandira,avi,nawalparasi,
-28231,pragati,mavi,nawalparasi,
-28232,mahavai,nimavi,kalikot,
-28233,rajasthala,pravi,tanahun,
-28234,ne ra,mavi,bara,
-28239,nepala rashtriya,avi,parsa,
-28240,jaya sarasvati,avi,kavrepalanchok,
-28241,yuva,pravi,dailekh,
-28242,pa~nasi~na,avi,gorkha,
-28243,kali devi,mavi,kavrepalanchok,
-28246,redakrasa,avi,sunsari,
-28247,navadurga,pravi,nawalparasi,
-28249,vindhyavasini,avi,kavrepalanchok,
-28251,vala vikasa,avi,morang,
-28252,kashinatha,avi,tehrathum,
-28256,champavati,mavi,gorkha,
-28257,gauru~nga,pravi,bhojpur,
-28260,vindhyavasini,avi,kaski,
-28261,kamala,avi,makwanpur,
-28262,sarasvati,avi,lamjung,
-28263,rashtriya,avi,rukum paschim,
-28264,mahendrodaya,mavi,tanahun,
-28265,rashtriya,avi,tanahun,
-28267,janajyaeti,avi,rukum paschim,
-28268,muhunyalamandai,mavi,doti,
-28269,mahaguru,avi,sankhuwasabha,
-28271,navayuva phulapati,avi,khotang,
-28273,khaptadi,avi,kailali,
-28276,durga,avi,nawalparasi,
-28278,,avi,siraha,
-28280,chulenile,pravi,gorkha,
-28281,jyoti,avi,kavrepalanchok,
-28286,jalakanya,mavi,gorkha,
-28287,adhunika,pravi,rautahat,
-28288,siddhartha,pravi,dang,
-28289,,pravi,parsa,
-28290,shamkara,pravi,dang,
-28291,hari u.n,pravi,dang,
-28292,sarasvati,pravi,dang,
-28293,bhadrakshi debi,pravi,dang,
-28294,,pravi,kalikot,
-28295,janashrama sarasvati,avi,dang,
-28296,lakshmi,pravi,bhojpur,
-28298,rashtriya,mavi,kapilbastu,
-28299,nepala rashtriya janata,avi,mahottari,
-28300,,avi,bhaktapur,
-28301,krrishna,avi,dailekh,
-28303,namuna,pravi,banke,
-28305,putha himalaya,mavi,pyuthan,
-28310,shiva parvati,avi,dadeldhura,
-28311,janashakti,avi,arghakhanchi,
-28312,janajagrriti,avi,sindhuli,
-28314,lokatantrika,avi,salyan,
-28316,mamgaladevi,avi,nawalparasi,
-28317,nepala rashtiya,avi,banke,
-28318,pamchadevala,avi,dailekh,
-28321,jayanti,avi,arghakhanchi,
-28323,aishvarya,avi,rukum paschim,
-28324,kali bhume,mavi,dolakha,
-28326,narayana,pravi,bara,
-28327,narayana,avi,jumla,
-28328,janajyoti,avi,gorkha,
-28330,bhairava,avi,dolpa,
-28331,kalikadevi,pravi,rasuwa,
-28333,dhruvajyoti,avi,sankhuwasabha,
-28334,chandeshvari,avi,gorkha,
-28335,shivadaha,mavi,arghakhanchi,
-28336,nabachandrajyoti,avi,darchula,
-28338,janavikasa,mavi,rukum paschim,
-28339,sonaphi,pravi,sarlahi,
-28340,balakalyana,avi,sindhupalchok,
-28342,shanti prakasha,avi,baitadi,
-28343,amara jyaeti,mavi,banke,
-28344,bhavani,mavi,darchula,
-28347,kamadhenu,mavi,tanahun,
-28350,janata,mavi,sarlahi,
-28351,jyoti,pravi,jhapa,
-28354,balavikasa,avi,solukhumbu,
-28355,sahumara,avi,lalitpur,
-28356,,pravi,dang,
-28357,suryajyaeti,pravi,gorkha,
-28359,shri chandri devi,avi,siraha,
-28360,ra,pravi,chitwan,
-28361,bhairabanatha,pravi,dailekh,
-28362,suryajyoti,mavi,lamjung,
-28365,ichcha,avi,gorkha,
-28366,ishvarimala,avi,sindhupalchok,
-28367,durgamasthali,avi,sindhupalchok,
-28369,shri suryadaya,mavi,kapilbastu,
-28371,netra,avi,rolpa,
-28372,mahana shahida jana,pravi,saptari,
-28375,milaneshvari,avi,ramechhap,
-28376,janata,avi,banke,
-28377,parvata,mavi,parbat,
-28378,janata,avi,siraha,
-28379,gorakhanatha,avi,gorkha,
-28380,nepala,avi,dailekh,
-28381,mahendra,mavi,makwanpur,
-28382,gramadevata,avi,saptari,
-28383,suryakirana,avi,sindhupalchok,
-28385,shrrrijana,avi,arghakhanchi,
-28386,janakalyana,pravi,rupandehi,
-28387,navajyoti,avi,sunsari,
-28389,nepala rashtriya,avi,parsa,
-28390,prrithvi,avi,rukum paschim,
-28391,ra,pravi,mahottari,
-28392,valeva~nga,avi,arghakhanchi,
-28395,nepala rashtiya,pravi,parsa,
-28396,kanara,nimavi,kailali,
-28397,shri,avi,sindhupalchok,
-28399,shahida gamgalala,pravi,dolpa,
-28400,nepala rashtriya,pravi,parsa,
-28401,juvala,avi,jumla,
-28402,ne ra,pravi,banke,
-28404,sirise,mavi,ilam,
-28406,mulchoka rashtriya,avi,ilam,
-28412,suryanarayana ra,pravi,mahottari,
-28413,tara,avi,tanahun,
-28414,raidhumga,avi,kalikot,
-28418,masya~ndi,pravi,gorkha,
-28419,anvadi,avi,doti,
-28423,jyoti,avi,ilam,
-28426,nava sirjana,avi,ilam,
-28427,,mavi,dhanusha,
-28428,,mavi,dhanusha,
-28431,balamandira,avi,ilam,
-28432,hiyalala,avi,saptari,
-28433,bhagavati ra,pravi,dhanusha,
-28434,dumsi,nimavi,arghakhanchi,
-28436,deurali,avi,solukhumbu,
-28439,diyalo,nimavi,ilam,
-28441,tribhuvana,avi,ilam,
-28442,nepala rashtriya,nimavi,parsa,
-28444,arya,avi,sunsari,
-28446,nepala rashtriya,pravi,parsa,
-28448,arunodaya,mavi,ramechhap,
-28449,,avi,rautahat,
-28451,nepala rashtriya,avi,bara,
-28452,siddhadipa,avi,baitadi,
-28453,rambhadevi mata,avi,parbat,
-28457,khadga devi,mavi,baglung,
-28458,jvala,pravi,lamjung,
-28461,matrri shishu kalyana,pravi,salyan,
-28462,shishu niketana samudayika,avi,parbat,
-28465,pa~ncha,avi,kalikot,
-28466,mahendra jyoti,pravi,nawalparasi,
-28468,sharada,avi,nawalparasi,
-28469,araniko janata,avi,sarlahi,
-28470,sundari devi,pravi,sunsari,
-28472,majha kharka,pravi,bajhang,
-28476,virendrashali,pravi,lamjung,
-28477,vipi,avi,sindhupalchok,
-28478,rashtiya,avi,chitwan,
-28479,harihara,avi,tehrathum,
-28480,nrrisimha,avi,tehrathum,
-28481,sidadyakali,mavi,tehrathum,
-28485,munaratna,avi,tehrathum,
-28486,janata,avi,udayapur,
-28489,dhanajita,nimavi,sunsari,
-28491,bauddhi devi,pravi,rautahat,
-28493,,avi,banke,
-28497,kamalasa,avi,kanchanpur,
-28499,sansarimai,mavi,sindhupalchok,
-28500,divya,pravi,bajura,
-28501,shri rama,mavi,banke,
-28502,mahendra,mavi,sunsari,
-28503,shri basudeva,nimavi,kapilbastu,
-28504,nepala rashtriya,avi,parsa,
-28505,bhumiraja,mavi,dadeldhura,
-28508,suntalachaura,mavi,baglung,
-28510,timureghata,pravi,baglung,
-28511,manushyamara pashchima,pravi,sarlahi,
-28512,shri batuki,pravi,gorkha,
-28513,gamgeshvara,pravi,dadeldhura,
-28514,nepala rashtriya,avi,bardiya,
-28516,shanishchare,avi,tehrathum,
-28517,sarvajanika,avi,morang,
-28518,vipi,avi,tehrathum,
-28522,tribhuvana,mavi,doti,
-28523,isibu,mavi,tehrathum,
-28525,nepala rashtiya,pravi,parsa,
-28526,namuna jyoti,avi,panchthar,
-28529,siddheshvara,avi,tehrathum,
-28531,janata,mavi,sunsari,
-28532,valamakara,mavi,tehrathum,
-28534,janata shiva,avi,jumla,
-28536,shambhu,avi,arghakhanchi,
-28537,pragati,mavi,nawalparasi,
-28538,,avi,dhanusha,
-28539,vala pratibha,pravi,parbat,
-28540,pa~nchakanya,avi,makwanpur,
-28542,krrishna,pravi,bajhang,
-28544,samajika,mavi,rolpa,
-28545,,pravi,kapilbastu,
-28546,vala kalyana,pravi,pyuthan,
-28547,j~nanodaya,avi,rolpa,
-28548,ghinaha,avi,nawalparasi,
-28549,shiva,avi,arghakhanchi,
-28550,bhanu,mavi,manang,
-28551,bala janajagarana,avi,bara,
-28554,bamgha,avi,gulmi,
-28555,balakalyana,avi,rolpa,
-28556,,pravi,rolpa,
-28560,rashtriya,mavi,nawalparasi,
-28561,loka samudayika,pravi,bara,
-28562,shiva,avi,banke,
-28563,gairigau.n,pravi,rolpa,
-28564,j~nanaprakasha,avi,pyuthan,
-28567,suryodaya,mavi,gorkha,
-28568,himalaya rashtriya,mavi,kailali,
-28569,,avi,kanchanpur,
-28570,ghaya~nakharka,pravi,solukhumbu,
-28572,ammara,mavi,tanahun,
-28573,vira bhakti,mavi,lamjung,
-28576,shrrrijana,avi,sindhupalchok,
-28578,vindhyeshvari,pravi,lamjung,
-28580,kedara shila,avi,baitadi,
-28581,amarasiddha namuna,mavi,kaski,
-28582,milama natha,pravi,baitadi,
-28584,chandeshvari,pravi,bhojpur,
-28586,jyoti,mavi,khotang,
-28588,gupteshvara,avi,khotang,
-28589,mahendra,mavi,morang,
-28590,valodaya,avi,khotang,
-28593,janapriya,avi,mustang,
-28594,janakalyana,avi,solukhumbu,
-28595,pashupati,pravi,tanahun,
-28596,shanti,mavi,sankhuwasabha,
-28600,nepala rashtriya,mavi,surkhet,
-28601,kaphalasaini,mavi,baitadi,
-28602,nepala rashtriya,avi,parsa,
-28603,kholida.nda,avi,bajura,
-28604,uchchakota,mavi,baitadi,
-28605,bhanu,mavi,syangja,
-28606,rashtriya,mavi,nawalparasi,
-28608,kanya,mavi,bajhang,
-28609,ratna,avi,baitadi,
-28611,bala vikasa,avi,arghakhanchi,
-28613,dudhakunda,avi,solukhumbu,
-28615,vishvajyoti,avi,makwanpur,
-28616,devidarshana,avi,sankhuwasabha,
-28617,rokaya,avi,jumla,
-28619,navadurga,avi,gulmi,
-28623,bhadagau.n,mavi,gulmi,
-28625,adarsha,avi,parsa,
-28627,vedadi,pravi,gulmi,
-28629,nepala rashtriya,pravi,parsa,
-28630,rashtiya,mavi,gulmi,
-28632,ghorle,mavi,gulmi,
-28633,jivana nirmana,pravi,gulmi,
-28635,bhairava,avi,dolpa,
-28636,kurgha,nimavi,gulmi,
-28640,dipa narayana adarsha namuna,mavi,parsa,
-28641,rainadevi,pravi,gulmi,
-28642,pi~ngaladevi,avi,kalikot,
-28643,barsauli,pravi,rupandehi,
-28646,devi,nimavi,khotang,
-28648,satya,avi,bajura,
-28651,vina,mavi,khotang,
-28655,sapsu niketana,avi,khotang,
-28656,shri nirauli,pravi,khotang,
-28659,,pravi,rautahat,
-28660,janaseva,avi,gulmi,
-28661,netrajyoti,avi,kavrepalanchok,
-28662,janata,avi,kapilbastu,
-28663,nepala rashtriya mina,avi,mugu,
-28665,,avi,rautahat,
-28667,aishvarya,avi,dang,
-28671,janata,avi,siraha,
-28673,navajyoti,avi,gulmi,
-28675,pashupati,nimavi,gulmi,
-28677,ra~nvasa,pravi,gulmi,
-28678,ramgilala,mavi,kapilbastu,
-28679,rama janaki,avi,kapilbastu,
-28680,,mavi,kapilbastu,
-28681,rashtriya,mavi,kapilbastu,
-28682,sarasvati,mavi,kapilbastu,
-28683,dharmabhakta,avi,kapilbastu,
-28684,rashtriya,mavi,kapilbastu,
-28685,,avi,siraha,
-28687,rashtiya,mavi,kapilbastu,
-28691,bala jyoti,avi,rupandehi,
-28692,janajagrriti,avi,rupandehi,
-28695,janajyoti,mavi,rukum paschim,
-28696,,mavi,udayapur,
-28697,bala vikasa,avi,udayapur,
-28700,nepala rashtiya,mavi,kapilbastu,
-28703,shanti,avi,nawalparasi,
-28704,rupakala,pravi,nawalparasi,
-28706,janajyoti,avi,udayapur,
-28707,rrigina,avi,lalitpur,
-28708,,avi,banke,
-28709,shri,mavi,udayapur,
-28710,,avi,udayapur,
-28711,bhanubhakta,avi,udayapur,
-28714,raikota,avi,palpa,
-28715,deusa,mavi,solukhumbu,
-28716,janajyoti,avi,rukum paschim,
-28717,dharapani,pravi,udayapur,
-28718,devi prabhata,mavi,arghakhanchi,
-28719,,avi,udayapur,
-28720,vikasa,pravi,gorkha,
-28721,janata,nimavi,udayapur,
-28722,bhavani,mavi,rupandehi,
-28725,chuli,avi,okhaldhunga,
-28726,dallida.nda,pravi,okhaldhunga,
-28728,richuva,avi,okhaldhunga,
-28730,champadevi,avi,okhaldhunga,
-28731,lamatola,mavi,bajhang,
-28732,,avi,rukum paschim,
-28734,kalika,mavi,bardiya,
-28736,cha.nga,avi,taplejung,
-28738,kalpana,pravi,kaski,
-28741,rashtriya,pravi,dhanusha,
-28743,siddha varaha,pravi,kaski,
-28744,setu barahi,avi,kaski,
-28747,paravati anaravati tetarivati,avi,dhanusha,
-28748,sirjana samudayika,mavi,kaski,
-28749,janata,pravi,dadeldhura,
-28751,shahida shri hariprasada,avi,kaski,
-28753,janata,mavi,sarlahi,
-28754,sarvajanika,avi,dhanusha,
-28755,srrijana,nimavi,kaski,
-28756,janapriya,mavi,surkhet,
-28758,lakshmi,avi,kaski,
-28760,dipajyoti,pravi,kaski,
-28761,pau.ndura,avi,kaski,
-28762,janata,avi,kaski,
-28764,katyayani,mavi,achham,
-28765,,avi,sarlahi,
-28766,janapriya pipala bha~njya~na,avi,syangja,
-28770,rashtiya,avi,syangja,
-28771,pa~nchase,avi,syangja,
-28772,balmiki,pravi,nawalparasi,
-28774,ba.nsavari,pravi,syangja,
-28775,deurali,mavi,syangja,
-28776,janasamuhika,pravi,syangja,
-28781,j~nanajyoti,mavi,nawalparasi,
-28782,mahovani padama,avi,parsa,
-28784,j~nana jyoti,avi,nawalparasi,
-28785,shanti,avi,kapilbastu,
-28787,nepala rashtiraya,pravi,bara,
-28788,dhaulagiri,pravi,rupandehi,
-28789,nu bahakota,mavi,syangja,
-28790,matrribhumi,pravi,syangja,
-28791,sarasvati,mavi,syangja,
-28792,pyu.ngha,avi,syangja,
-28796,janajyoti,avi,syangja,
-28798,sirsihava,nimavi,siraha,
-28799,chandrama,pravi,syangja,
-28800,shiva,mavi,kapilbastu,
-28801,pyu.ngha,mavi,syangja,
-28803,teja pragati,pravi,syangja,
-28806,belarikhana,avi,syangja,
-28807,shrikala,pravi,syangja,
-28808,shamkara,pravi,syangja,
-28809,,avi,udayapur,
-28810,janapriya,pravi,syangja,
-28811,rashtriya,mavi,sunsari,
-28812,gorakhakali,avi,gorkha,
-28813,anpuna,pravi,syangja,
-28817,mani mukundeshvara veda vidyashrama,avi,syangja,
-28818,suvindreshvara,avi,panchthar,
-28821,hetathamada.nda,avi,panchthar,
-28825,bhavani,avi,panchthar,
-28826,sarvajanika,mavi,panchthar,
-28827,tinamaule,avi,panchthar,
-28829,garbhavati,avi,panchthar,
-28835,jalapa devi,avi,panchthar,
-28839,ageju~na,avi,panchthar,
-28840,virendra,mavi,morang,
-28841,bhaskara,mavi,palpa,
-28843,kataya,avi,rupandehi,
-28845,rashtra sevaka,avi,kapilbastu,
-28846,shri kalika,pravi,palpa,
-28847,shri sarasvati,pravi,palpa,
-28848,gauri shamkara,pravi,bajhang,
-28849,varahi,pravi,palpa,
-28851,,mavi,palpa,
-28853,sharada,avi,nawalparasi,
-28854,madanadevi,pravi,palpa,
-28855,jalapadevi,avi,palpa,
-28858,nepala rashtriya,pravi,parsa,
-28861,pathibhara,pravi,jhapa,
-28863,balabhadra janata,mavi,jhapa,
-28865,,avi,siraha,
-28867,amavadi,avi,jhapa,
-28869,j~nanadipa,pravi,jhapa,
-28870,gaurishamkara,pravi,jhapa,
-28871,shishukalyana,pravi,jhapa,
-28872,,avi,jhapa,
-28873,rashtriya vijaya,mavi,jhapa,
-28875,shri,mavi,jhapa,
-28876,,mavi,jhapa,
-28878,lakshmi,pravi,jhapa,
-28879,,avi,jhapa,
-28880,janaki,avi,jhapa,
-28881,darula,avi,jhapa,
-28885,balabhadra,pravi,jhapa,
-28888,,mavi,dhanusha,
-28889,kalika,pravi,jhapa,
-28894,prrithvi,nimavi,taplejung,
-28895,sahajita,avi,taplejung,
-28896,,avi,makwanpur,
-28897,,pravi,siraha,
-28899,namje chautara da.nda,pravi,taplejung,
-28902,pipleshvari,avi,taplejung,
-28903,,avi,mahottari,
-28904,pati,avi,taplejung,
-28906,phokani,nimavi,morang,
-28909,navajyoti,avi,taplejung,
-28910,bhavani,avi,taplejung,
-28912,tapleju~na,pravi,taplejung,
-28913,baladena,mavi,taplejung,
-28916,siradabhumi,nimavi,darchula,
-28918,tarakota bhavani,pravi,darchula,
-28920,durgasthana,nimavi,darchula,
-28921,sharada,avi,darchula,
-28922,basantapura,mavi,darchula,
-28923,bhumeshvara,avi,baitadi,
-28924,rashtriya,avi,mahottari,
-28926,bala shiksha,avi,pyuthan,
-28927,valasudhara,pravi,pyuthan,
-28928,nepala rashtiya,pravi,pyuthan,
-28929,khadga,pravi,pyuthan,
-28933,mahendra,mavi,pyuthan,
-28934,valajyoti nepala rashtiya,pravi,pyuthan,
-28935,siddha,mavi,pyuthan,
-28936,bala kalyana ne ra,pravi,salyan,
-28938,valabhatta,mavi,pyuthan,
-28940,siddhashvari,pravi,pyuthan,
-28941,j~nanajyoti,avi,pyuthan,
-28942,siddheshvari,pravi,pyuthan,
-28943,kamerapani,avi,pyuthan,
-28944,ne ra,pravi,pyuthan,
-28945,eeshvare ne ra,pravi,pyuthan,
-28946,svargaddhari nepala rashtriya,avi,pyuthan,
-28947,shanti,pravi,kapilbastu,
-28949,jana adarsha,mavi,parbat,
-28950,lakshmi,avi,parbat,
-28952,satyadevi,pravi,bhojpur,
-28953,bala jyoti,pravi,mugu,
-28955,ganesha,avi,mugu,
-28956,gaudali,avi,baitadi,
-28958,kheti,mavi,baitadi,
-28959,manishiddha,avi,nawalparasi,
-28960,ta.ndi,pravi,dolakha,
-28961,ne ra,nimavi,bara,
-28962,kedareshvari,mavi,darchula,
-28966,ramajyoti,pravi,gorkha,
-28967,bajre bha~njya~n,mavi,syangja,
-28968,chanaute,avi,dolakha,
-28971,kalikheala,avi,taplejung,
-28973,netrajyoti balavidya,avi,syangja,
-28974,anaramani,pravi,jhapa,
-28975,shivalaya,pravi,bhojpur,
-28976,janata,avi,mahottari,
-28977,devakota,avi,gorkha,
-28978,janata rashtiya,pravi,dhanusha,
-28979,vauddha bhuvaneshvari,mavi,dolakha,
-28981,krrishna,avi,dadeldhura,
-28982,navajagarana,pravi,nawalparasi,
-28983,sarasvatiku~nja,nimavi,kaski,
-28985,shuddhodhana,pravi,rupandehi,
-28986,rashtriya durga tara,avi,saptari,
-28987,ryachi,avi,dolpa,
-28988,dharmodaya,avi,arghakhanchi,
-28990,ne ra,mavi,bara,
-28991,yaj~nashvara,avi,parbat,
-28994,ja dha ra,pravi,saptari,
-28995,hupsekota,pravi,nawalparasi,
-28996,durga,mavi,jhapa,
-28997,nepala rashtriya,avi,parsa,
-28998,nepala rashtriya,avi,parsa,
-28999,sharada,pravi,gorkha,
-29002,araniko,pravi,kavrepalanchok,
-29003,navadurga,avi,jumla,
-29004,nepala rashtriya,pravi,bara,
-29005,dugdheshvari,pravi,bajhang,
-29006,nanda ji,pravi,dhanusha,
-29007,matrribhumi,nimavi,tanahun,
-29008,mahantha janata rashtri,pravi,saptari,
-29009,thayala,mavi,dadeldhura,
-29010,thaneshvara,pravi,morang,
-29012,varaha,pravi,siraha,
-29014,mamgala,pravi,dailekh,
-29016,ajamare bhagavati,pravi,kalikot,
-29017,rama lakshmana rashtiya,pravi,dhanusha,
-29018,shiddheshvari,mavi,udayapur,
-29020,pa~nchabhaya,pravi,jajarkot,
-29021,hiradhananjaya,pravi,jumla,
-29022,pokhara chisakhola veda vidyashrama,mavi,kaski,
-29024,chvadi pablika,mavi,nuwakot,
-29026,chaturmala,mavi,gorkha,
-29027,sarasvati namuna,mavi,dadeldhura,
-29028,jhirpu,mavi,sindhupalchok,
-29029,sharada,avi,tehrathum,
-29030,harihara,avi,tehrathum,
-29031,subhadra,mavi,nuwakot,
-29032,hupsekota,mavi,nawalparasi,
-29033,shishu kalyana,mavi,syangja,
-29034,himalaya,mavi,kaski,
-29035,himalaya milana,mavi,kaski,
-29036,prakasha,mavi,baglung,
-29037,vishalapura,mavi,baitadi,
-29039,sharada,mavi,parsa,
-29040,shishu jyoti,avi,sunsari,
-29041,siddhadevi,mavi,panchthar,
-29042,rashtriya,mavi,nuwakot,
-29043,shri,avi,baitadi,
-29044,sarasvati,mavi,sindhuli,
-29045,tripura sundari,mavi,sunsari,
-29046,bhagavati,mavi,arghakhanchi,
-29047,kupakanya,nimavi,sindhupalchok,
-29048,janata namuna,mavi,udayapur,
-29049,janata,mavi,syangja,
-29050,janaseva,mavi,bhojpur,
-29051,bhima,mavi,myagdi,
-29052,janapremi,mavi,udayapur,
-29053,rashtriya,mavi,gulmi,
-29054,mahendra,mavi,sindhupalchok,
-29055,basundhara,mavi,achham,
-29057,devalakota,mavi,bajura,
-29058,siddhartha,mavi,tanahun,
-29059,navalapura,mavi,okhaldhunga,
-29060,jivana jyoti,mavi,okhaldhunga,
-29061,pa~nchakanya,mavi,dhading,
-29062,,mavi,udayapur,
-29064,bala kalyana,mavi,rolpa,
-29065,sarasvati,mavi,gulmi,
-29066,janaseva samskrrita,mavi,parbat,
-29067,phulamati,mavi,okhaldhunga,
-29068,manakamana,mavi,ramechhap,
-29069,rameshvara,mavi,sindhupalchok,
-29074,mahakavi devakota,mavi,bardiya,
-29075,chandradevi,avi,sindhuli,
-29076,,pravi,sindhuli,
-29079,sirjanashila,pravi,dhankuta,
-29082,,avi,udayapur,
-29083,mahakali,avi,udayapur,
-29084,buddha,pravi,bardiya,
-29088,buddha,pravi,bardiya,
-29089,rashtiya,avi,chitwan,
-29091,gautama,avi,bhaktapur,
-29092,svami paramananda,pravi,bardiya,
-29094,jagadamba,mavi,baitadi,
-29095,bhairaveshvara,avi,kavrepalanchok,
-29096,vindhavasini,mavi,kavrepalanchok,
-29097,kailasha,mavi,bajura,
-29099,siddha,avi,kailali,
-29100,,mavi,rukum purba,
-29101,,avi,chitwan,
-29102,chelaephalne,avi,rukum purba,
-29103,jana vikasa,avi,jhapa,
-29104,janachetana,avi,rukum purba,
-29105,tribhuvana,avi,rukum purba,
-29107,sudha,nimavi,dang,
-29108,j~nanadipa,pravi,bardiya,
-29109,janachetana,pravi,dang,
-29110,shishu kalyana,avi,salyan,
-29111,,mavi,kalikot,
-29115,namuna,pravi,dang,
-29116,janata,mavi,kalikot,
-29119,,avi,kalikot,
-29120,rama janaki rashtriya,pravi,banke,
-29121,ne ra,mavi,banke,
-29122,,avi,siraha,
-29124,mahamkali,avi,udayapur,
-29126,vindhyavasini,avi,kavrepalanchok,
-29128,manaerachana,avi,okhaldhunga,
-29130,jaya devi,mavi,lamjung,
-29131,bhusune kalidevi,pravi,kavrepalanchok,
-29132,sela~na,mavi,sindhupalchok,
-29133,mamgala,avi,okhaldhunga,
-29134,dudhakoshi,pravi,okhaldhunga,
-29138,jagannatha,avi,baitadi,
-29139,janakalyana,pravi,surkhet,
-29140,janata,pravi,dang,
-29141,kalidevi,mavi,kavrepalanchok,
-29142,churiya,avi,udayapur,
-29144,jana jagrriti,avi,parbat,
-29146,simhadevi,mavi,nuwakot,
-29147,sarasvati,mavi,nuwakot,
-29149,nucheta,avi,nuwakot,
-29152,pasa,avi,dadeldhura,
-29154,samjivani,pravi,kavrepalanchok,
-29155,ganesha rashtriya,avi,chitwan,
-29156,rashtiya,avi,chitwan,
-29158,,avi,udayapur,
-29159,,mavi,udayapur,
-29160,janata,pravi,dadeldhura,
-29161,bhagavati,avi,dadeldhura,
-29164,janata,mavi,udayapur,
-29165,khatibhita,avi,bajura,
-29166,hamsheshvara,pravi,saptari,
-29170,virendra,mavi,nuwakot,
-29171,dikpala,avi,sindhupalchok,
-29176,ramagopala,pravi,kavrepalanchok,
-29180,helambu modala,avi,sindhupalchok,
-29188,navaj~nana niketana,pravi,nuwakot,
-29192,,mavi,rolpa,
-29194,nepala rashtriya,avi,banke,
-29195,nepala rashtriya,pravi,banke,
-29196,sarasvati namuna,mavi,taplejung,
-29197,adarsha vidya mandira,avi,sindhupalchok,
-29198,shiddhanatha praj~na,avi,doti,
-29199,mashteshvari,avi,doti,
-29203,kalika,avi,kavrepalanchok,
-29205,bhagavati,avi,darchula,
-29207,lakshmidevi,mavi,sindhupalchok,
-29208,vishnu charana shreshtha,mavi,siraha,
-29210,danavaga amarajyoti,avi,doti,
-29211,chadala,avi,doti,
-29212,giddheshvara,avi,parbat,
-29213,rashtriya,mavi,bhaktapur,
-29215,nepala rashtriya,mavi,bardiya,
-29216,janajyoti,mavi,jhapa,
-29217,aruna,avi,banke,
-29219,samaiji,nimavi,kailali,
-29221,ishvara,avi,baitadi,
-29224,kedarashila,mavi,baitadi,
-29225,ni~ngalasaini,pravi,baitadi,
-29226,ghatala,mavi,baitadi,
-29227,janachetana,avi,arghakhanchi,
-29228,,avi,ramechhap,
-29229,kalika ishvari,avi,ramechhap,
-29231,nepala rashtriya,avi,parsa,
-29232,bhuvaneshvara natha,avi,parsa,
-29233,rashtriya,avi,dhanusha,
-29235,,avi,dang,
-29237,,avi,udayapur,
-29238,janashakti,avi,udayapur,
-29239,janavishvasa,avi,udayapur,
-29240,,avi,udayapur,
-29241,damva rudreshvara mata pita,avi,udayapur,
-29242,janavikasa,mavi,udayapur,
-29243,piparachauri,mavi,darchula,
-29244,kedaranatha,avi,darchula,
-29245,basantapura,avi,darchula,
-29246,durga latinatha,avi,darchula,
-29247,,avi,darchula,
-29248,jogeuda,avi,darchula,
-29250,baladeva,avi,morang,
-29251,harishchandragadhi,avi,morang,
-29256,,pravi,dang,
-29258,janajyoti,nimavi,sindhuli,
-29259,navajyoti,pravi,sindhuli,
-29260,,avi,sindhuli,
-29261,sarasvati,mavi,sindhuli,
-29262,kamaneshvari,avi,sindhuli,
-29263,gramakali,mavi,sindhuli,
-29265,kamala janajyoti,avi,sindhuli,
-29267,ekata,avi,arghakhanchi,
-29268,kamala,avi,sindhuli,
-29269,janajagrriti,avi,sindhuli,
-29270,sarasvati,mavi,parsa,
-29271,rashtriya,pravi,parsa,
-29272,navakanya,avi,sindhupalchok,
-29273,dipendra,avi,achham,
-29274,narendra,pravi,banke,
-29277,simhadevi,avi,solukhumbu,
-29279,setidevi,avi,solukhumbu,
-29282,vidyadatri,avi,solukhumbu,
-29284,gaurishamkara gurukula vidyashrama solukhumbu,,solukhumbu,
-29285,dibya jyoti,avi,chitwan,
-29287,siddheshvara,mavi,ramechhap,
-29288,barahi,pravi,doti,
-29294,,avi,siraha,
-29295,,avi,sindhuli,
-29296,janasevi,pravi,sindhuli,
-29297,bhattarakunda,pravi,dang,
-29300,rauleshvara ghattepatthara,avi,baitadi,
-29301,bhairavajanata,pravi,dhanusha,
-29302,araniko sadharana tatha,pravi,dolpa,
-29304,jalpashvari,mavi,dolakha,
-29305,siddheshvara,pravi,dolakha,
-29309,pathibhara bhumeshvara,avi,dolakha,
-29311,shobha,mavi,baitadi,
-29312,virabhadra,avi,bardiya,
-29314,,nimavi,dhading,
-29315,bhuvaneshvari,mavi,dhading,
-29321,duva~nga,avi,dhading,
-29325,rashtriya,pravi,dhanusha,
-29326,lokhadi,avi,baitadi,
-29327,bhrrikuti,pravi,kailali,
-29329,pashupati,pravi,rolpa,
-29330,dahadada,pravi,rolpa,
-29331,siddhartha,mavi,rolpa,
-29332,shukra,mavi,rolpa,
-29333,chandrodaya,avi,rolpa,
-29334,janajyoti,mavi,rolpa,
-29336,vageshvari,pravi,rolpa,
-29337,dipendra,mavi,rolpa,
-29338,pa.ndhera,pravi,rolpa,
-29339,jyoti,avi,rolpa,
-29340,vi pi madana smrriti,pravi,achham,
-29341,nandamata,avi,achham,
-29345,bhumeshvara,avi,baitadi,
-29347,bhakunde,pravi,mustang,
-29348,barahathana,pravi,baglung,
-29349,bhujimahavira,avi,baglung,
-29353,dhorapatana salathana,pravi,baglung,
-29359,chandisthana,mavi,baglung,
-29360,kalika,pravi,kalikot,
-29361,j~nanodaya,avi,baglung,
-29362,gaja,avi,baglung,
-29363,devisthana,nimavi,baglung,
-29365,chandra baraha,pravi,bara,
-29367,bhanubhakta,pravi,ramechhap,
-29371,janaseva,pravi,rukum purba,
-29372,kevaikhani,pravi,baglung,
-29373,lakshmi,pravi,surkhet,
-29374,janajagrrita,mavi,surkhet,
-29375,ammarajyoti,avi,surkhet,
-29376,ne ra,pravi,surkhet,
-29377,nepala rashtriya sarasvati,pravi,surkhet,
-29378,chandra surya nepala rashtriya,pravi,surkhet,
-29379,purnadevi,pravi,surkhet,
-29380,janata jyoti,pravi,surkhet,
-29381,bhavani,mavi,surkhet,
-29382,ganesha,pravi,surkhet,
-29383,chandrodaya,mavi,surkhet,
-29384,surya,avi,surkhet,
-29385,,avi,saptari,
-29386,rashtriya,mavi,dhanusha,
-29387,nepala rashtriya,avi,parsa,
-29389,rashtriya,avi,chitwan,
-29392,sisava,avi,nawalparasi,
-29394,nishani devi,pravi,nawalparasi,
-29395,shri kalika,pravi,palpa,
-29397,siddha,pravi,palpa,
-29399,satyavati,pravi,palpa,
-29400,nepala rashtiya,avi,parsa,
-29401,,avi,saptari,
-29402,dembahila,avi,okhaldhunga,
-29403,khanigau.n,mavi,palpa,
-29405,adarsha,pravi,palpa,
-29406,vi pi,avi,doti,
-29407,rashtriya,pravi,saptari,
-29410,ne ra,pravi,bara,
-29413,gobarddhana bairagi janata,mavi,saptari,
-29414,vijuva,mavi,baglung,
-29416,sarasvati,nimavi,bajhang,
-29418,rgaureshvara,pravi,nuwakot,
-29419,janata,avi,saptari,
-29420,vageshvari,avi,nuwakot,
-29421,siddhi ganesha,pravi,nuwakot,
-29422,tinadhare pipalada.nda,mavi,nuwakot,
-29424,rashtriya,pravi,saptari,
-29425,jagrriti jvaladevi,avi,nuwakot,
-29426,bhuvaneshvari,mavi,salyan,
-29429,mahadeva,pravi,salyan,
-29430,bhairavi,pravi,salyan,
-29431,bala upakara,avi,salyan,
-29432,lakshmi,pravi,lamjung,
-29434,prakrritika,avi,salyan,
-29435,vasuka,pravi,salyan,
-29436,govrahi,nimavi,salyan,
-29437,sarasvati,pravi,salyan,
-29439,sthanapati,mavi,ramechhap,
-29440,janata,mavi,saptari,
-29441,lilaja thakura,avi,saptari,
-29442,,avi,udayapur,
-29443,rashtriya,pravi,saptari,
-29444,sigasa,pravi,dadeldhura,
-29447,pablika ekedemi,mavi,syangja,
-29448,ramanadidhama samskrrita garukulam,avi,syangja,
-29450,siddhamandali,avi,syangja,
-29453,sarvodaya,mavi,parbat,
-29454,shivashatti,pravi,syangja,
-29457,,avi,rautahat,
-29459,,nimavi,sindhuli,
-29460,dahathuma,mavi,syangja,
-29461,janavalakalyana,avi,syangja,
-29462,lakshmi,pravi,syangja,
-29464,ratnagamga,mavi,sindhuli,
-29465,simhakali,mavi,solukhumbu,
-29466,,pravi,sarlahi,
-29467,janata,mavi,jhapa,
-29470,bhanubhakta,pravi,jhapa,
-29471,jagadamba,pravi,jhapa,
-29472,siddhadevi,avi,jhapa,
-29475,navajyoti,pravi,jhapa,
-29476,gauri,pravi,jhapa,
-29477,tha~napala bhyali,mavi,sindhupalchok,
-29478,prabhakara,mavi,salyan,
-29480,himali,mavi,jhapa,
-29481,adharabhuta,pravi,ilam,
-29482,siddhadevi sarasvati,avi,ilam,
-29483,patapura,avi,ilam,
-29484,adarsha buddha,avi,ilam,
-29485,sirise,mavi,ilam,
-29486,valakalyana,pravi,ilam,
-29488,lakshmi,avi,ilam,
-29490,siddhartha,avi,dailekh,
-29491,kopila,avi,dailekh,
-29492,gaidavaja,mavi,dailekh,
-29493,pathaki nepala rashtriya,avi,dailekh,
-29494,mahendra,avi,dailekh,
-29495,nepala rashtiya,avi,dailekh,
-29496,nepala rashtriya,avi,dailekh,
-29497,namadeva,nimavi,bajhang,
-29498,pablika,avi,tehrathum,
-29499,narayana,avi,tehrathum,
-29500,banchichaura,mavi,bajhang,
-29503,balodaya,pravi,bara,
-29504,siddheshvari,pravi,tehrathum,
-29506,pa~navoche,pravi,solukhumbu,
-29507,nepala rashtriya,avi,pyuthan,
-29508,bagishvari,mavi,pyuthan,
-29509,jana kalyana,pravi,pyuthan,
-29514,nepala rashtriya,avi,pyuthan,
-29517,adhara,pravi,pyuthan,
-29518,,nimavi,sindhuli,
-29519,,avi,sindhuli,
-29521,vidya arjana,mavi,panchthar,
-29522,siddha sarasvati,avi,panchthar,
-29523,himala jyoti,avi,panchthar,
-29524,arubote,mavi,panchthar,
-29526,simhavahini,avi,panchthar,
-29527,j~nava baletakshara,pravi,gulmi,
-29528,pratibha,pravi,gulmi,
-29529,ka~nke deurali,avi,gulmi,
-29530,bharati,pravi,gulmi,
-29533,gahatera,avi,gulmi,
-29534,shri bhagavati,pravi,gulmi,
-29535,janasahayoga,mavi,gulmi,
-29537,resu~nga,pravi,gulmi,
-29538,thadadhua,pravi,gulmi,
-29541,ddha.nga,pravi,gulmi,
-29544,janajyoti,mavi,rolpa,
-29546,kapre pokhari,pravi,gorkha,
-29547,gauri shamkara,pravi,gulmi,
-29550,raghuphedi,mavi,gulmi,
-29551,bamgha,pravi,gulmi,
-29552,bala vikasa,avi,gulmi,
-29555,tu~natolakota,pravi,gulmi,
-29558,sharada vidya mandira,mavi,gulmi,
-29561,sharada,avi,saptari,
-29562,mahendra adarsha,mavi,gulmi,
-29563,tribhuvana,avi,nawalparasi,
-29564,janakalyana,avi,nawalparasi,
-29565,udaya,pravi,nawalparasi,
-29566,sharada,mavi,nawalparasi,
-29567,bhagyodaya,avi,nawalparasi,
-29568,ra,mavi,mahottari,
-29571,rashtriya,avi,mahottari,
-29572,sema nepala rashtriya,mavi,mahottari,
-29575,navadurga,avi,sunsari,
-29578,janakanya,pravi,bhojpur,
-29582,raktamala,pravi,bhojpur,
-29583,chandreshvara,mavi,bhojpur,
-29585,sum,nimavi,bhojpur,
-29586,himalaya,pravi,bhojpur,
-29590,janakalyana,pravi,bhojpur,
-29592,vijaya,pravi,bhojpur,
-29594,sarasvati vidya mandira,mavi,bajhang,
-29595,bala kalyana,pravi,salyan,
-29596,jana jyoti,avi,mugu,
-29599,hamsavahini,avi,morang,
-29600,ahale,avi,morang,
-29602,phokani,mavi,morang,
-29603,suryajyoti,pravi,morang,
-29606,janani,pravi,kapilbastu,
-29608,kirana,pravi,arghakhanchi,
-29609,nepala rashtriya,mavi,kapilbastu,
-29610,gabadahava,avi,kapilbastu,
-29613,vishvamaitri,pravi,kapilbastu,
-29616,devi vipi,nimavi,kapilbastu,
-29617,ne ra,pravi,kapilbastu,
-29620,trishakti,avi,kapilbastu,
-29621,baghamarava,avi,kapilbastu,
-29622,,pravi,kapilbastu,
-29624,nepala rashtiya,pravi,kapilbastu,
-29625,rashtriya,avi,kapilbastu,
-29627,mulapani,pravi,bardiya,
-29629,dharmodaya,avi,mugu,
-29630,,avi,morang,
-29631,subhadra janata,pravi,kapilbastu,
-29632,amitabha,nimavi,kapilbastu,
-29635,,avi,jumla,
-29636,,mavi,kapilbastu,
-29637,janata,mavi,bajura,
-29638,,avi,kapilbastu,
-29639,svatantra,mavi,kapilbastu,
-29641,,avi,kapilbastu,
-29643,ne ra,pravi,kapilbastu,
-29644,rashtriya,avi,kapilbastu,
-29645,devi,avi,okhaldhunga,
-29646,bhagavati ma dhava gorkha,,gorkha,
-29653,jalakumari,pravi,gorkha,
-29655,devithana,pravi,gorkha,
-29656,janajyoti,pravi,gorkha,
-29657,siddhakali,mavi,gorkha,
-29659,batuki,pravi,gorkha,
-29662,sagaramatha,pravi,gorkha,
-29664,chakravarti,avi,tanahun,
-29665,somajana,pravi,tanahun,
-29666,durgamai,pravi,lamjung,
-29670,keshavatara,mavi,tanahun,
-29671,bhavani sthana,pravi,doti,
-29672,shantivarsha,pravi,tanahun,
-29674,shahida gamga,mavi,tanahun,
-29675,surya,pravi,tanahun,
-29676,radhakrrishna,avi,tanahun,
-29677,madarsha gausiya,pravi,tanahun,
-29678,mahakali,avi,tanahun,
-29679,sunita,pravi,tanahun,
-29680,,mavi,rautahat,
-29682,lakshmi,pravi,parbat,
-29683,ambari,mavi,parbat,
-29684,lakshmibhavana,pravi,parbat,
-29690,suva,avi,myagdi,
-29693,chitu~na,avi,syangja,
-29694,belahiya,mavi,rupandehi,
-29700,pashupati,avi,parsa,
-29702,sarasvati viramaya,avi,kaski,
-29705,bhumeshvara,avi,kaski,
-29708,j~nanodaya,avi,kaski,
-29710,motirama,avi,sunsari,
-29711,tishtu~na deurali,pravi,makwanpur,
-29713,varemtu~na,avi,khotang,
-29714,tinadhare,pravi,khotang,
-29717,satsu,pravi,khotang,
-29722,gamgodaya,mavi,khotang,
-29724,pa~nchavatidevi,avi,khotang,
-29728,sahakala,avi,khotang,
-29732,shiksha jyoti,mavi,khotang,
-29733,janavikasa,mavi,khotang,
-29734,valavalika,avi,khotang,
-29739,baladipa,avi,arghakhanchi,
-29742,nighuradina,pravi,taplejung,
-29745,radhika,avi,taplejung,
-29746,paekhari,pravi,taplejung,
-29747,ojhagau.n,avi,taplejung,
-29749,nepala rashtriya,mavi,bara,
-29750,mahavira,nimavi,bajura,
-29751,nepala rashtiya,nimavi,bara,
-29752,nepala rashtriya,nimavi,bara,
-29753,nepala rashtriya,avi,bara,
-29754,nepala rashtriya,avi,bara,
-29755,nepala rashtriya,pravi,bara,
-29756,nepala rashtriya,mavi,bara,
-29757,nathuni,avi,tanahun,
-29760,simheshvari,avi,sankhuwasabha,
-29761,manashanti,avi,sankhuwasabha,
-29762,jana chetana,avi,bara,
-29763,pa~nchakanya,avi,sankhuwasabha,
-29764,thinkepu,avi,ramechhap,
-29765,omakareshvara,avi,morang,
-29768,sirjanashila,pravi,baglung,
-29769,balajyoti,avi,sankhuwasabha,
-29770,rashtiya,pravi,mahottari,
-29771,sirjanatmaka,avi,khotang,
-29772,nepala rashtiya,mavi,bara,
-29773,udaya,pravi,udayapur,
-29780,tharpuda.nda,mavi,khotang,
-29781,valya~nga,avi,sankhuwasabha,
-29783,ma~njushri jana,pravi,makwanpur,
-29784,vanadevi,avi,makwanpur,
-29785,kushavaha,avi,dhanusha,
-29788,janata,avi,sindhuli,
-29790,janayuva,avi,rukum purba,
-29791,netrakali,mavi,sindhuli,
-29792,khadga mandira,mavi,okhaldhunga,
-29793,lakshmi,avi,gulmi,
-29794,parvatikunda,mavi,rasuwa,
-29795,nepala rashtriya,mavi,bara,
-29796,janajyoti,mavi,parbat,
-29797,thechamvu,mavi,taplejung,
-29798,buddha bhavani,mavi,ramechhap,
-29799,kailapaleshvara,mavi,baitadi,
-29800,devi,pravi,lamjung,
-29803,irkhu,mavi,sindhupalchok,
-29805,mukali,pravi,solukhumbu,
-29806,nepala,avi,nawalparasi,
-29807,tribhuvana vidyashrama,mavi,lamjung,
-29808,pa.nchakanya,mavi,arghakhanchi,
-29809,gurudaya,mavi,rolpa,
-29810,nepala rashtiya,avi,mugu,
-29811,nepala rashtriya,mavi,bardiya,
-29812,,avi,chitwan,
-29813,jalakanya,avi,okhaldhunga,
-29814,rilu chaura,mavi,bajura,
-29815,bhumeshvari,mavi,sindhupalchok,
-29821,shri,pravi,sindhuli,
-29822,janajagrriti,mavi,sindhupalchok,
-29824,,avi,sindhuli,
-29825,,avi,chitwan,
-29826,himashikhara,pravi,humla,
-29827,saptakanya,pravi,okhaldhunga,
-29829,dilasaini,avi,baitadi,
-29830,bhagavati,mavi,dolpa,
-29831,bala,pravi,bara,
-29832,bhrrikuti,pravi,kailali,
-29835,mahadeva,mavi,humla,
-29836,ghanaghasya,mavi,dadeldhura,
-29837,j~nana jyoti,avi,dhanusha,
+27536,shishu kalyana,avi,mahottari,2.0
+27545,maisthana bala vidya mandira indu lakhe,nimavi,parsa,1.5
+27547,nilagiri,mavi,panchthar,1.5
+27548,rapti j~nanodaya,mavi,saptari,2.0
+27549,rashtriya,pravi,dhanusha,2.5
+27551,bala lakshmi,avi,morang,2.0
+27552,na ga sa tatha samskrrita,mavi,nawalparasi,1.5
+27553,bachchaladevi,mavi,dhading,1.5
+27554,maisthana vidyapitha,mavi,parsa,2.0
+27555,rashtiya,pravi,dhanusha,2.5
+27556,,pravi,parsa,2.5
+27557,sva.nra,avi,gulmi,2.0
+27558,,pravi,sarlahi,2.5
+27559,shri,mavi,dhanusha,1.5
+27560,janata,mavi,rautahat,2.5
+27562,tripura sadharana tatha,pravi,dolpa,1.5
+27565,sharada,mavi,arghakhanchi,2.5
+27566,uttaragamga,avi,rukum purba,1.5
+27568,harihara samskrrita tatha sadharana,mavi,rautahat,1.5
+27569,shri pashupati,mavi,siraha,1.5
+27570,,mavi,mahottari,2.5
+27571,sarveshvara,avi,kathmandu,2.0
+27572,janata rashtriya,pravi,saptari,2.0
+27573,janakalyana,avi,makwanpur,2.5
+27575,janata,mavi,banke,2.5
+27577,mahendrodaya,mavi,bhojpur,1.5
+27578,chattisa devi,mavi,nawalparasi,2.0
+27580,chandika,mavi,makwanpur,2.0
+27581,munari rashtriya,avi,mahottari,2.0
+27582,virendra,mavi,morang,2.0
+27583,kuleshvara,avi,ramechhap,1.5
+27584,shivamai,mavi,ilam,1.5
+27585,,mavi,udayapur,2.5
+27587,jvalamukhi,avi,mustang,1.5
+27589,mahendra jyoti,avi,ramechhap,1.5
+27591,chandeshvari,pravi,sindhuli,2.0
+27592,,avi,sindhuli,2.5
+27593,mahakali,avi,sindhuli,2.5
+27594,,mavi,sindhuli,2.5
+27595,,avi,sindhuli,2.5
+27596,siddheshvara,pravi,sindhuli,2.0
+27597,vindeshvari,avi,sindhuli,2.0
+27598,ne ra,pravi,surkhet,2.0
+27599,janaprakasha,pravi,surkhet,2.5
+27602,navajyoti bahira,mavi,sindhuli,2.5
+27603,,pravi,sindhuli,2.5
+27605,,avi,sindhuli,2.5
+27606,sharada,avi,bhaktapur,2.5
+27607,nepala rashtiya,avi,surkhet,2.5
+27608,rashtriya,avi,saptari,2.5
+27610,,pravi,sindhuli,2.5
+27611,,avi,sindhuli,2.5
+27613,sarasvati,avi,parbat,2.5
+27615,,avi,kalikot,2.5
+27616,bhakta vidyashrama,mavi,bhaktapur,1.5
+27617,j~nanabhumi,avi,mustang,2.0
+27618,vaidyanatha veda vidyashrama,nimavi,achham,2.0
+27619,nepala,mavi,nawalparasi,2.0
+27620,janajagrriti,mavi,sindhuli,2.5
+27622,dharmara,pravi,dhading,1.5
+27623,pa~nchakanya,avi,ramechhap,2.5
+27624,gautama buddha,avi,morang,2.0
+27625,pashupati,avi,ramechhap,2.0
+27631,,avi,morang,2.5
+27632,vijaya,mavi,jajarkot,1.5
+27634,jagannatha,mavi,surkhet,2.0
+27637,,nimavi,sindhuli,2.5
+27638,lakshmi,mavi,bajhang,1.5
+27639,,avi,sindhuli,2.5
+27640,,pravi,sindhuli,2.5
+27641,netrakali,avi,sindhuli,1.5
+27642,varuneshvara,mavi,sindhuli,1.5
+27645,suryodaya,mavi,dailekh,2.0
+27646,j~nanajyoti,avi,mustang,2.5
+27647,shivapuragadhi,mavi,nawalparasi,1.5
+27648,bala shiksha niketana,mavi,nawalparasi,1.5
+27649,rashtriya,avi,dhanusha,2.5
+27650,,avi,jumla,2.5
+27651,mamgaleshvari,avi,nuwakot,2.0
+27653,,pravi,parsa,2.5
+27654,vidyavikasa,mavi,rukum paschim,1.5
+27656,deuradevi,avi,achham,1.5
+27657,,pravi,rautahat,2.5
+27658,dharmeshvara,avi,chitwan,1.5
+27659,,avi,chitwan,2.5
+27660,siddhakamana rashtriya,avi,chitwan,1.5
+27661,kalika,mavi,nawalparasi,2.5
+27662,rashtriya,avi,chitwan,2.5
+27667,va.nsakharka,avi,dhading,1.5
+27668,ba.nsakharka,mavi,dhading,1.5
+27670,shivashakti,avi,jajarkot,2.0
+27671,bhumeshvari,avi,lalitpur,1.5
+27672,ta~nave,pravi,mustang,1.5
+27673,ramaroshana yashoda,mavi,achham,1.5
+27674,ddharapaleshvara,mavi,kavrepalanchok,2.0
+27675,divyadipa,mavi,mustang,1.5
+27676,nepala rashtriya,pravi,surkhet,2.5
+27677,dipajyoti,pravi,surkhet,1.5
+27678,bhavani,avi,surkhet,2.5
+27679,vasanta,mavi,nawalparasi,2.0
+27680,,avi,udayapur,2.5
+27681,ne ra,pravi,surkhet,2.0
+27683,nepala rashtiya,mavi,surkhet,2.0
+27684,janajivana,mavi,okhaldhunga,2.5
+27685,ne ra,mavi,surkhet,2.5
+27688,ghodalu~nge,pravi,kailali,1.5
+27691,bhadagau.n sinuvari,mavi,sunsari,1.5
+27692,rashtriya,avi,chitwan,2.5
+27693,maneda.nda,mavi,bhojpur,1.5
+27694,nepala rashtriya janata,pravi,mahottari,2.0
+27695,ramacharana shaha pannavala,nimavi,parsa,1.5
+27696,,avi,chitwan,2.5
+27697,rashtiya,avi,myagdi,2.5
+27698,rashtriya,avi,myagdi,2.5
+27699,,mavi,chitwan,2.5
+27700,nepala rashtriya,avi,surkhet,2.5
+27703,j~nanabhumi,pravi,gorkha,2.5
+27704,bala vikasa,mavi,bajhang,2.0
+27705,vavira,pravi,baglung,1.5
+27713,,avi,siraha,2.5
+27714,sunakhani,pravi,dhading,2.0
+27715,gaira,avi,dhading,1.5
+27717,gogane,avi,ramechhap,2.5
+27718,chandra surya,avi,ramechhap,1.5
+27721,machchindra,mavi,tehrathum,1.5
+27722,janaka,mavi,udayapur,2.0
+27723,vaijanatha,avi,kanchanpur,2.0
+27726,,avi,ramechhap,2.5
+27728,shahida baburama smrriti,avi,ramechhap,1.5
+27729,pamchadevala,avi,dailekh,1.5
+27730,janakalyana,mavi,bajura,2.5
+27732,,avi,siraha,2.5
+27734,,pravi,sarlahi,2.5
+27735,,avi,sindhuli,2.5
+27736,brrisheshvara,avi,dhading,1.5
+27738,bhainda.nda,nimavi,baglung,1.5
+27742,janata,mavi,sunsari,2.5
+27744,kalika,avi,kalikot,2.5
+27746,dasharatha,mavi,dailekh,2.0
+27747,rama,pravi,rupandehi,2.0
+27748,lakshmi,avi,jhapa,1.5
+27751,du~nari,avi,darchula,2.0
+27752,bhrrikuti,mavi,kailali,2.0
+27753,rashtiya,avi,chitwan,2.5
+27756,kedareshvara,avi,kailali,2.0
+27757,indrodaya,pravi,kailali,1.5
+27759,latinatha galinatha,avi,baitadi,2.0
+27760,bhavani,mavi,bajura,2.0
+27761,rupakota,avi,jumla,1.5
+27763,siddhartha kula,avi,dolpa,1.5
+27764,vijaya,avi,achham,1.5
+27767,bhagavati,mavi,bhojpur,2.0
+27768,vagavachchala,avi,dhading,1.5
+27772,,avi,dailekh,2.5
+27774,janavikasa,pravi,sindhuli,2.0
+27775,,pravi,sindhuli,2.5
+27776,janajagrriti,mavi,sindhuli,2.5
+27778,,avi,chitwan,2.5
+27781,janata,avi,sarlahi,2.5
+27782,shakti,avi,chitwan,1.5
+27783,janapriya,avi,nawalparasi,2.5
+27784,tribhuvana,mavi,bardiya,1.5
+27785,,pravi,sindhuli,2.5
+27786,,nimavi,sindhuli,2.5
+27789,bharataeli,mavi,doti,1.5
+27790,nepala rashtriya,avi,surkhet,2.5
+27792,janaki,mavi,rupandehi,2.0
+27794,nepala rashtiya,mavi,bara,2.0
+27798,buddha,pravi,lamjung,2.5
+27799,mukota himala,avi,dolpa,1.5
+27801,adarsha,avi,dailekh,2.5
+27805,mahendrodaya,avi,bhojpur,1.5
+27807,sirjana,avi,siraha,2.5
+27808,j~nanajyoti,pravi,gorkha,2.5
+27810,bhimachandra,avi,chitwan,2.5
+27811,,pravi,dhankuta,2.5
+27812,ne ra,nimavi,bara,2.0
+27814,lakshmi,avi,sunsari,1.5
+27815,malika,pravi,lalitpur,2.5
+27816,gupteshvara,pravi,bhojpur,2.0
+27819,mandali,avi,dolpa,2.0
+27821,sahida sijana chintana,avi,ramechhap,1.5
+27822,naya.n nepala,pravi,gorkha,2.5
+27823,,avi,rukum paschim,2.5
+27824,kailasha pati,pravi,bajhang,2.0
+27826,pa~nchavati,avi,sindhuli,2.0
+27828,raja shri,avi,udayapur,1.5
+27829,janata,mavi,siraha,2.5
+27830,nepala rashtriya,avi,mugu,2.5
+27831,shri,mavi,sindhuli,2.0
+27833,ba.nsapura,pravi,kavrepalanchok,2.0
+27836,prrithvi,mavi,nawalparasi,2.0
+27838,adarsha,avi,dhanusha,2.5
+27839,,pravi,dhankuta,2.5
+27840,kalikadevi,mavi,nuwakot,2.0
+27841,adarsha,mavi,dhading,2.5
+27842,krrishna,avi,sunsari,2.5
+27845,dibya,avi,sunsari,2.0
+27848,,pravi,kalikot,2.5
+27850,chitrama rashtiya,avi,chitwan,1.5
+27851,ajada,avi,kavrepalanchok,2.5
+27854,kumbheshvara,mavi,nuwakot,1.5
+27855,shri,nimavi,dhanusha,1.5
+27857,samudayika,avi,saptari,2.0
+27858,haribamsha rashtriya,pravi,saptari,2.0
+27859,dhravatara,pravi,achham,2.0
+27860,rumjatara,mavi,okhaldhunga,1.5
+27861,aishvarya,avi,bajhang,2.0
+27862,indrapuri,avi,tanahun,2.0
+27863,rashtiya,pravi,dhanusha,2.5
+27864,,avi,rukum purba,2.5
+27865,ganesha,mavi,nawalparasi,2.5
+27866,rashtiya,pravi,dhanusha,2.5
+27867,sarasvati,mavi,kailali,2.5
+27868,janata,mavi,nawalparasi,2.5
+27869,mahendra,avi,bajura,2.5
+27870,ratna,mavi,palpa,2.0
+27873,sarasvati,pravi,rupandehi,2.5
+27876,chandeshvari,avi,lamjung,1.5
+27877,dinabhadri,avi,siraha,2.5
+27879,bhagavati himalaya,mavi,gorkha,1.5
+27880,prabuddha,avi,sankhuwasabha,2.0
+27887,valapamcha,mavi,dhankuta,2.0
+27888,shobhita,pravi,dhankuta,1.5
+27889,radhakrrishna,avi,morang,2.0
+27890,dipendra,mavi,nawalparasi,2.0
+27891,mahendra,avi,dhankuta,2.5
+27892,chilaune,mavi,sindhupalchok,1.5
+27897,kameshvari,mavi,achham,2.0
+27899,sarasvati,pravi,bhojpur,2.5
+27901,jaladhara,avi,kaski,1.5
+27904,janakalyana,avi,banke,2.5
+27906,thumka,pravi,gorkha,1.5
+27907,janaradhika,pravi,bhojpur,2.0
+27910,latinatha,mavi,darchula,2.5
+27912,lala chandra,avi,siraha,2.0
+27913,chatreshvara,mavi,doti,1.5
+27915,bhanudaya,pravi,ilam,2.0
+27917,la.ngarche,mavi,sindhupalchok,1.5
+27919,mashteshvara,avi,doti,2.0
+27920,,avi,jumla,2.5
+27923,dhusha,avi,dhanusha,1.5
+27924,bhume,mavi,kavrepalanchok,2.0
+27927,bhume,avi,myagdi,2.5
+27929,mukrapa devi,mavi,dhading,1.5
+27930,,avi,sindhupalchok,2.5
+27932,shamkhyeshvara,avi,dolakha,2.0
+27934,mashta madu,pravi,dailekh,2.5
+27937,jalakanya,pravi,gorkha,2.5
+27938,,pravi,rautahat,2.5
+27942,mayura nepala rashtriya,avi,bardiya,2.0
+27945,janahita ra,pravi,saptari,2.0
+27947,bhanu,mavi,kailali,2.0
+27949,shiksha vodhani,avi,nawalparasi,1.5
+27950,nepala rashtriya sharada,avi,nawalparasi,1.5
+27953,,avi,siraha,2.5
+27954,balaki,nimavi,gorkha,1.5
+27956,mahadevasthana,avi,dhading,2.5
+27958,shrinagara,mavi,sarlahi,2.0
+27962,,avi,siraha,2.5
+27965,virendra,mavi,mahottari,2.0
+27966,mahendra janata,mavi,nawalparasi,1.5
+27967,,mavi,dang,2.5
+27969,dhaulagiri,avi,dolpa,2.0
+27972,shri nepala rashtriya janajyoti,pravi,surkhet,2.0
+27974,golmadevi,avi,ramechhap,2.5
+27975,navayuvaka,pravi,sarlahi,2.0
+27976,deurali,avi,dolpa,2.0
+27979,sundara,avi,myagdi,2.0
+27982,nepala rashtriya,avi,bara,2.5
+27984,bhima,mavi,myagdi,1.5
+27985,hari,mavi,arghakhanchi,1.5
+27986,pa~nchayata,avi,sunsari,2.5
+27987,nepala rashtriya,mavi,parsa,2.0
+27991,,avi,lalitpur,2.5
+27994,mukti,pravi,bhojpur,2.5
+27996,janajyoti,mavi,rukum purba,2.5
+28003,j~nana jyoti,pravi,nawalparasi,2.5
+28004,bhagavati,mavi,kailali,2.0
+28006,nepala rashtriya,mavi,surkhet,2.0
+28007,pashupati,mavi,bardiya,2.5
+28008,daneshvara,mavi,baitadi,2.0
+28009,divyashvari,avi,dolakha,1.5
+28011,kapileshvara,avi,sindhuli,2.0
+28012,,pravi,sindhuli,2.5
+28014,shri janavikasa,pravi,lalitpur,1.5
+28016,li~nava,pravi,dolakha,2.0
+28018,vishveshvara prasada,avi,bajura,1.5
+28022,phalaha pablika skula,mavi,sunsari,2.0
+28024,nava durga,nimavi,gorkha,2.0
+28025,sajha,avi,rolpa,1.5
+28026,bhadrashila,pravi,gorkha,1.5
+28027,ne ra,pravi,surkhet,2.0
+28029,chetana,avi,myagdi,2.0
+28030,lakshmi,avi,myagdi,1.5
+28031,syalikheta,avi,myagdi,1.5
+28032,navajyoti,pravi,myagdi,2.5
+28034,chandika lala amara,pravi,tanahun,1.5
+28035,saunaka,avi,doti,1.5
+28036,bhimeshvara,nimavi,dolakha,1.5
+28038,deurali,mavi,pyuthan,2.0
+28040,prabhata,avi,kavrepalanchok,2.0
+28043,ajadi,mavi,dolakha,2.0
+28045,janaseva,avi,myagdi,2.0
+28047,dipaka,mavi,myagdi,1.5
+28051,dholthana,avi,myagdi,1.5
+28052,navalapura,avi,okhaldhunga,2.5
+28053,bhimasena,avi,okhaldhunga,1.5
+28055,,pravi,rautahat,2.5
+28062,chandidevi,pravi,dolakha,2.5
+28064,gamga,avi,taplejung,1.5
+28065,da.nda,avi,taplejung,1.5
+28067,durgadevi,pravi,makwanpur,2.0
+28068,,avi,siraha,2.5
+28072,janata krrishna,mavi,arghakhanchi,1.5
+28074,esaoesa harmana mainara,mavi,bhaktapur,1.5
+28075,balabodha,avi,salyan,1.5
+28079,j~nanodaya,avi,sankhuwasabha,1.5
+28082,bageshvari,avi,gorkha,1.5
+28085,sumitra,avi,okhaldhunga,1.5
+28087,vishvakarma,mavi,baglung,2.0
+28089,rotari shrrrijana,pravi,makwanpur,1.5
+28091,sarasvati,pravi,nawalparasi,2.5
+28093,dipendra,avi,nawalparasi,2.0
+28094,indravati,pravi,dolakha,1.5
+28097,janata,pravi,nawalparasi,2.5
+28098,navajyoti,avi,rukum purba,2.0
+28099,shramika,avi,siraha,2.0
+28102,devi,avi,okhaldhunga,2.0
+28104,,avi,saptari,2.5
+28106,sanomani siddha,avi,nawalparasi,1.5
+28112,shri pattale,avi,solukhumbu,1.5
+28114,janajyoti,avi,jhapa,2.5
+28116,vikata,avi,rukum paschim,1.5
+28117,siddhamandali,mavi,rukum purba,1.5
+28120,nava jyoti,mavi,salyan,2.0
+28121,kalika,avi,kavrepalanchok,2.5
+28124,janasarvadana,avi,dolakha,1.5
+28127,,mavi,kanchanpur,2.5
+28128,,avi,dang,2.5
+28129,ratna,pravi,dang,2.5
+28130,anupa,avi,kapilbastu,2.0
+28131,sunali,pravi,sunsari,1.5
+28132,,avi,nuwakot,2.5
+28133,lakshmi,avi,dang,1.5
+28134,,avi,sunsari,2.5
+28135,chandrodaya,pravi,nawalparasi,2.5
+28136,sutlu~na,avi,ilam,1.5
+28138,vipi,mavi,bara,1.5
+28139,mamgala devi,pravi,nawalparasi,2.5
+28140,rashtra sevaka,avi,kapilbastu,2.0
+28141,shri rama sarana,pravi,kapilbastu,2.0
+28142,,avi,rukum purba,2.5
+28144,janata,pravi,tanahun,2.5
+28145,bala kalyana,avi,palpa,2.5
+28147,vijaya,pravi,bardiya,2.0
+28148,pancha jana,pravi,kapilbastu,2.5
+28149,yadava,mavi,nawalparasi,2.5
+28150,lakshmi nepala rashtriya,pravi,surkhet,2.0
+28151,ne ra,pravi,banke,2.0
+28152,,mavi,sindhuli,2.5
+28157,janaseva,mavi,rukum purba,2.0
+28158,devali~ngeshvara,mavi,dolakha,1.5
+28160,bhairama,mavi,nuwakot,2.0
+28165,suryajyoti,avi,nawalparasi,2.5
+28166,nepala rashtiya,avi,dailekh,2.5
+28169,samaja kalyana,nimavi,kavrepalanchok,2.0
+28170,surya kirana,avi,nawalparasi,1.5
+28171,rashtiya,avi,mahottari,2.5
+28173,janahita,nimavi,rupandehi,2.5
+28174,baghabhairava,mavi,makwanpur,1.5
+28175,bhirakota,mavi,gorkha,1.5
+28176,balavikasha,pravi,bajhang,2.0
+28179,yuvavarsha,mavi,ilam,2.0
+28183,vatasachuli,avi,nawalparasi,1.5
+28184,shanti,pravi,nawalparasi,2.5
+28185,hupsekota janakalyana,avi,nawalparasi,1.5
+28187,maranadamdam,pravi,gulmi,2.0
+28188,ganeshamana,pravi,nawalparasi,2.0
+28189,jivanajyoti,pravi,nawalparasi,2.5
+28190,bhanu,avi,nawalparasi,2.5
+28191,shiksha vodhani samudayi,pravi,nawalparasi,1.5
+28193,rashtiya,pravi,dhanusha,2.5
+28194,yuvavarsha,avi,doti,1.5
+28196,janaujvala,avi,nawalparasi,1.5
+28197,rama janaki tinadhara pathashala lakshmipura sukhachaina sarlahi,,sarlahi,1.0
+28199,rashtriya,pravi,mahottari,2.5
+28200,jayamamgala,pravi,tanahun,1.5
+28201,ma.n bhavani,avi,morang,1.5
+28202,janajyoti,pravi,rolpa,2.5
+28203,sundaridevi,avi,makwanpur,2.0
+28204,janamukhi,avi,arghakhanchi,2.0
+28205,tapobhumi,nimavi,jajarkot,1.5
+28206,tapobhumi,mavi,jajarkot,2.0
+28207,dhanusha,avi,dhanusha,1.5
+28208,vindhavasini,pravi,lamjung,1.5
+28209,,pravi,sarlahi,2.5
+28210,panna devi,nimavi,bara,2.0
+28211,virendra,avi,dailekh,2.0
+28212,kushma,avi,arghakhanchi,2.0
+28214,simha bhairaba,avi,makwanpur,2.0
+28215,mahalakshmi,avi,makwanpur,2.0
+28216,balakalyana,avi,nawalparasi,2.5
+28217,shanti niku~nja revati gaumata gautama,pravi,nawalparasi,2.0
+28219,prabhata,avi,salyan,2.0
+28221,,mavi,nawalparasi,2.5
+28222,buddha,avi,humla,2.5
+28225,durga,mavi,ilam,2.5
+28226,nepala rashtriya,mavi,bara,2.0
+28228,durga janajyoti,pravi,bardiya,2.0
+28229,gaurishamkara mahadeva,avi,makwanpur,1.5
+28230,harihara mandira,avi,nawalparasi,1.5
+28231,pragati,mavi,nawalparasi,2.0
+28232,mahavai,nimavi,kalikot,2.0
+28233,rajasthala,pravi,tanahun,1.5
+28234,ne ra,mavi,bara,2.5
+28239,nepala rashtriya,avi,parsa,2.5
+28240,jaya sarasvati,avi,kavrepalanchok,2.0
+28241,yuva,pravi,dailekh,1.5
+28242,pa~nasi~na,avi,gorkha,1.5
+28243,kali devi,mavi,kavrepalanchok,2.0
+28246,redakrasa,avi,sunsari,1.5
+28247,navadurga,pravi,nawalparasi,2.0
+28249,vindhyavasini,avi,kavrepalanchok,1.5
+28251,vala vikasa,avi,morang,2.0
+28252,kashinatha,avi,tehrathum,2.0
+28256,champavati,mavi,gorkha,1.5
+28257,gauru~nga,pravi,bhojpur,2.0
+28260,vindhyavasini,avi,kaski,1.5
+28262,sarasvati,avi,lamjung,2.5
+28263,rashtriya,avi,rukum paschim,2.5
+28264,mahendrodaya,mavi,tanahun,1.5
+28265,rashtriya,avi,tanahun,2.5
+28267,janajyaeti,avi,rukum paschim,2.0
+28268,muhunyalamandai,mavi,doti,2.0
+28269,mahaguru,avi,sankhuwasabha,1.5
+28271,navayuva phulapati,avi,khotang,1.5
+28273,khaptadi,avi,kailali,1.5
+28276,durga,avi,nawalparasi,2.5
+28278,,avi,siraha,2.5
+28280,chulenile,pravi,gorkha,1.5
+28281,jyoti,avi,kavrepalanchok,2.0
+28286,jalakanya,mavi,gorkha,2.0
+28287,adhunika,pravi,rautahat,2.0
+28288,siddhartha,pravi,dang,2.0
+28289,,pravi,parsa,2.5
+28290,shamkara,pravi,dang,1.5
+28291,hari u.n,pravi,dang,1.5
+28292,sarasvati,pravi,dang,2.5
+28293,bhadrakshi debi,pravi,dang,2.0
+28294,,pravi,kalikot,2.5
+28295,janashrama sarasvati,avi,dang,1.5
+28296,lakshmi,pravi,bhojpur,1.5
+28298,rashtriya,mavi,kapilbastu,2.0
+28299,nepala rashtriya janata,avi,mahottari,2.0
+28300,,avi,bhaktapur,2.5
+28301,krrishna,avi,dailekh,2.5
+28305,putha himalaya,mavi,pyuthan,2.5
+28310,shiva parvati,avi,dadeldhura,2.0
+28311,janashakti,avi,arghakhanchi,2.5
+28312,janajagrriti,avi,sindhuli,2.5
+28314,lokatantrika,avi,salyan,1.5
+28316,mamgaladevi,avi,nawalparasi,2.0
+28317,nepala rashtiya,avi,banke,2.5
+28318,pamchadevala,avi,dailekh,1.5
+28321,jayanti,avi,arghakhanchi,2.0
+28323,aishvarya,avi,rukum paschim,1.5
+28324,kali bhume,mavi,dolakha,1.5
+28326,narayana,pravi,bara,2.5
+28327,narayana,avi,jumla,2.0
+28328,janajyoti,avi,gorkha,2.5
+28330,bhairava,avi,dolpa,1.5
+28331,kalikadevi,pravi,rasuwa,2.5
+28333,dhruvajyoti,avi,sankhuwasabha,1.5
+28334,chandeshvari,avi,gorkha,1.5
+28335,shivadaha,mavi,arghakhanchi,1.5
+28336,nabachandrajyoti,avi,darchula,1.5
+28338,janavikasa,mavi,rukum paschim,1.5
+28339,sonaphi,pravi,sarlahi,2.0
+28340,balakalyana,avi,sindhupalchok,2.5
+28342,shanti prakasha,avi,baitadi,2.0
+28343,amara jyaeti,mavi,banke,2.0
+28344,bhavani,mavi,darchula,2.5
+28347,kamadhenu,mavi,tanahun,2.0
+28350,janata,mavi,sarlahi,2.5
+28351,jyoti,pravi,jhapa,2.5
+28354,balavikasa,avi,solukhumbu,2.0
+28355,sahumara,avi,lalitpur,1.5
+28356,,pravi,dang,2.5
+28357,suryajyaeti,pravi,gorkha,2.0
+28359,shri chandri devi,avi,siraha,1.5
+28360,ra,pravi,chitwan,1.5
+28361,bhairabanatha,pravi,dailekh,2.5
+28362,suryajyoti,mavi,lamjung,2.0
+28365,ichcha,avi,gorkha,1.5
+28366,ishvarimala,avi,sindhupalchok,1.5
+28367,durgamasthali,avi,sindhupalchok,1.5
+28369,shri suryadaya,mavi,kapilbastu,2.0
+28371,netra,avi,rolpa,2.0
+28372,mahana shahida jana,pravi,saptari,2.0
+28375,milaneshvari,avi,ramechhap,1.5
+28376,janata,avi,banke,2.5
+28377,parvata,mavi,parbat,1.5
+28378,janata,avi,siraha,2.5
+28379,gorakhanatha,avi,gorkha,2.0
+28380,nepala,avi,dailekh,1.5
+28381,mahendra,mavi,makwanpur,2.5
+28382,gramadevata,avi,saptari,1.5
+28383,suryakirana,avi,sindhupalchok,1.5
+28385,shrrrijana,avi,arghakhanchi,2.0
+28386,janakalyana,pravi,rupandehi,2.5
+28387,navajyoti,avi,sunsari,2.0
+28389,nepala rashtriya,avi,parsa,2.5
+28390,prrithvi,avi,rukum paschim,2.0
+28391,ra,pravi,mahottari,1.5
+28392,valeva~nga,avi,arghakhanchi,1.5
+28395,nepala rashtiya,pravi,parsa,2.5
+28396,kanara,nimavi,kailali,1.5
+28397,shri,avi,sindhupalchok,1.5
+28399,shahida gamgalala,pravi,dolpa,1.5
+28400,nepala rashtriya,pravi,parsa,2.5
+28401,juvala,avi,jumla,2.0
+28402,ne ra,pravi,banke,2.0
+28404,sirise,mavi,ilam,1.5
+28406,mulchoka rashtriya,avi,ilam,1.5
+28412,suryanarayana ra,pravi,mahottari,1.5
+28413,tara,avi,tanahun,1.5
+28414,raidhumga,avi,kalikot,1.5
+28418,masya~ndi,pravi,gorkha,1.5
+28419,anvadi,avi,doti,1.5
+28423,jyoti,avi,ilam,2.0
+28426,nava sirjana,avi,ilam,2.0
+28427,,mavi,dhanusha,2.5
+28428,,mavi,dhanusha,2.5
+28431,balamandira,avi,ilam,2.5
+28432,hiyalala,avi,saptari,1.5
+28433,bhagavati ra,pravi,dhanusha,2.0
+28434,dumsi,nimavi,arghakhanchi,1.0
+28436,deurali,avi,solukhumbu,2.0
+28439,diyalo,nimavi,ilam,1.5
+28441,tribhuvana,avi,ilam,1.5
+28442,nepala rashtriya,nimavi,parsa,2.0
+28444,arya,avi,sunsari,2.0
+28446,nepala rashtriya,pravi,parsa,2.5
+28448,arunodaya,mavi,ramechhap,2.0
+28449,,avi,rautahat,2.5
+28451,nepala rashtriya,avi,bara,2.5
+28452,siddhadipa,avi,baitadi,2.0
+28453,rambhadevi mata,avi,parbat,1.5
+28457,khadga devi,mavi,baglung,1.5
+28458,jvala,pravi,lamjung,1.5
+28461,matrri shishu kalyana,pravi,salyan,2.0
+28462,shishu niketana samudayika,avi,parbat,1.5
+28465,pa~ncha,avi,kalikot,2.5
+28466,mahendra jyoti,pravi,nawalparasi,1.5
+28468,sharada,avi,nawalparasi,2.5
+28469,araniko janata,avi,sarlahi,1.5
+28470,sundari devi,pravi,sunsari,2.5
+28472,majha kharka,pravi,bajhang,1.5
+28476,virendrashali,pravi,lamjung,2.0
+28477,vipi,avi,sindhupalchok,1.5
+28478,rashtiya,avi,chitwan,2.5
+28479,harihara,avi,tehrathum,1.5
+28480,nrrisimha,avi,tehrathum,1.5
+28481,sidadyakali,mavi,tehrathum,1.5
+28485,munaratna,avi,tehrathum,1.5
+28486,janata,avi,udayapur,2.5
+28489,dhanajita,nimavi,sunsari,2.0
+28491,bauddhi devi,pravi,rautahat,2.0
+28493,,avi,banke,2.5
+28497,kamalasa,avi,kanchanpur,2.0
+28499,sansarimai,mavi,sindhupalchok,1.5
+28500,divya,pravi,bajura,2.5
+28501,shri rama,mavi,banke,2.0
+28502,mahendra,mavi,sunsari,2.5
+28503,shri basudeva,nimavi,kapilbastu,1.5
+28504,nepala rashtriya,avi,parsa,2.5
+28505,bhumiraja,mavi,dadeldhura,2.5
+28508,suntalachaura,mavi,baglung,1.5
+28510,timureghata,pravi,baglung,1.5
+28511,manushyamara pashchima,pravi,sarlahi,1.5
+28512,shri batuki,pravi,gorkha,1.5
+28513,gamgeshvara,pravi,dadeldhura,1.5
+28514,nepala rashtriya,avi,bardiya,2.5
+28516,shanishchare,avi,tehrathum,2.5
+28517,sarvajanika,avi,morang,2.5
+28518,vipi,avi,tehrathum,1.5
+28522,tribhuvana,mavi,doti,1.5
+28523,isibu,mavi,tehrathum,1.5
+28525,nepala rashtiya,pravi,parsa,2.5
+28526,namuna jyoti,avi,panchthar,1.5
+28529,siddheshvara,avi,tehrathum,1.5
+28531,janata,mavi,sunsari,2.5
+28532,valamakara,mavi,tehrathum,1.5
+28534,janata shiva,avi,jumla,1.5
+28536,shambhu,avi,arghakhanchi,1.5
+28537,pragati,mavi,nawalparasi,2.0
+28538,,avi,dhanusha,2.5
+28539,vala pratibha,pravi,parbat,1.5
+28540,pa~nchakanya,avi,makwanpur,2.5
+28544,samajika,mavi,rolpa,1.5
+28545,,pravi,kapilbastu,2.5
+28546,vala kalyana,pravi,pyuthan,2.0
+28547,j~nanodaya,avi,rolpa,1.5
+28548,ghinaha,avi,nawalparasi,1.5
+28549,shiva,avi,arghakhanchi,2.5
+28550,bhanu,mavi,manang,2.0
+28551,bala janajagarana,avi,bara,1.5
+28554,bamgha,avi,gulmi,2.0
+28555,balakalyana,avi,rolpa,2.5
+28556,,pravi,rolpa,2.5
+28560,rashtriya,mavi,nawalparasi,2.0
+28562,shiva,avi,banke,2.0
+28563,gairigau.n,pravi,rolpa,2.5
+28564,j~nanaprakasha,avi,pyuthan,2.0
+28567,suryodaya,mavi,gorkha,2.0
+28568,himalaya rashtriya,mavi,kailali,1.5
+28569,,avi,kanchanpur,2.5
+28570,ghaya~nakharka,pravi,solukhumbu,1.5
+28572,ammara,mavi,tanahun,2.0
+28573,vira bhakti,mavi,lamjung,1.5
+28576,shrrrijana,avi,sindhupalchok,1.5
+28578,vindhyeshvari,pravi,lamjung,1.5
+28580,kedara shila,avi,baitadi,2.0
+28581,amarasiddha namuna,mavi,kaski,1.5
+28582,milama natha,pravi,baitadi,2.0
+28584,chandeshvari,pravi,bhojpur,2.0
+28586,jyoti,mavi,khotang,2.5
+28588,gupteshvara,avi,khotang,1.5
+28589,mahendra,mavi,morang,2.5
+28590,valodaya,avi,khotang,1.5
+28593,janapriya,avi,mustang,2.5
+28594,janakalyana,avi,solukhumbu,2.5
+28595,pashupati,pravi,tanahun,2.5
+28596,shanti,mavi,sankhuwasabha,2.0
+28600,nepala rashtriya,mavi,surkhet,2.0
+28601,kaphalasaini,mavi,baitadi,2.0
+28602,nepala rashtriya,avi,parsa,2.5
+28603,kholida.nda,avi,bajura,1.5
+28604,uchchakota,mavi,baitadi,2.0
+28605,bhanu,mavi,syangja,2.0
+28606,rashtriya,mavi,nawalparasi,2.0
+28609,ratna,avi,baitadi,2.0
+28611,bala vikasa,avi,arghakhanchi,1.5
+28613,dudhakunda,avi,solukhumbu,2.0
+28615,vishvajyoti,avi,makwanpur,2.0
+28616,devidarshana,avi,sankhuwasabha,1.5
+28617,rokaya,avi,jumla,2.0
+28619,navadurga,avi,gulmi,2.5
+28623,bhadagau.n,mavi,gulmi,1.5
+28625,adarsha,avi,parsa,2.5
+28627,vedadi,pravi,gulmi,1.5
+28629,nepala rashtriya,pravi,parsa,2.5
+28630,rashtiya,mavi,gulmi,2.0
+28632,ghorle,mavi,gulmi,1.5
+28633,jivana nirmana,pravi,gulmi,2.0
+28635,bhairava,avi,dolpa,1.5
+28636,kurgha,nimavi,gulmi,1.5
+28640,dipa narayana adarsha namuna,mavi,parsa,1.5
+28641,rainadevi,pravi,gulmi,2.0
+28642,pi~ngaladevi,avi,kalikot,2.5
+28643,barsauli,pravi,rupandehi,2.0
+28646,devi,nimavi,khotang,2.0
+28648,satya,avi,bajura,2.0
+28651,vina,mavi,khotang,1.5
+28655,sapsu niketana,avi,khotang,1.5
+28656,shri nirauli,pravi,khotang,1.5
+28659,,pravi,rautahat,2.5
+28660,janaseva,avi,gulmi,2.0
+28661,netrajyoti,avi,kavrepalanchok,1.5
+28662,janata,avi,kapilbastu,2.5
+28663,nepala rashtriya mina,avi,mugu,2.0
+28665,,avi,rautahat,2.5
+28667,aishvarya,avi,dang,1.5
+28671,janata,avi,siraha,2.5
+28673,navajyoti,avi,gulmi,2.0
+28675,pashupati,nimavi,gulmi,2.0
+28677,ra~nvasa,pravi,gulmi,2.0
+28678,ramgilala,mavi,kapilbastu,1.5
+28679,rama janaki,avi,kapilbastu,2.5
+28680,,mavi,kapilbastu,2.5
+28681,rashtriya,mavi,kapilbastu,2.0
+28682,sarasvati,mavi,kapilbastu,2.5
+28683,dharmabhakta,avi,kapilbastu,1.5
+28684,rashtriya,mavi,kapilbastu,2.0
+28685,,avi,siraha,2.5
+28687,rashtiya,mavi,kapilbastu,2.0
+28691,bala jyoti,avi,rupandehi,2.0
+28692,janajagrriti,avi,rupandehi,2.5
+28695,janajyoti,mavi,rukum paschim,2.5
+28696,,mavi,udayapur,2.5
+28697,bala vikasa,avi,udayapur,1.5
+28700,nepala rashtiya,mavi,kapilbastu,2.0
+28703,shanti,avi,nawalparasi,2.5
+28704,rupakala,pravi,nawalparasi,1.5
+28706,janajyoti,avi,udayapur,2.5
+28707,rrigina,avi,lalitpur,1.5
+28708,,avi,banke,2.5
+28709,shri,mavi,udayapur,1.5
+28710,,avi,udayapur,2.5
+28711,bhanubhakta,avi,udayapur,2.5
+28714,raikota,avi,palpa,2.0
+28715,deusa,mavi,solukhumbu,1.5
+28716,janajyoti,avi,rukum paschim,2.5
+28717,dharapani,pravi,udayapur,1.5
+28718,devi prabhata,mavi,arghakhanchi,1.5
+28719,,avi,udayapur,2.5
+28720,vikasa,pravi,gorkha,1.5
+28721,janata,nimavi,udayapur,2.5
+28722,bhavani,mavi,rupandehi,2.0
+28725,chuli,avi,okhaldhunga,1.5
+28726,dallida.nda,pravi,okhaldhunga,1.5
+28728,richuva,avi,okhaldhunga,1.5
+28730,champadevi,avi,okhaldhunga,2.5
+28731,lamatola,mavi,bajhang,2.0
+28732,,avi,rukum paschim,2.5
+28734,kalika,mavi,bardiya,2.5
+28736,cha.nga,avi,taplejung,1.5
+28738,kalpana,pravi,kaski,2.0
+28741,rashtriya,pravi,dhanusha,2.5
+28743,siddha varaha,pravi,kaski,1.5
+28744,setu barahi,avi,kaski,1.5
+28747,paravati anaravati tetarivati,avi,dhanusha,1.5
+28748,sirjana samudayika,mavi,kaski,1.5
+28749,janata,pravi,dadeldhura,2.5
+28751,shahida shri hariprasada,avi,kaski,1.5
+28753,janata,mavi,sarlahi,2.5
+28754,sarvajanika,avi,dhanusha,2.0
+28755,srrijana,nimavi,kaski,2.0
+28756,janapriya,mavi,surkhet,2.0
+28758,lakshmi,avi,kaski,1.5
+28760,dipajyoti,pravi,kaski,1.5
+28761,pau.ndura,avi,kaski,1.5
+28762,janata,avi,kaski,2.5
+28764,katyayani,mavi,achham,2.0
+28765,,avi,sarlahi,2.5
+28766,janapriya pipala bha~njya~na,avi,syangja,1.5
+28770,rashtiya,avi,syangja,2.5
+28771,pa~nchase,avi,syangja,1.5
+28772,balmiki,pravi,nawalparasi,2.0
+28774,ba.nsavari,pravi,syangja,1.5
+28775,deurali,mavi,syangja,2.0
+28776,janasamuhika,pravi,syangja,1.5
+28781,j~nanajyoti,mavi,nawalparasi,2.5
+28782,mahovani padama,avi,parsa,2.0
+28784,j~nana jyoti,avi,nawalparasi,2.5
+28787,nepala rashtiraya,pravi,bara,1.5
+28788,dhaulagiri,pravi,rupandehi,2.5
+28789,nu bahakota,mavi,syangja,1.5
+28790,matrribhumi,pravi,syangja,1.5
+28791,sarasvati,mavi,syangja,2.5
+28792,pyu.ngha,avi,syangja,1.5
+28796,janajyoti,avi,syangja,2.5
+28798,sirsihava,nimavi,siraha,1.5
+28799,chandrama,pravi,syangja,2.5
+28800,shiva,mavi,kapilbastu,2.0
+28801,pyu.ngha,mavi,syangja,1.5
+28803,teja pragati,pravi,syangja,1.5
+28806,belarikhana,avi,syangja,1.5
+28807,shrikala,pravi,syangja,1.5
+28808,shamkara,pravi,syangja,1.5
+28809,,avi,udayapur,2.5
+28810,janapriya,pravi,syangja,2.5
+28811,rashtriya,mavi,sunsari,2.0
+28812,gorakhakali,avi,gorkha,2.0
+28813,anpuna,pravi,syangja,1.5
+28817,mani mukundeshvara veda vidyashrama,avi,syangja,1.0
+28818,suvindreshvara,avi,panchthar,1.5
+28821,hetathamada.nda,avi,panchthar,1.5
+28825,bhavani,avi,panchthar,2.5
+28826,sarvajanika,mavi,panchthar,2.0
+28827,tinamaule,avi,panchthar,1.5
+28829,garbhavati,avi,panchthar,1.5
+28835,jalapa devi,avi,panchthar,2.0
+28839,ageju~na,avi,panchthar,1.5
+28840,virendra,mavi,morang,2.0
+28841,bhaskara,mavi,palpa,1.5
+28843,kataya,avi,rupandehi,1.5
+28845,rashtra sevaka,avi,kapilbastu,2.0
+28846,shri kalika,pravi,palpa,1.5
+28847,shri sarasvati,pravi,palpa,1.5
+28848,gauri shamkara,pravi,bajhang,2.5
+28849,varahi,pravi,palpa,2.0
+28851,,mavi,palpa,2.5
+28853,sharada,avi,nawalparasi,2.5
+28854,madanadevi,pravi,palpa,2.0
+28855,jalapadevi,avi,palpa,2.0
+28858,nepala rashtriya,pravi,parsa,2.5
+28861,pathibhara,pravi,jhapa,2.5
+28863,balabhadra janata,mavi,jhapa,1.5
+28865,,avi,siraha,2.5
+28867,amavadi,avi,jhapa,2.0
+28869,j~nanadipa,pravi,jhapa,2.0
+28870,gaurishamkara,pravi,jhapa,2.5
+28871,shishukalyana,pravi,jhapa,2.5
+28872,,avi,jhapa,2.5
+28873,rashtriya vijaya,mavi,jhapa,1.5
+28875,shri,mavi,jhapa,1.5
+28876,,mavi,jhapa,2.5
+28878,lakshmi,pravi,jhapa,1.5
+28879,,avi,jhapa,2.5
+28881,darula,avi,jhapa,2.0
+28885,balabhadra,pravi,jhapa,2.0
+28888,,mavi,dhanusha,2.5
+28889,kalika,pravi,jhapa,2.5
+28894,prrithvi,nimavi,taplejung,2.0
+28895,sahajita,avi,taplejung,1.5
+28896,,avi,makwanpur,2.5
+28897,,pravi,siraha,2.5
+28899,namje chautara da.nda,pravi,taplejung,2.0
+28902,pipleshvari,avi,taplejung,1.5
+28903,,avi,mahottari,2.5
+28904,pati,avi,taplejung,1.5
+28906,phokani,nimavi,morang,1.5
+28909,navajyoti,avi,taplejung,2.0
+28910,bhavani,avi,taplejung,2.5
+28912,tapleju~na,pravi,taplejung,2.0
+28913,baladena,mavi,taplejung,1.5
+28916,siradabhumi,nimavi,darchula,1.5
+28918,tarakota bhavani,pravi,darchula,2.0
+28920,durgasthana,nimavi,darchula,1.5
+28921,sharada,avi,darchula,2.5
+28922,basantapura,mavi,darchula,1.5
+28923,bhumeshvara,avi,baitadi,2.0
+28924,rashtriya,avi,mahottari,2.5
+28926,bala shiksha,avi,pyuthan,1.5
+28927,valasudhara,pravi,pyuthan,2.0
+28928,nepala rashtiya,pravi,pyuthan,2.5
+28933,mahendra,mavi,pyuthan,2.5
+28934,valajyoti nepala rashtiya,pravi,pyuthan,1.5
+28935,siddha,mavi,pyuthan,2.5
+28936,bala kalyana ne ra,pravi,salyan,2.0
+28938,valabhatta,mavi,pyuthan,2.0
+28940,siddhashvari,pravi,pyuthan,2.0
+28941,j~nanajyoti,avi,pyuthan,2.5
+28942,siddheshvari,pravi,pyuthan,2.5
+28943,kamerapani,avi,pyuthan,1.5
+28944,ne ra,pravi,pyuthan,2.0
+28945,eeshvare ne ra,pravi,pyuthan,1.5
+28946,svargaddhari nepala rashtriya,avi,pyuthan,2.0
+28947,shanti,pravi,kapilbastu,2.5
+28949,jana adarsha,mavi,parbat,1.5
+28950,lakshmi,avi,parbat,2.0
+28952,satyadevi,pravi,bhojpur,2.0
+28953,bala jyoti,pravi,mugu,2.5
+28955,ganesha,avi,mugu,2.0
+28956,gaudali,avi,baitadi,2.0
+28958,kheti,mavi,baitadi,2.0
+28959,manishiddha,avi,nawalparasi,2.5
+28960,ta.ndi,pravi,dolakha,1.5
+28961,ne ra,nimavi,bara,2.0
+28962,kedareshvari,mavi,darchula,2.0
+28966,ramajyoti,pravi,gorkha,2.0
+28967,bajre bha~njya~n,mavi,syangja,1.5
+28968,chanaute,avi,dolakha,2.0
+28971,kalikheala,avi,taplejung,1.5
+28973,netrajyoti balavidya,avi,syangja,1.5
+28975,shivalaya,pravi,bhojpur,2.0
+28976,janata,avi,mahottari,2.5
+28977,devakota,avi,gorkha,2.5
+28978,janata rashtiya,pravi,dhanusha,2.0
+28979,vauddha bhuvaneshvari,mavi,dolakha,1.5
+28981,krrishna,avi,dadeldhura,2.5
+28982,navajagarana,pravi,nawalparasi,1.5
+28983,sarasvatiku~nja,nimavi,kaski,1.5
+28985,shuddhodhana,pravi,rupandehi,1.5
+28986,rashtriya durga tara,avi,saptari,2.0
+28987,ryachi,avi,dolpa,1.5
+28988,dharmodaya,avi,arghakhanchi,1.5
+28990,ne ra,mavi,bara,2.5
+28991,yaj~nashvara,avi,parbat,1.5
+28994,ja dha ra,pravi,saptari,2.0
+28995,hupsekota,pravi,nawalparasi,1.5
+28996,durga,mavi,jhapa,2.5
+28997,nepala rashtriya,avi,parsa,2.5
+28998,nepala rashtriya,avi,parsa,2.5
+28999,sharada,pravi,gorkha,2.5
+29002,araniko,pravi,kavrepalanchok,2.5
+29003,navadurga,avi,jumla,2.5
+29004,nepala rashtriya,pravi,bara,2.5
+29005,dugdheshvari,pravi,bajhang,2.0
+29006,nanda ji,pravi,dhanusha,1.5
+29007,matrribhumi,nimavi,tanahun,1.5
+29008,mahantha janata rashtri,pravi,saptari,2.0
+29009,thayala,mavi,dadeldhura,1.5
+29010,thaneshvara,pravi,morang,2.0
+29012,varaha,pravi,siraha,2.0
+29014,mamgala,pravi,dailekh,2.5
+29016,ajamare bhagavati,pravi,kalikot,2.0
+29017,rama lakshmana rashtiya,pravi,dhanusha,1.5
+29018,shiddheshvari,mavi,udayapur,1.5
+29020,pa~nchabhaya,pravi,jajarkot,1.5
+29021,hiradhananjaya,pravi,jumla,1.5
+29022,pokhara chisakhola veda vidyashrama,mavi,kaski,1.5
+29024,chvadi pablika,mavi,nuwakot,1.5
+29026,chaturmala,mavi,gorkha,1.5
+29027,sarasvati namuna,mavi,dadeldhura,2.0
+29028,jhirpu,mavi,sindhupalchok,1.5
+29029,sharada,avi,tehrathum,2.5
+29030,harihara,avi,tehrathum,1.5
+29031,subhadra,mavi,nuwakot,2.0
+29032,hupsekota,mavi,nawalparasi,1.5
+29033,shishu kalyana,mavi,syangja,2.0
+29034,himalaya,mavi,kaski,2.0
+29035,himalaya milana,mavi,kaski,1.5
+29036,prakasha,mavi,baglung,1.5
+29037,vishalapura,mavi,baitadi,1.5
+29039,sharada,mavi,parsa,2.5
+29040,shishu jyoti,avi,sunsari,2.0
+29041,siddhadevi,mavi,panchthar,2.5
+29042,rashtriya,mavi,nuwakot,2.0
+29043,shri,avi,baitadi,2.0
+29044,sarasvati,mavi,sindhuli,2.5
+29045,tripura sundari,mavi,sunsari,2.5
+29046,bhagavati,mavi,arghakhanchi,2.0
+29047,kupakanya,nimavi,sindhupalchok,1.5
+29048,janata namuna,mavi,udayapur,2.0
+29049,janata,mavi,syangja,2.5
+29050,janaseva,mavi,bhojpur,2.0
+29051,bhima,mavi,myagdi,1.5
+29052,janapremi,mavi,udayapur,2.5
+29053,rashtriya,mavi,gulmi,2.0
+29054,mahendra,mavi,sindhupalchok,2.5
+29055,basundhara,mavi,achham,2.0
+29057,devalakota,mavi,bajura,2.0
+29058,siddhartha,mavi,tanahun,2.0
+29059,navalapura,mavi,okhaldhunga,2.5
+29060,jivana jyoti,mavi,okhaldhunga,2.5
+29061,pa~nchakanya,mavi,dhading,2.5
+29062,,mavi,udayapur,2.5
+29064,bala kalyana,mavi,rolpa,2.0
+29065,sarasvati,mavi,gulmi,2.5
+29066,janaseva samskrrita,mavi,parbat,1.5
+29067,phulamati,mavi,okhaldhunga,1.5
+29068,manakamana,mavi,ramechhap,2.0
+29069,rameshvara,mavi,sindhupalchok,1.5
+29074,mahakavi devakota,mavi,bardiya,1.5
+29075,chandradevi,avi,sindhuli,1.5
+29076,,pravi,sindhuli,2.5
+29079,sirjanashila,pravi,dhankuta,2.0
+29082,,avi,udayapur,2.5
+29083,mahakali,avi,udayapur,2.0
+29089,rashtiya,avi,chitwan,2.5
+29091,gautama,avi,bhaktapur,2.0
+29095,bhairaveshvara,avi,kavrepalanchok,1.5
+29096,vindhavasini,mavi,kavrepalanchok,1.5
+29097,kailasha,mavi,bajura,2.0
+29099,siddha,avi,kailali,2.5
+29100,,mavi,rukum purba,2.5
+29101,,avi,chitwan,2.5
+29102,chelaephalne,avi,rukum purba,1.5
+29103,jana vikasa,avi,jhapa,1.5
+29104,janachetana,avi,rukum purba,2.0
+29105,tribhuvana,avi,rukum purba,1.5
+29107,sudha,nimavi,dang,1.5
+29108,j~nanadipa,pravi,bardiya,2.0
+29109,janachetana,pravi,dang,2.5
+29110,shishu kalyana,avi,salyan,2.0
+29111,,mavi,kalikot,2.5
+29115,namuna,pravi,dang,2.5
+29116,janata,mavi,kalikot,2.5
+29119,,avi,kalikot,2.5
+29120,rama janaki rashtriya,pravi,banke,2.0
+29121,ne ra,mavi,banke,2.5
+29122,,avi,siraha,2.5
+29124,mahamkali,avi,udayapur,2.0
+29126,vindhyavasini,avi,kavrepalanchok,1.5
+29128,manaerachana,avi,okhaldhunga,1.5
+29130,jaya devi,mavi,lamjung,1.5
+29131,bhusune kalidevi,pravi,kavrepalanchok,2.0
+29132,sela~na,mavi,sindhupalchok,1.5
+29133,mamgala,avi,okhaldhunga,2.0
+29134,dudhakoshi,pravi,okhaldhunga,2.0
+29138,jagannatha,avi,baitadi,2.0
+29139,janakalyana,pravi,surkhet,2.5
+29140,janata,pravi,dang,2.5
+29141,kalidevi,mavi,kavrepalanchok,2.0
+29142,churiya,avi,udayapur,1.5
+29144,jana jagrriti,avi,parbat,2.5
+29146,simhadevi,mavi,nuwakot,2.0
+29147,sarasvati,mavi,nuwakot,2.5
+29149,nucheta,avi,nuwakot,1.5
+29152,pasa,avi,dadeldhura,1.5
+29154,samjivani,pravi,kavrepalanchok,2.0
+29155,ganesha rashtriya,avi,chitwan,1.5
+29156,rashtiya,avi,chitwan,2.5
+29158,,avi,udayapur,2.5
+29159,,mavi,udayapur,2.5
+29160,janata,pravi,dadeldhura,2.5
+29161,bhagavati,avi,dadeldhura,2.5
+29164,janata,mavi,udayapur,2.5
+29165,khatibhita,avi,bajura,1.5
+29166,hamsheshvara,pravi,saptari,2.0
+29170,virendra,mavi,nuwakot,2.0
+29171,dikpala,avi,sindhupalchok,1.5
+29176,ramagopala,pravi,kavrepalanchok,1.5
+29180,helambu modala,avi,sindhupalchok,1.5
+29188,navaj~nana niketana,pravi,nuwakot,1.5
+29192,,mavi,rolpa,2.5
+29194,nepala rashtriya,avi,banke,2.5
+29195,nepala rashtriya,pravi,banke,2.5
+29196,sarasvati namuna,mavi,taplejung,1.5
+29197,adarsha vidya mandira,avi,sindhupalchok,1.5
+29198,shiddhanatha praj~na,avi,doti,1.5
+29199,mashteshvari,avi,doti,2.0
+29203,kalika,avi,kavrepalanchok,2.5
+29205,bhagavati,avi,darchula,2.5
+29207,lakshmidevi,mavi,sindhupalchok,2.0
+29208,vishnu charana shreshtha,mavi,siraha,1.5
+29210,danavaga amarajyoti,avi,doti,1.5
+29211,chadala,avi,doti,1.5
+29212,giddheshvara,avi,parbat,1.5
+29213,rashtriya,mavi,bhaktapur,2.0
+29215,nepala rashtriya,mavi,bardiya,2.0
+29216,janajyoti,mavi,jhapa,2.5
+29217,aruna,avi,banke,2.0
+29219,samaiji,nimavi,kailali,2.0
+29221,ishvara,avi,baitadi,2.0
+29224,kedarashila,mavi,baitadi,2.0
+29225,ni~ngalasaini,pravi,baitadi,2.5
+29227,janachetana,avi,arghakhanchi,2.0
+29228,,avi,ramechhap,2.5
+29229,kalika ishvari,avi,ramechhap,2.5
+29231,nepala rashtriya,avi,parsa,2.5
+29232,bhuvaneshvara natha,avi,parsa,1.5
+29233,rashtriya,avi,dhanusha,2.5
+29235,,avi,dang,2.5
+29237,,avi,udayapur,2.5
+29238,janashakti,avi,udayapur,2.5
+29239,janavishvasa,avi,udayapur,1.5
+29240,,avi,udayapur,2.5
+29241,damva rudreshvara mata pita,avi,udayapur,1.5
+29242,janavikasa,mavi,udayapur,2.0
+29243,piparachauri,mavi,darchula,1.5
+29245,basantapura,avi,darchula,1.5
+29247,,avi,darchula,2.5
+29248,jogeuda,avi,darchula,2.5
+29250,baladeva,avi,morang,1.5
+29251,harishchandragadhi,avi,morang,2.0
+29256,,pravi,dang,2.5
+29258,janajyoti,nimavi,sindhuli,2.5
+29259,navajyoti,pravi,sindhuli,2.5
+29260,,avi,sindhuli,2.5
+29261,sarasvati,mavi,sindhuli,2.5
+29262,kamaneshvari,avi,sindhuli,2.0
+29263,gramakali,mavi,sindhuli,2.0
+29265,kamala janajyoti,avi,sindhuli,2.5
+29267,ekata,avi,arghakhanchi,2.0
+29268,kamala,avi,sindhuli,2.5
+29269,janajagrriti,avi,sindhuli,2.5
+29270,sarasvati,mavi,parsa,2.5
+29271,rashtriya,pravi,parsa,2.5
+29272,navakanya,avi,sindhupalchok,2.0
+29273,dipendra,avi,achham,2.0
+29274,narendra,pravi,banke,2.0
+29277,simhadevi,avi,solukhumbu,1.5
+29279,setidevi,avi,solukhumbu,2.5
+29282,vidyadatri,avi,solukhumbu,1.5
+29284,gaurishamkara gurukula vidyashrama solukhumbu,,solukhumbu,1.0
+29285,dibya jyoti,avi,chitwan,2.0
+29287,siddheshvara,mavi,ramechhap,1.5
+29288,barahi,pravi,doti,2.5
+29294,,avi,siraha,2.5
+29295,,avi,sindhuli,2.5
+29297,bhattarakunda,pravi,dang,1.5
+29300,rauleshvara ghattepatthara,avi,baitadi,1.5
+29301,bhairavajanata,pravi,dhanusha,1.5
+29302,araniko sadharana tatha,pravi,dolpa,1.5
+29304,jalpashvari,mavi,dolakha,1.5
+29305,siddheshvara,pravi,dolakha,1.5
+29309,pathibhara bhumeshvara,avi,dolakha,1.5
+29311,shobha,mavi,baitadi,1.5
+29312,virabhadra,avi,bardiya,1.5
+29314,,nimavi,dhading,2.5
+29315,bhuvaneshvari,mavi,dhading,2.0
+29321,duva~nga,avi,dhading,1.5
+29325,rashtriya,pravi,dhanusha,2.5
+29326,lokhadi,avi,baitadi,2.0
+29327,bhrrikuti,pravi,kailali,2.5
+29329,pashupati,pravi,rolpa,2.5
+29330,dahadada,pravi,rolpa,1.5
+29331,siddhartha,mavi,rolpa,2.0
+29332,shukra,mavi,rolpa,1.5
+29333,chandrodaya,avi,rolpa,2.5
+29334,janajyoti,mavi,rolpa,2.5
+29336,vageshvari,pravi,rolpa,1.5
+29337,dipendra,mavi,rolpa,2.0
+29338,pa.ndhera,pravi,rolpa,1.5
+29339,jyoti,avi,rolpa,2.0
+29340,vi pi madana smrriti,pravi,achham,2.0
+29341,nandamata,avi,achham,1.5
+29345,bhumeshvara,avi,baitadi,2.0
+29347,bhakunde,pravi,mustang,1.5
+29348,barahathana,pravi,baglung,1.5
+29349,bhujimahavira,avi,baglung,1.5
+29353,dhorapatana salathana,pravi,baglung,1.5
+29359,chandisthana,mavi,baglung,1.5
+29360,kalika,pravi,kalikot,2.5
+29361,j~nanodaya,avi,baglung,2.0
+29362,gaja,avi,baglung,1.5
+29363,devisthana,nimavi,baglung,2.0
+29365,chandra baraha,pravi,bara,2.0
+29367,bhanubhakta,pravi,ramechhap,2.0
+29371,janaseva,pravi,rukum purba,2.5
+29372,kevaikhani,pravi,baglung,1.5
+29373,lakshmi,pravi,surkhet,1.5
+29374,janajagrrita,mavi,surkhet,2.0
+29375,ammarajyoti,avi,surkhet,1.5
+29376,ne ra,pravi,surkhet,2.0
+29377,nepala rashtriya sarasvati,pravi,surkhet,2.0
+29378,chandra surya nepala rashtriya,pravi,surkhet,2.0
+29379,purnadevi,pravi,surkhet,1.5
+29380,janata jyoti,pravi,surkhet,2.5
+29381,bhavani,mavi,surkhet,2.0
+29382,ganesha,pravi,surkhet,2.5
+29383,chandrodaya,mavi,surkhet,2.0
+29384,surya,avi,surkhet,2.0
+29385,,avi,saptari,2.5
+29386,rashtriya,mavi,dhanusha,2.0
+29387,nepala rashtriya,avi,parsa,2.5
+29389,rashtriya,avi,chitwan,2.5
+29392,sisava,avi,nawalparasi,1.5
+29394,nishani devi,pravi,nawalparasi,1.5
+29395,shri kalika,pravi,palpa,1.5
+29397,siddha,pravi,palpa,2.5
+29399,satyavati,pravi,palpa,2.5
+29400,nepala rashtiya,avi,parsa,2.5
+29401,,avi,saptari,2.5
+29402,dembahila,avi,okhaldhunga,1.5
+29403,khanigau.n,mavi,palpa,2.0
+29405,adarsha,pravi,palpa,2.5
+29406,vi pi,avi,doti,1.5
+29407,rashtriya,pravi,saptari,2.5
+29410,ne ra,pravi,bara,2.0
+29413,gobarddhana bairagi janata,mavi,saptari,1.5
+29414,vijuva,mavi,baglung,1.5
+29416,sarasvati,nimavi,bajhang,2.5
+29418,rgaureshvara,pravi,nuwakot,2.0
+29419,janata,avi,saptari,2.5
+29420,vageshvari,avi,nuwakot,2.0
+29421,siddhi ganesha,pravi,nuwakot,2.5
+29422,tinadhare pipalada.nda,mavi,nuwakot,1.5
+29424,rashtriya,pravi,saptari,2.5
+29425,jagrriti jvaladevi,avi,nuwakot,2.0
+29426,bhuvaneshvari,mavi,salyan,2.0
+29431,bala upakara,avi,salyan,2.0
+29432,lakshmi,pravi,lamjung,1.5
+29434,prakrritika,avi,salyan,1.5
+29435,vasuka,pravi,salyan,2.0
+29436,govrahi,nimavi,salyan,2.5
+29439,sthanapati,mavi,ramechhap,2.0
+29440,janata,mavi,saptari,2.5
+29441,lilaja thakura,avi,saptari,2.0
+29442,,avi,udayapur,2.5
+29443,rashtriya,pravi,saptari,2.5
+29444,sigasa,pravi,dadeldhura,2.5
+29447,pablika ekedemi,mavi,syangja,1.5
+29448,ramanadidhama samskrrita garukulam,avi,syangja,1.0
+29450,siddhamandali,avi,syangja,1.5
+29453,sarvodaya,mavi,parbat,1.5
+29454,shivashatti,pravi,syangja,2.5
+29457,,avi,rautahat,2.5
+29459,,nimavi,sindhuli,2.5
+29460,dahathuma,mavi,syangja,1.5
+29461,janavalakalyana,avi,syangja,1.5
+29462,lakshmi,pravi,syangja,1.5
+29464,ratnagamga,mavi,sindhuli,2.5
+29465,simhakali,mavi,solukhumbu,1.5
+29466,,pravi,sarlahi,2.5
+29467,janata,mavi,jhapa,2.5
+29470,bhanubhakta,pravi,jhapa,2.0
+29471,jagadamba,pravi,jhapa,2.0
+29472,siddhadevi,avi,jhapa,2.0
+29475,navajyoti,pravi,jhapa,2.5
+29476,gauri,pravi,jhapa,2.5
+29477,tha~napala bhyali,mavi,sindhupalchok,1.5
+29478,prabhakara,mavi,salyan,1.5
+29480,himali,mavi,jhapa,1.5
+29481,adharabhuta,pravi,ilam,2.0
+29482,siddhadevi sarasvati,avi,ilam,2.0
+29483,patapura,avi,ilam,2.0
+29484,adarsha buddha,avi,ilam,1.5
+29485,sirise,mavi,ilam,1.5
+29486,valakalyana,pravi,ilam,2.0
+29488,lakshmi,avi,ilam,1.5
+29490,siddhartha,avi,dailekh,2.0
+29491,kopila,avi,dailekh,1.5
+29492,gaidavaja,mavi,dailekh,1.5
+29493,pathaki nepala rashtriya,avi,dailekh,1.5
+29494,mahendra,avi,dailekh,2.5
+29495,nepala rashtiya,avi,dailekh,2.5
+29496,nepala rashtriya,avi,dailekh,2.5
+29497,namadeva,nimavi,bajhang,1.5
+29498,pablika,avi,tehrathum,1.5
+29499,narayana,avi,tehrathum,2.0
+29500,banchichaura,mavi,bajhang,2.0
+29503,balodaya,pravi,bara,2.0
+29504,siddheshvari,pravi,tehrathum,2.5
+29506,pa~navoche,pravi,solukhumbu,1.5
+29507,nepala rashtriya,avi,pyuthan,2.5
+29508,bagishvari,mavi,pyuthan,1.5
+29509,jana kalyana,pravi,pyuthan,2.5
+29514,nepala rashtriya,avi,pyuthan,2.5
+29518,,nimavi,sindhuli,2.5
+29519,,avi,sindhuli,2.5
+29521,vidya arjana,mavi,panchthar,1.5
+29522,siddha sarasvati,avi,panchthar,1.5
+29523,himala jyoti,avi,panchthar,1.5
+29524,arubote,mavi,panchthar,1.5
+29526,simhavahini,avi,panchthar,2.0
+29527,j~nava baletakshara,pravi,gulmi,1.5
+29528,pratibha,pravi,gulmi,2.0
+29529,ka~nke deurali,avi,gulmi,2.0
+29530,bharati,pravi,gulmi,2.0
+29533,gahatera,avi,gulmi,2.5
+29534,shri bhagavati,pravi,gulmi,2.0
+29535,janasahayoga,mavi,gulmi,2.0
+29537,resu~nga,pravi,gulmi,1.5
+29538,thadadhua,pravi,gulmi,2.0
+29541,ddha.nga,pravi,gulmi,2.0
+29544,janajyoti,mavi,rolpa,2.5
+29546,kapre pokhari,pravi,gorkha,1.5
+29547,gauri shamkara,pravi,gulmi,2.5
+29550,raghuphedi,mavi,gulmi,1.5
+29551,bamgha,pravi,gulmi,2.0
+29552,bala vikasa,avi,gulmi,2.0
+29555,tu~natolakota,pravi,gulmi,1.5
+29558,sharada vidya mandira,mavi,gulmi,1.5
+29561,sharada,avi,saptari,2.5
+29562,mahendra adarsha,mavi,gulmi,1.5
+29563,tribhuvana,avi,nawalparasi,1.5
+29564,janakalyana,avi,nawalparasi,2.5
+29565,udaya,pravi,nawalparasi,2.0
+29566,sharada,mavi,nawalparasi,2.5
+29567,bhagyodaya,avi,nawalparasi,1.5
+29568,ra,mavi,mahottari,1.5
+29571,rashtriya,avi,mahottari,2.5
+29572,sema nepala rashtriya,mavi,mahottari,2.0
+29575,navadurga,avi,sunsari,2.5
+29578,janakanya,pravi,bhojpur,2.0
+29582,raktamala,pravi,bhojpur,2.5
+29583,chandreshvara,mavi,bhojpur,2.0
+29585,sum,nimavi,bhojpur,1.5
+29586,himalaya,pravi,bhojpur,2.5
+29590,janakalyana,pravi,bhojpur,2.5
+29592,vijaya,pravi,bhojpur,1.5
+29594,sarasvati vidya mandira,mavi,bajhang,2.5
+29595,bala kalyana,pravi,salyan,2.5
+29596,jana jyoti,avi,mugu,2.5
+29599,hamsavahini,avi,morang,1.5
+29600,ahale,avi,morang,1.5
+29602,phokani,mavi,morang,2.0
+29603,suryajyoti,pravi,morang,2.0
+29606,janani,pravi,kapilbastu,2.0
+29608,kirana,pravi,arghakhanchi,2.5
+29609,nepala rashtriya,mavi,kapilbastu,2.0
+29610,gabadahava,avi,kapilbastu,1.5
+29613,vishvamaitri,pravi,kapilbastu,1.5
+29616,devi vipi,nimavi,kapilbastu,1.5
+29617,ne ra,pravi,kapilbastu,2.0
+29620,trishakti,avi,kapilbastu,1.5
+29621,baghamarava,avi,kapilbastu,1.5
+29622,,pravi,kapilbastu,2.5
+29624,nepala rashtiya,pravi,kapilbastu,2.5
+29625,rashtriya,avi,kapilbastu,2.5
+29627,mulapani,pravi,bardiya,1.5
+29629,dharmodaya,avi,mugu,1.5
+29630,,avi,morang,2.5
+29631,subhadra janata,pravi,kapilbastu,2.0
+29632,amitabha,nimavi,kapilbastu,1.5
+29635,,avi,jumla,2.5
+29636,,mavi,kapilbastu,2.5
+29637,janata,mavi,bajura,2.5
+29638,,avi,kapilbastu,2.5
+29639,svatantra,mavi,kapilbastu,1.5
+29641,,avi,kapilbastu,2.5
+29643,ne ra,pravi,kapilbastu,2.0
+29644,rashtriya,avi,kapilbastu,2.5
+29645,devi,avi,okhaldhunga,2.0
+29646,bhagavati ma dhava gorkha,,gorkha,1.0
+29653,jalakumari,pravi,gorkha,2.0
+29655,devithana,pravi,gorkha,2.0
+29656,janajyoti,pravi,gorkha,2.5
+29657,siddhakali,mavi,gorkha,1.5
+29659,batuki,pravi,gorkha,2.0
+29662,sagaramatha,pravi,gorkha,2.0
+29664,chakravarti,avi,tanahun,2.0
+29665,somajana,pravi,tanahun,1.5
+29666,durgamai,pravi,lamjung,1.5
+29670,keshavatara,mavi,tanahun,1.5
+29671,bhavani sthana,pravi,doti,1.5
+29672,shantivarsha,pravi,tanahun,1.5
+29674,shahida gamga,mavi,tanahun,1.5
+29675,surya,pravi,tanahun,2.5
+29676,radhakrrishna,avi,tanahun,2.0
+29678,mahakali,avi,tanahun,2.0
+29679,sunita,pravi,tanahun,1.5
+29680,,mavi,rautahat,2.5
+29682,lakshmi,pravi,parbat,1.5
+29683,ambari,mavi,parbat,2.0
+29684,lakshmibhavana,pravi,parbat,1.5
+29690,suva,avi,myagdi,1.5
+29693,chitu~na,avi,syangja,1.5
+29694,belahiya,mavi,rupandehi,1.5
+29700,pashupati,avi,parsa,2.0
+29702,sarasvati viramaya,avi,kaski,1.5
+29705,bhumeshvara,avi,kaski,1.5
+29708,j~nanodaya,avi,kaski,2.0
+29710,motirama,avi,sunsari,1.5
+29711,tishtu~na deurali,pravi,makwanpur,1.5
+29713,varemtu~na,avi,khotang,1.5
+29714,tinadhare,pravi,khotang,1.5
+29717,satsu,pravi,khotang,1.5
+29722,gamgodaya,mavi,khotang,1.5
+29724,pa~nchavatidevi,avi,khotang,2.0
+29728,sahakala,avi,khotang,2.0
+29732,shiksha jyoti,mavi,khotang,2.0
+29733,janavikasa,mavi,khotang,2.0
+29734,valavalika,avi,khotang,1.5
+29739,baladipa,avi,arghakhanchi,2.0
+29742,nighuradina,pravi,taplejung,2.0
+29745,radhika,avi,taplejung,1.5
+29746,paekhari,pravi,taplejung,1.5
+29747,ojhagau.n,avi,taplejung,1.5
+29749,nepala rashtriya,mavi,bara,2.0
+29750,mahavira,nimavi,bajura,2.0
+29751,nepala rashtiya,nimavi,bara,2.0
+29752,nepala rashtriya,nimavi,bara,2.0
+29753,nepala rashtriya,avi,bara,2.5
+29754,nepala rashtriya,avi,bara,2.5
+29755,nepala rashtriya,pravi,bara,2.5
+29756,nepala rashtriya,mavi,bara,2.0
+29757,nathuni,avi,tanahun,2.0
+29760,simheshvari,avi,sankhuwasabha,2.0
+29761,manashanti,avi,sankhuwasabha,2.0
+29762,jana chetana,avi,bara,2.0
+29763,pa~nchakanya,avi,sankhuwasabha,2.5
+29764,thinkepu,avi,ramechhap,1.5
+29765,omakareshvara,avi,morang,1.5
+29768,sirjanashila,pravi,baglung,2.0
+29769,balajyoti,avi,sankhuwasabha,2.5
+29770,rashtiya,pravi,mahottari,2.5
+29771,sirjanatmaka,avi,khotang,1.5
+29772,nepala rashtiya,mavi,bara,2.0
+29773,udaya,pravi,udayapur,2.0
+29780,tharpuda.nda,mavi,khotang,1.5
+29781,valya~nga,avi,sankhuwasabha,1.5
+29783,ma~njushri jana,pravi,makwanpur,2.0
+29784,vanadevi,avi,makwanpur,2.0
+29785,kushavaha,avi,dhanusha,2.0
+29788,janata,avi,sindhuli,2.5
+29790,janayuva,avi,rukum purba,2.0
+29791,netrakali,mavi,sindhuli,2.0
+29792,khadga mandira,mavi,okhaldhunga,1.5
+29793,lakshmi,avi,gulmi,1.5
+29794,parvatikunda,mavi,rasuwa,1.5
+29795,nepala rashtriya,mavi,bara,2.0
+29796,janajyoti,mavi,parbat,2.5
+29797,thechamvu,mavi,taplejung,1.5
+29798,buddha bhavani,mavi,ramechhap,1.5
+29799,kailapaleshvara,mavi,baitadi,1.5
+29800,devi,pravi,lamjung,2.0
+29803,irkhu,mavi,sindhupalchok,1.5
+29805,mukali,pravi,solukhumbu,1.5
+29806,nepala,avi,nawalparasi,1.5
+29807,tribhuvana vidyashrama,mavi,lamjung,1.5
+29808,pa.nchakanya,mavi,arghakhanchi,2.5
+29809,gurudaya,mavi,rolpa,1.5
+29810,nepala rashtiya,avi,mugu,2.5
+29811,nepala rashtriya,mavi,bardiya,2.0
+29812,,avi,chitwan,2.5
+29813,jalakanya,avi,okhaldhunga,2.0
+29814,rilu chaura,mavi,bajura,1.5
+29815,bhumeshvari,mavi,sindhupalchok,1.5
+29821,shri,pravi,sindhuli,2.0
+29822,janajagrriti,mavi,sindhupalchok,2.5
+29824,,avi,sindhuli,2.5
+29825,,avi,chitwan,2.5
+29827,saptakanya,pravi,okhaldhunga,1.5
+29829,dilasaini,avi,baitadi,2.5
+29830,bhagavati,mavi,dolpa,2.0
+29831,bala,pravi,bara,2.5
+29832,bhrrikuti,pravi,kailali,2.5
+29835,mahadeva,mavi,humla,2.5
+29836,ghanaghasya,mavi,dadeldhura,1.5
+29837,j~nana jyoti,avi,dhanusha,2.5
