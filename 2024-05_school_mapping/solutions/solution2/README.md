@@ -107,9 +107,9 @@ solutions2/
 By following this structured approach, we aimed to ensure a high level of accuracy and reliability in matching school records between the two datasets.
 
 # Sample Results
-The following table represents the results of the school matching process, detailing matched records between two datasets. 
+The following table represents the results of the school matching process, detailing matched records between two datasets. For full matched data please check final_matching_data.csv in results folder. 
 
-For any errors, queries, or suggestions, please feel free to contact me at [mt@gmail.com](mailto:mt@gmail.com).
+For any errors, queries, or suggestions, please feel free to contact me at [maheshtwari99@gmail.com](mailto:maheshtwari99@gmail.com).
 
 | school_id_A | school_id_B | extracted_school_name_A | school_name_A | school_name_B | address_from_B | Match_Type |
 |-------------|-------------|-------------------------|---------------|---------------|----------------|------------|
