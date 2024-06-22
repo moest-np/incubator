@@ -11,6 +11,12 @@ We processed two primary datasets:
 
 After applying our text processing and matching algorithms, we filtered and matched 11,764 records.
 
+We obtained 
+- 9,163 records in the first attempt (comparing school names from `school_list_A`
+ with `school_list_B`),
+ - 2,144 records in the second attempt (with `old_school_name1`) and
+ - 505 records in the third attempt (with `old_school_name2`).
+
 ### Matching Efficiency:
 
 - From `school_list_A`: 39.4% of records were matched.
@@ -105,6 +111,9 @@ solutions2/
    - **Third Attempt**: Compared school names from `school_list_A` with the `old_school_name2` column in `school_list_B`.
 
 By following this structured approach, we aimed to ensure a high level of accuracy and reliability in matching school records between the two datasets.
+
+((9163, 4), (2144, 4), (505, 4))
+
 
 # Sample Results
 The following table represents the results of the school matching process, detailing matched records between two datasets. For full matched data please check final_matching_data.csv in results folder. 

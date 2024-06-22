@@ -105,3 +105,5 @@ df_A = pd.read_csv('../../data/raw/school_list_A.tsv',delimiter='\t')
 df_B = pd.read_csv('../../data/raw/school_list_B.tsv',delimiter='\t')
 tuple(df.shape for df in [df_A,df_B,filtered_df_1])
 ((29837, 6), (39798, 16), (11764, 7))
+
+((9163, 4), (2144, 4), (505, 4))
