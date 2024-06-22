@@ -36,9 +36,9 @@ df3 = df3[['school_id_A','school_id_B','extracted_school_name_A','Match_Type']]
 df4 = df4[['school_id_A','school_id_B','extracted_school_name_A','Match_Type']]
 df5 = df5[['school_id_A','school_id_B','extracted_school_name_A','Match_Type']]
 
-df4.head()
 
 tuple(df.shape for df in [df3,df4,df5])
+
 concated_df = pd.concat([df3,df4,df5])
 concated_df.shape
 
@@ -72,7 +72,6 @@ filtered_df_1.drop('school_id', axis=1, inplace=True)
 filtered_df_1.head()
 filtered_df_1['address_from_B'] = filtered_df_1['address_from_B'].replace({',,':','})
 
-filtered_df_1['modified_name','extracted_school_name_A']
 
 filtered_df_1[['modified_name', 'extracted_school_name_A']] = filtered_df_1[['modified_name', 'extracted_school_name_A']].apply(lambda col: col.str.title())
 filtered_df_1.head()
@@ -84,12 +83,25 @@ filtered_df_1 = filtered_df_1.rename(columns={'school_1':'school_name_A','modifi
 filtered_df_1 = filtered_df_1[['school_id_A','school_id_B','extracted_school_name_A','school_name_A','school_name_B','address_from_B','Match_Type']]
 
 
-filtered_df_1 = filtered_df_1.sort_values(by='')
+
+filtered_df_1['address_from_B'] = filtered_df_1['address_from_B'].str.strip().str.lower().str.title()
 
 filtered_df_1.head()
-
 
 # Sorting by 'school_name_B' in alphabetical order
 filtered_df_1 = filtered_df_1.sort_values(by='school_name_B', ascending=True)
 
-filtered_df_1.to_csv('../../results/final_matching.csv',index=False)
+
+
+filtered_df_1.isna().sum()
+filtered_df_1[(filtered_df_1['extracted_school_name_A'].isna())].head()
+filtered_df_1 = filtered_df_1.dropna()
+filtered_df_1.isnull().sum()
+filtered_df_1.to_csv('../../results/final matching data/final_matching_data.csv',index=False)
+
+
+
+df_A = pd.read_csv('../../data/raw/school_list_A.tsv',delimiter='\t')
+df_B = pd.read_csv('../../data/raw/school_list_B.tsv',delimiter='\t')
+tuple(df.shape for df in [df_A,df_B,filtered_df_1])
+((29837, 6), (39798, 16), (11764, 7))
