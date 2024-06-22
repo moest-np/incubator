@@ -1,219 +1,95 @@
 import pandas as pd
-import os
-from fuzzywuzzy import fuzz
+pd.set_option('display.max_colwidth', None)
+pd.set_option('display.max_rows', None)
+pd.set_option('display.max_columns', None)
 
-# Ensure the processed data directory and output directory exist
-def ensure_directory_exists(directory):
-    """Ensure a directory exists, but do not create it if missing."""
-    if not os.path.exists(directory):
-        raise FileNotFoundError(f"Directory does not exist: {directory}")
 
-def load_dataframe(file_path):
-    """Load a dataframe from a CSV file."""
-    return pd.read_csv(file_path)
+df_A = pd.read_csv('../../data/raw/school_list_A.tsv',delimiter='\t')
+df_B = pd.read_csv('../../data/raw/school_list_B.tsv',delimiter='\t')
+df1 = pd.read_csv('../../data/processed/preprocessed_after_A.csv')
+df2 = pd.read_csv('../../data/processed/preprocessed_after_B.csv')
+df3 = pd.read_csv('../../results/first attempt/complete_match.csv')
+df4 = pd.read_csv('../../results/second attempt/complete_match_comparing_oldname1_level.csv')
+df5 = pd.read_csv('../../results/third attempt/complete_match_comparing_oldname2_level.csv')
 
-def normalize_and_clean(df):
-    """Normalize text columns and handle duplicates, filling NaN values with empty strings."""
-    # Drop 'Fuzzy_match_score' column if it exists
-    if 'Fuzzy_match_score' in df.columns:
-        df = df.drop(columns=['Fuzzy_match_score'])
-    
-    # Convert text columns to lowercase and strip leading/trailing spaces
-    df = df.apply(lambda x: x.str.lower().str.strip() if x.dtype == "object" else x)
-    
-    # Drop duplicates
-    df = df.drop_duplicates()
-    
-    # Fill NaN values with empty strings
-    df = df.fillna('')
-    
-    return df
+df_B.head()
+df2.shape
 
-# Function to get match type and score
-def get_match_type_and_score(value_a, value_b):
-    value_a = str(value_a) if pd.notna(value_a) else ''
-    value_b = str(value_b) if pd.notna(value_b) else ''
-    if value_a == value_b:
-        return 'complete', 1
-    else:
-        return 'no match', 0
 
-# Function to perform weighted fuzzy matching
-def get_fuzzy_match_score(row_a, row_b):
-    total_score = 0
-    match_types = []
+#concatenate  root_school_name_A and  school_level_A in df3, and new columns as School_name_A
+df_B['address_from_B'] = df_B['location'] + ', ' +  df_B['local_level']+', ' +  df_B['district']+', '+ df_B['province']
+#concatenate  root_school_name_A and  school_level_A in df3, and new columns as School_name_A
+df3['extracted_school_name_A'] = df3['root_school_name_A'] + ' ' +  df3['school_level_A']
+#concatenate  root_school_name_A and  school_level_A in df3, and new columns as School_name_A
+df4['extracted_school_name_A'] = df4['root_school_name_A'] + ' ' +  df4['school_level_A']
+df4.head()
+df5['extracted_school_name_A'] = df5['root_school_name_A'] + ' ' +  df5['school_level_A']
 
-    # District match
-    district_match_type, district_score = get_match_type_and_score(row_a['district_A'], row_b['district_B'])
-    if district_match_type == 'complete':
-        district_score *= 0.5
-    else:
-        district_score = 0  # No match
-    total_score += district_score
-    match_types.append(f"District: {district_match_type}")
 
-    # School level match with old name 1 school level
-    school_level_a = row_a['school_level_A']
-    school_level_b = row_b['school_level_old_name3_B']
 
-    if pd.isna(school_level_a) or school_level_a == '' or pd.isna(school_level_b) or school_level_b == '':
-        school_level_match_type = 'no match'
-        school_level_score = 0.0
-    else:
-        school_level_match_type, school_level_score = get_match_type_and_score(school_level_a, school_level_b)
-        if school_level_match_type == 'complete':
-            school_level_score *= 0.5
-        else:
-            school_level_score = 0  # No match
+df3['Match_Type'] = df3['Match_Type'].replace( {'District: complete, School level: complete, Root name: complete': 'Matched with school name of B'})
+df4['Match_Type'] = df4['Match_Type'].replace( {'District: complete, School level: complete, Root name: complete': 'Matched with old school name1 of B'})
+df5['Match_Type'] = df5['Match_Type'].replace( {'District: complete, School level: complete, Root name: complete': 'Matched with old school name2 of B'})
 
-    total_score += school_level_score
-    match_types.append(f"School level: {school_level_match_type}")
 
-    # Root name match
-    root_name_a = str(row_a['root_school_name_A']) if pd.notna(row_a['root_school_name_A']) else ''
-    root_name_b = str(row_b['root_school_old_name3_B']) if pd.notna(row_b['root_school_old_name3_B']) else ''
-    root_name_score = fuzz.ratio(root_name_a, root_name_b)
-    if root_name_score >= 85:
-        root_name_score = 2  # Complete match
-        match_type = 'complete'
-    elif root_name_score >= 50:
-        root_name_score = 1  # Partial match
-        match_type = 'partial'
-    else:
-        root_name_score = 0
-        match_type = 'no match'
-    total_score += root_name_score
-    match_types.append(f"Root name: {match_type}")
+df3 = df3[['school_id_A','school_id_B','extracted_school_name_A','Match_Type']]
+df4 = df4[['school_id_A','school_id_B','extracted_school_name_A','Match_Type']]
+df5 = df5[['school_id_A','school_id_B','extracted_school_name_A','Match_Type']]
 
-    return total_score, ', '.join(match_types)
+df4.head()
 
-def save_intermediate_results(df_all_matches, output_dir, suffix):
-    # Save final_fuzzy_matching
-    final_fuzzy_matching_path = os.path.join(output_dir, f'final_fuzzy_matching_{suffix}.csv')
-    df_all_matches.to_csv(final_fuzzy_matching_path, index=False)
+tuple(df.shape for df in [df3,df4,df5])
+concated_df = pd.concat([df3,df4,df5])
+concated_df.shape
 
-    # Save complete matches
-    complete_matches = df_all_matches[df_all_matches['Fuzzy_match_score'] == 3]
-    complete_matches_path = os.path.join(output_dir, f'complete_match_{suffix}.csv')
-    complete_matches.to_csv(complete_matches_path, index=False)
 
-    # Save remaining after complete matches
-    remaining_after_complete_matches = df_all_matches[df_all_matches['Fuzzy_match_score'] != 3]
-    remaining_after_complete_matches_path = os.path.join(output_dir, f'remaining_after_complete_match_{suffix}.csv')
-    remaining_after_complete_matches.to_csv(remaining_after_complete_matches_path, index=False)
 
-    # Save preprocessed_after_fuzzy_A
-    unmatched_school_ids_A = set(df_A['school_id_A']) - set(complete_matches['school_id_A'])
-    preprocessed_after_fuzzy_A = df_A[df_A['school_id_A'].isin(unmatched_school_ids_A)]
-    preprocessed_after_fuzzy_A_path = os.path.join(output_dir, f'preprocessed_after_fuzzy_A_{suffix}.csv')
-    preprocessed_after_fuzzy_A = preprocessed_after_fuzzy_A.merge(df_all_matches[['school_id_A', 'Fuzzy_match_score']], on='school_id_A', how='left')
-    preprocessed_after_fuzzy_A.to_csv(preprocessed_after_fuzzy_A_path, index=False)
+# Merge df1 with concated_df to get filtered_df_1
+filtered_df_1 = pd.merge(df1, concated_df, left_on='school_id', right_on='school_id_A', how='inner')
 
-    # Save preprocessed_after_fuzzy_B
-    unmatched_school_ids_B = set(df_B['school_id_B']) - set(complete_matches['school_id_B'])
-    preprocessed_after_fuzzy_B = df_B[df_B['school_id_B'].isin(unmatched_school_ids_B)]
-    preprocessed_after_fuzzy_B_path = os.path.join(output_dir, f'preprocessed_after_fuzzy_B_{suffix}.csv')
-    preprocessed_after_fuzzy_B = preprocessed_after_fuzzy_B.merge(df_all_matches[['school_id_B', 'Fuzzy_match_score']], on='school_id_B', how='left')
-    preprocessed_after_fuzzy_B.to_csv(preprocessed_after_fuzzy_B_path, index=False)
+# Filter concated_df to include only those entries where df1['school_id'] matches concated_df['school_id_A']
+filtered_df_1 = concated_df[concated_df['school_id_A'].isin(df1['school_id'])]
 
-def process_and_save_batch(start_idx, end_idx, batch_num, df_A, df_B, matched_ids_B, output_dir, df_all_matches, suffix):
-    matches = []
-    for idx_a, row_a in df_A.iloc[start_idx:end_idx].iterrows():
-        best_score = 0
-        best_match = None
-        best_match_type = []
+# Merge the filtered_df_1 with df1 to add the 'school_1' column
+filtered_df_1 = pd.merge(filtered_df_1, df1[['school_id', 'school_1']], left_on='school_id_A', right_on='school_id')
 
-        for idx_b, row_b in df_B.iterrows():
-            if row_b['school_id_B'] in matched_ids_B:
-                continue
+# Drop the extra 'school_id' column from the merge
+filtered_df_1.drop('school_id', axis=1, inplace=True)
 
-            match_score, match_type = get_fuzzy_match_score(row_a, row_b)
-            if match_score > best_score:
-                best_score = match_score
-                best_match = row_b
-                best_match_type = match_type
+# Merge df_B with filtered_df_1 to add the 'address_from_B' column
+filtered_df_1 = pd.merge(filtered_df_1, df_B[['school_id', 'address_from_B']], left_on='school_id_B', right_on='school_id', how='inner')
 
-        if best_match is not None:
-            match = list(row_a) + list(best_match) + [best_score, best_match_type]
-            matches.append(match)
-        else:
-            match = list(row_a) + [None] * len(df_B.columns) + [0, 'No Match']
-            matches.append(match)
+# Drop the extra 'school_id' column from the merge
+filtered_df_1.drop('school_id', axis=1, inplace=True)
 
-    # Create a dataframe from the matches
-    columns = list(df_A.columns) + list(df_B.columns) + ['Fuzzy_match_score', 'Match_Type']
-    df_matches = pd.DataFrame(matches, columns=columns)
+# Merge df2 with filtered_df_1 to add the 'name' column
+filtered_df_1 = pd.merge(filtered_df_1, df2[['school_id', 'modified_name']], left_on='school_id_B', right_on='school_id', how='inner')
 
-    # Filter the DataFrame to keep only the specified columns
-    columns_to_keep = [
-        'school_id_A','school_id_B', 'root_school_name_A','root_school_old_name3_B', 'school_level_A',  'school_level_old_name3_B',  'district_A',
-        'district_B',
-        'Fuzzy_match_score', 'Match_Type'
-    ]
-    df_matches = df_matches[columns_to_keep]
+# Drop the extra 'school_id' column from the merge
+filtered_df_1.drop('school_id', axis=1, inplace=True)
 
-    # Sort the matches by Fuzzy_match_score
-    df_matches = df_matches.sort_values(by='Fuzzy_match_score', ascending=False)
+# Display the resulting DataFrame
+filtered_df_1.head()
+filtered_df_1['address_from_B'] = filtered_df_1['address_from_B'].replace({',,':','})
 
-    # Save the batch to a CSV file
-    final_fuzzy_matching_path = os.path.join(output_dir, f'final_fuzzy_matching_{suffix}.csv')
-    if batch_num == 0:
-        df_matches.to_csv(final_fuzzy_matching_path, index=False)
-    else:
-        df_matches.to_csv(final_fuzzy_matching_path, mode='a', header=False, index=False)
+filtered_df_1['modified_name','extracted_school_name_A']
 
-    print(f"Batch {batch_num} processed and saved.")
+filtered_df_1[['modified_name', 'extracted_school_name_A']] = filtered_df_1[['modified_name', 'extracted_school_name_A']].apply(lambda col: col.str.title())
+filtered_df_1.head()
 
-    df_all_matches = pd.concat([df_all_matches, df_matches], ignore_index=True)
 
-    # Add school IDs from df_B that had a perfect match to the set of matched IDs
-    perfect_matches = df_matches[df_matches['Fuzzy_match_score'] == 3]
-    matched_ids_B.update(perfect_matches['school_id_B'])
+filtered_df_1 = filtered_df_1.rename(columns={'school_1':'school_name_A','modified_name':'school_name_B'})
 
-    # Save intermediate results after each batch
-    save_intermediate_results(df_all_matches, output_dir, suffix)
 
-    return df_all_matches
+filtered_df_1 = filtered_df_1[['school_id_A','school_id_B','extracted_school_name_A','school_name_A','school_name_B','address_from_B','Match_Type']]
 
-if __name__ == "__main__":
-    # Base directory
-    base_dir = os.path.dirname(os.path.abspath(__file__))
 
-    # Correct relative paths to match the intended directory structure
-    processed_data_dir = os.path.normpath(os.path.join(base_dir, '..', '..', 'results', 'third attempt'))
-    output_dir = os.path.normpath(os.path.join(base_dir, '..', '..', 'results', 'fourth attempt'))
+filtered_df_1 = filtered_df_1.sort_values(by='')
 
-    # Ensure the processed data directory and output directory exist
-    ensure_directory_exists(processed_data_dir)
-    ensure_directory_exists(output_dir)
+filtered_df_1.head()
 
-    # File paths
-    file_path_a = os.path.join(processed_data_dir, 'preprocessed_after_fuzzy_A_comparing_oldname2_level.csv')
-    file_path_b = os.path.join(processed_data_dir, 'preprocessed_after_fuzzy_B_comparing_oldname2_level.csv')
 
-    # Load the dataframes
-    df_A = load_dataframe(file_path_a)
-    df_B = load_dataframe(file_path_b)
+# Sorting by 'school_name_B' in alphabetical order
+filtered_df_1 = filtered_df_1.sort_values(by='school_name_B', ascending=True)
 
-    # Normalize and clean dataframes
-    df_A = normalize_and_clean(df_A)
-    df_B = normalize_and_clean(df_B)
-
-    # Drop rows where the root name of either column is NaN or empty
-    df_A = df_A[df_A['root_school_name_A'].notna() & df_A['root_school_name_A'].str.strip() != '']
-    df_B = df_B[df_B['root_school_old_name3_B'].notna() & df_B['root_school_old_name3_B'].str.strip() != '']
-
-    # Example usage for batch processing
-    batch_size = 2
-    start_from_index = 0
-    num_batches = (len(df_A) - start_from_index + batch_size - 1) // batch_size  # Calculate the number of batches
-
-    df_all_matches = pd.DataFrame()
-    matched_ids_B = set()
-    suffix = 'comparing_oldname3_level'
-    for batch_num in range(num_batches):
-        start_idx = start_from_index + batch_num * batch_size
-        end_idx = min(start_from_index + (batch_num + 1) * batch_size, len(df_A))
-        df_all_matches = process_and_save_batch(start_idx, end_idx, batch_num, df_A, df_B, matched_ids_B, output_dir, df_all_matches, suffix)
-
-    print("Processing completed.")
+filtered_df_1.to_csv('../../results/final_matching.csv',index=False)
