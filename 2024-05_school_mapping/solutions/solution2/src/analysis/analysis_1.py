@@ -1,117 +1,215 @@
 import pandas as pd
 import os
+from fuzzywuzzy import fuzz
 
-# Base directory
-base_dir = os.path.dirname(os.path.abspath(__file__))
+# Ensure the processed data directory and output directory exist
+def ensure_directory_exists(directory):
+    """Ensure a directory exists, but do not create it if missing."""
+    if not os.path.exists(directory):
+        raise FileNotFoundError(f"Directory does not exist: {directory}")
 
-# Results directory
-results_dir = os.path.normpath(os.path.join(base_dir, '../../results'))
+def load_dataframe(file_path):
+    """Load a dataframe from a CSV file."""
+    return pd.read_csv(file_path)
 
-# File path for the Intersection_Matches.csv
-file_path_intersection = os.path.join(results_dir, 'Intersection_Matches.csv')
+def normalize_and_clean(df):
+    """Normalize text columns and handle duplicates, filling NaN values with empty strings."""
+    # Drop 'Fuzzy_match_score' column if it exists
+    if 'Fuzzy_match_score' in df.columns:
+        df = df.drop(columns=['Fuzzy_match_score'])
+    
+    # Convert text columns to lowercase and strip leading/trailing spaces
+    df = df.apply(lambda x: x.str.lower().str.strip() if x.dtype == "object" else x)
+    
+    # Drop duplicates
+    df = df.drop_duplicates()
+    
+    # Fill NaN values with empty strings
+    df = df.fillna('')
+    
+    return df
 
-# Load the intersection matches dataframe
-intersection_df = pd.read_csv(file_path_intersection)
+# Function to get match type and score
+def get_match_type_and_score(value_a, value_b):
+    value_a = str(value_a) if pd.notna(value_a) else ''
+    value_b = str(value_b) if pd.notna(value_b) else ''
+    if value_a == value_b:
+        return 'complete', 1
+    else:
+        return 'no match', 0
 
-intersection_df.head()
-# Check for duplicate rows
-print("Duplicate rows in intersection_df:")
-print(intersection_df[intersection_df.duplicated()].head(10))
-print("Number of duplicate rows:", intersection_df.duplicated().sum())
+# Function to perform weighted fuzzy matching
+def get_fuzzy_match_score(row_a, row_b):
+    total_score = 0
+    match_types = []
 
-# Remove duplicate rows
-intersection_df = intersection_df.drop_duplicates()
+    # District match
+    district_match_type, district_score = get_match_type_and_score(row_a['district_A'], row_b['district_B'])
+    if district_match_type == 'complete':
+        district_score *= 0.5
+    else:
+        district_score = 0  # No match
+    total_score += district_score
+    match_types.append(f"District: {district_match_type}")
 
-# Check for duplicate rows again
-print("Number of duplicate rows after dropping duplicates:", intersection_df.duplicated().sum())
+    # School level match with old name 1 school level
+    school_level_a = row_a['school_level_A']
+    school_level_b = row_b['school_level_old_name2_B']
 
-# Define the replacement patterns and corresponding school level values
-replacement_patterns = {
-    r'\bma vi\b$': 'mavi',
-    r'\bma\b$': 'mavi',
-    r'\bs vi\b$': 'mavi',
-    r'\bsec vi\b$': 'mavi',
-    r'\bsec\b$': 'mavi',
-    r'\ba\b$': 'avi',
-    r'\ba v\b$': 'avi',
-    r'\baa bi\b$': 'avi',
-    r'\bbasic\b$': 'avi',
-    r'\bdurga rastriya a bidhyalaya\b$': 'avi'
-}
+    if pd.isna(school_level_a) or school_level_a == '' or pd.isna(school_level_b) or school_level_b == '':
+        school_level_match_type = 'no match'
+        school_level_score = 0.0
+    else:
+        school_level_match_type, school_level_score = get_match_type_and_score(school_level_a, school_level_b)
+        if school_level_match_type == 'complete':
+            school_level_score *= 0.5
+        else:
+            school_level_score = 0  # No match
 
-# Apply the replacement patterns to the 'modified_name' column and update 'school_levels'
-for pattern, replacement in replacement_patterns.items():
-    match_rows = intersection_df['modified_name'].notna() & intersection_df['modified_name'].str.contains(pattern, regex=True)
-    intersection_df.loc[match_rows, 'school_levels'] = intersection_df.loc[match_rows, 'school_levels'].fillna('') + ' ' + replacement
-    intersection_df.loc[match_rows, 'school_levels'] = intersection_df.loc[match_rows, 'school_levels'].str.strip()
+    total_score += school_level_score
+    match_types.append(f"School level: {school_level_match_type}")
 
-# Strip 'mavi' and 'avi' from 'modified_name' and update 'root_school_name'
-def remove_school_levels(text, levels):
-    for level in levels:
-        text = text.replace(level, '')
-    return text.strip()
+    # Root name match
+    root_name_a = str(row_a['root_school_name_A']) if pd.notna(row_a['root_school_name_A']) else ''
+    root_name_b = str(row_b['root_school_old_name2_B']) if pd.notna(row_b['root_school_old_name2_B']) else ''
+    root_name_score = fuzz.ratio(root_name_a, root_name_b)
+    if root_name_score >= 85:
+        root_name_score = 2  # Complete match
+        match_type = 'complete'
+    elif root_name_score >= 50:
+        root_name_score = 1  # Partial match
+        match_type = 'partial'
+    else:
+        root_name_score = 0
+        match_type = 'no match'
+    total_score += root_name_score
+    match_types.append(f"Root name: {match_type}")
 
-intersection_df['root_school_name'] = intersection_df.apply(lambda row: remove_school_levels(row['modified_name'], ['mavi', 'avi']) if pd.notna(row['modified_name']) else row['modified_name'], axis=1)
+    return total_score, ', '.join(match_types)
 
-# Print the shape and first few rows of the updated dataframe
-print("Shape of updated intersection_df:", intersection_df.shape)
-print("First few rows of updated intersection_df:")
-intersection_df.head(10)
+def save_intermediate_results(df_all_matches, output_dir, suffix):
+    # Save final_fuzzy_matching
+    final_fuzzy_matching_path = os.path.join(output_dir, f'final_fuzzy_matching_{suffix}.csv')
+    df_all_matches.to_csv(final_fuzzy_matching_path, index=False)
 
-# Check for missing values
-print("Missing values in each column:")
-print(intersection_df.isna().sum())
+    # Save complete matches
+    complete_matches = df_all_matches[df_all_matches['Fuzzy_match_score'] == 3]
+    complete_matches_path = os.path.join(output_dir, f'complete_match_{suffix}.csv')
+    complete_matches.to_csv(complete_matches_path, index=False)
 
+    # Save remaining after complete matches
+    remaining_after_complete_matches = df_all_matches[df_all_matches['Fuzzy_match_score'] != 3]
+    remaining_after_complete_matches_path = os.path.join(output_dir, f'remaining_after_complete_match_{suffix}.csv')
+    remaining_after_complete_matches.to_csv(remaining_after_complete_matches_path, index=False)
 
-# # Save the updated dataframe to a CSV file
-# output_file_path_updated = os.path.join(results_dir, 'Updated_Intersection_Matches.csv')
-# intersection_df.to_csv(output_file_path_updated, index=False)
-# print(f"Updated intersection matches saved to: {output_file_path_updated}")
+    # Save preprocessed_after_fuzzy_A
+    unmatched_school_ids_A = set(df_A['school_id_A']) - set(complete_matches['school_id_A'])
+    preprocessed_after_fuzzy_A = df_A[df_A['school_id_A'].isin(unmatched_school_ids_A)]
+    preprocessed_after_fuzzy_A_path = os.path.join(output_dir, f'preprocessed_after_fuzzy_A_{suffix}.csv')
+    preprocessed_after_fuzzy_A = preprocessed_after_fuzzy_A.merge(df_all_matches[['school_id_A', 'Fuzzy_match_score']], on='school_id_A', how='left')
+    preprocessed_after_fuzzy_A.to_csv(preprocessed_after_fuzzy_A_path, index=False)
 
-# Print specific columns for rows with missing 'school_levels'
-print("Rows with missing 'school_levels':")
-intersection_df[['root_school_name', 'modified_name', 'name']][intersection_df['school_levels'].isna()].tail(45)
+    # Save preprocessed_after_fuzzy_B
+    unmatched_school_ids_B = set(df_B['school_id_B']) - set(complete_matches['school_id_B'])
+    preprocessed_after_fuzzy_B = df_B[df_B['school_id_B'].isin(unmatched_school_ids_B)]
+    preprocessed_after_fuzzy_B_path = os.path.join(output_dir, f'preprocessed_after_fuzzy_B_{suffix}.csv')
+    preprocessed_after_fuzzy_B = preprocessed_after_fuzzy_B.merge(df_all_matches[['school_id_B', 'Fuzzy_match_score']], on='school_id_B', how='left')
+    preprocessed_after_fuzzy_B.to_csv(preprocessed_after_fuzzy_B_path, index=False)
 
-# Print the first few rows of the selected columns
-print("Selected columns:")
-print(intersection_df[['name', 'modified_name', 'school_levels']].head())
+def process_and_save_batch(start_idx, end_idx, batch_num, df_A, df_B, matched_ids_B, output_dir, df_all_matches, suffix):
+    matches = []
+    for idx_a, row_a in df_A.iloc[start_idx:end_idx].iterrows():
+        best_score = 0
+        best_match = None
+        best_match_type = []
 
-# Print rows where 'modified_name' contains 'ma vi'
-print("Rows where 'modified_name' contains 'ma vi':")
-print(intersection_df[intersection_df['modified_name'].notna() & intersection_df['modified_name'].str.contains('ma vi')].head())
+        for idx_b, row_b in df_B.iterrows():
+            if row_b['school_id_B'] in matched_ids_B:
+                continue
 
-# Print rows where 'modified_name' ends with 'ma vi'
-print("Rows where 'modified_name' ends with 'ma vi':")
-print(intersection_df[intersection_df['modified_name'].notna() & intersection_df['modified_name'].str.contains(r'\bma vi\b$', regex=True)].head())
+            match_score, match_type = get_fuzzy_match_score(row_a, row_b)
+            if match_score > best_score:
+                best_score = match_score
+                best_match = row_b
+                best_match_type = match_type
 
+        if best_match is not None:
+            match = list(row_a) + list(best_match) + [best_score, best_match_type]
+            matches.append(match)
+        else:
+            match = list(row_a) + [None] * len(df_B.columns) + [0, 'No Match']
+            matches.append(match)
 
+    # Create a dataframe from the matches
+    columns = list(df_A.columns) + list(df_B.columns) + ['Fuzzy_match_score', 'Match_Type']
+    df_matches = pd.DataFrame(matches, columns=columns)
 
+    # Filter the DataFrame to keep only the specified columns
+    columns_to_keep = [
+        'school_id_A','school_id_B', 'root_school_name_A','root_school_old_name2_B', 'school_level_A',  'school_level_old_name2_B',  'district_A',
+        'district_B',
+        'Fuzzy_match_score', 'Match_Type'
+    ]
+    df_matches = df_matches[columns_to_keep]
 
+    # Sort the matches by Fuzzy_match_score
+    df_matches = df_matches.sort_values(by='Fuzzy_match_score', ascending=False)
 
+    # Save the batch to a CSV file
+    final_fuzzy_matching_path = os.path.join(output_dir, f'final_fuzzy_matching_{suffix}.csv')
+    if batch_num == 0:
+        df_matches.to_csv(final_fuzzy_matching_path, index=False)
+    else:
+        df_matches.to_csv(final_fuzzy_matching_path, mode='a', header=False, index=False)
 
-intersection_df.head(10)
-intersection_df.isna().sum()
-intersection_df[intersection_df.duplicated()].head(10)
-intersection_df.duplicated().sum()
-intersection_df.columns
-# Remove duplicate rows
-intersection_df = intersection_df.drop_duplicates()
-intersection_df.duplicated().sum()
+    print(f"Batch {batch_num} processed and saved.")
 
+    df_all_matches = pd.concat([df_all_matches, df_matches], ignore_index=True)
 
+    # Add school IDs from df_B that had a perfect match to the set of matched IDs
+    perfect_matches = df_matches[df_matches['Fuzzy_match_score'] == 3]
+    matched_ids_B.update(perfect_matches['school_id_B'])
 
-# # Save the updated dataframe to a CSV file
-# output_file_path_updated = os.path.join(results_dir, 'Updated_Intersection_Matches.csv')
-# intersection_df.to_csv(output_file_path_updated, index=False)
-# print(f"Updated intersection matches saved to: {output_file_path_updated}")
+    # Save intermediate results after each batch
+    save_intermediate_results(df_all_matches, output_dir, suffix)
 
+    return df_all_matches
 
-intersection_df[['root_school_name','modified_name','name']][intersection_df['school_levels'].isna()].tail(100)
-intersection_df[intersection_df['school_levels'].isna()].shape
-intersection_df[['name','modified_name','school_levels']].head()
+if __name__ == "__main__":
+    # Base directory
+    base_dir = os.path.dirname(os.path.abspath(__file__))
 
-intersection_df[intersection_df['modified_name'].notna() & intersection_df['modified_name'].str.contains('ma vi')].head()
-intersection_df[intersection_df['modified_name'].notna() & intersection_df['modified_name'].str.contains(r'\bma vi\b$', regex=True)]
+    # Correct relative paths to match the intended directory structure
+    processed_data_dir = os.path.normpath(os.path.join(base_dir, '..', '..', 'results', 'second attempt'))
+    output_dir = os.path.normpath(os.path.join(base_dir, '..', '..', 'results', 'third attempt'))
 
+    # Ensure the processed data directory and output directory exist
+    ensure_directory_exists(processed_data_dir)
+    ensure_directory_exists(output_dir)
 
-intersection_df.shape
+    # File paths
+    file_path_a = os.path.join(processed_data_dir, 'preprocessed_after_fuzzy_A_comparing_oldname1_level.csv')
+    file_path_b = os.path.join(processed_data_dir, 'preprocessed_after_fuzzy_B_comparing_oldname1_level.csv')
+
+    # Load the dataframes
+    df_A = load_dataframe(file_path_a)
+    df_B = load_dataframe(file_path_b)
+
+    # Normalize and clean dataframes
+    df_A = normalize_and_clean(df_A)
+    df_B = normalize_and_clean(df_B)
+
+    # Example usage for batch processing
+    batch_size = 2
+    start_from_index = 0
+    num_batches = (len(df_A) - start_from_index + batch_size - 1) // batch_size  # Calculate the number of batches
+
+    df_all_matches = pd.==-=DataFrame()
+    matched_ids_B = set()
+    suffix = 'comparing_oldname2_level'
+    for batch_num in range(num_batches):
+        start_idx = start_from_index + batch_num * batch_size
+        end_idx = min(start_from_index + (batch_num + 1) * batch_size, len(df_A))
+        df_all_matches = process_and_save_batch(start_idx, end_idx, batch_num, df_A, df_B, matched_ids_B, output_dir, df_all_matches, suffix)
+
+    print("Processing completed.")

@@ -1,0 +1,16 @@
+pandas==2.2.2
+numpy==2.0.0
+scipy
+scikit-learn
+fuzzywuzzy==0.18.0
+rapidfuzz==3.9.3
+regex==2024.5.15
+nltk==3.8.1
+matplotlib==3.9.0
+seaborn
+wordcloud==1.9.3
+requests==2.32.3
+pytz==2024.1
+python-dateutil==2.9.0.post0
+PyYAML==6.0.1
+pathlib

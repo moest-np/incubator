@@ -8,6 +8,7 @@ from nltk import ngrams
 from indic_transliteration import sanscript
 from indic_transliteration.sanscript import transliterate
 
+
 pd.set_option('display.max_colwidth', None)
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
